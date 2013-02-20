@@ -798,7 +798,7 @@
     width: 28px;
   }
 }
-@media (min-width: 768px) and (max-width: 979px) and (orientation : portrait){
+@media (min-width: 768px) and (max-width: 979px){
 /*@media (min-width: 768px) and (max-width: 979px) {*/
   .visible-tablet-portrait {
     display: inherit !important;
@@ -806,10 +806,7 @@
   .hidden-tablet-portrait {
     display: none !important;
   }
-  body {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
+
   .navbar-fixed-top,
   .navbar-fixed-bottom,
   .navbar-static-top {
@@ -830,6 +827,8 @@
   }
   .container {
     width: auto;
+    padding-right: 20px;  /*客製化*/
+    padding-left: 20px;   /*客製化*/
   }
   .row-fluid {
     width: 100%;
@@ -1156,7 +1155,7 @@
   .modal.fade.in {
     top: 20px;
   }
-  header{width: 100%;}
+  /*header{width: 100%;}*/
 }
 @media (max-width: 767px) {
   body {
