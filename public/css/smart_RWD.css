@@ -862,9 +862,7 @@
   .row-fluid [class*="offset"]:first-child {
     margin-left: 0;
   }
-    .span12 {
-    width: 724px;
-  }
+  /*----------------------------------*/
   .span11 {
     width: 662px;
   }
@@ -1108,6 +1106,7 @@
     margin-left: 8.56353591160221%;
     *margin-left: 8.457152932878806%;
   }
+  /*-----------------------------*/
   .input-large,
   .input-xlarge,
   .input-xxlarge,
