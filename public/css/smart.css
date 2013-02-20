@@ -446,7 +446,11 @@ a:focus {
   width: 74.46808510638297%;
   *width: 74.41489361702126%;
 }
-
+  .row-fluid .span9 .span12 {
+    margin-left: 0;
+    *margin-left: 0;
+    margin-top: 10px;
+  }
 .row-fluid .span8 {
   width: 65.95744680851064%;
   *width: 65.90425531914893%;
@@ -4397,7 +4401,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .navbar .container {
-  width: auto;
+  /*width: auto;*/
 }
 
 .nav-collapse.collapse {

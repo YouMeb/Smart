@@ -18,8 +18,15 @@
 }
 /*  frame  */
 .blockframe{
-  border: 1px solid #aaa;
-  padding: 0px 10px 10px 10px;
+	border: solid 1px #cccccc;
+	/*border: 1px solid #aaa;*/
+	padding: 0px 10px 10px 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0px 5px rgba(0, 0, 0, 0.1);
 }
 .spiltframe{
   width: 100%;
@@ -39,4 +46,37 @@
 /*  content size */
 .content-220{
 	width: 220;
+	height: 140px;
+}
+.general_nav{
+	width: 100%;
+}
+.general_nav > li{
+	width: 14.28%;
+	text-align:center;
+}
+
+
+
+
+/*Title*/
+.title_1>div>h3{
+	background: url(../images/section_bg.jpg) no-repeat left;
+	color: white;
+	line-height: 1.5;
+	padding-left: 10px;
+	font-size: 18px;
+	clear: both;
+}
+.title_2>div>h3{
+	background: url(../images/sector_header.jpg) left no-repeat #f2f2f2;
+	font-size: 18px;
+	padding-left: 20px;
+	line-height: 1.7;
+	height: 30px;
+	margin-bottom: 20px;
+}
+.header_line{
+	background: bottom url(../images/menu_border.jpg) repeat-x;
+	height: 3px;
 }
