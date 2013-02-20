@@ -285,11 +285,16 @@ a:focus {
   margin-left: 20px;
 }
 
+
+.blockframe{
+  border: 1px solid #aaa;
+}
+
 .container,
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
-  width: 940px;
+  width: 950px;
 }
 
 .span12 {
