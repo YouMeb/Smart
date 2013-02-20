@@ -21,7 +21,8 @@
   padding: 0px 10px 10px 10px;
 }
 .spiltframe{
-  margin-top:10px;
+  width: 100%;
+  height: 10px;
 }
 
 .contentframe{
