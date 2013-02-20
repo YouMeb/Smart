@@ -799,11 +799,11 @@
   }
 }
 
-@media (min-width: 768px) and (max-width: 1024px)  and (orientation : portrait){
-  .visible-tablet {
+@media (min-width: 767px) and (max-width: 1024px)  and (orientation : portrait){
+  .visible-tablet-portrait {
     display: inherit !important;
   }
-  .hidden-tablet {
+  .hidden-tablet-portrait {
     display: none !important;
   }
   body {
