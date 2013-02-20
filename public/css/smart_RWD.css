@@ -1156,6 +1156,7 @@
   .modal.fade.in {
     top: 20px;
   }
+  header{width: 100%;}
 }
 @media (max-width: 767px) {
   body {
