@@ -1,0 +1,42 @@
+.img-60{
+	width: 60px
+}
+.img-80{
+	width: 80px
+}
+.img-110{
+	width: 110px;
+	background: #ddd;
+}
+.img-130{
+	width: 130px;
+	background: #ddd;
+}
+.img-220{
+	width: 220px
+}
+
+.blockframe{
+  border: 1px solid #aaa;
+  padding: 0px 10px 10px 10px;
+}
+.spiltframe{
+  margin-top:10px;
+}
+
+.contentframe{
+	display: inline;
+	height: 140px;
+	margin-top: 10px;
+}
+.contentframe > div
+{
+	float: left;
+}
+.contentframe > img
+{
+	float: left;
+}
+.content-220{
+	width: 220;
+}

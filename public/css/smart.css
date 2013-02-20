@@ -263,6 +263,9 @@ a:focus {
           border-radius: 500px;
 }
 
+
+
+
 .row {
   margin-left: -20px;
   *zoom: 1;
@@ -283,15 +286,6 @@ a:focus {
   float: left;
   min-height: 1px;
   margin-left: 20px;
-}
-
-
-.blockframe{
-  border: 1px solid #aaa;
-  padding: 10px;
-}
-.spiltframe{
-  margin-top:10px;
 }
 
 .container,
