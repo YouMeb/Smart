@@ -288,6 +288,10 @@ a:focus {
 
 .blockframe{
   border: 1px solid #aaa;
+  padding: 10px;
+}
+.spiltframe{
+  margin-top:10px;
 }
 
 .container,

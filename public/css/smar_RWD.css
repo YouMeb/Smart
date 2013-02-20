@@ -896,7 +896,15 @@
     top: 20px;
   }
 }
+@media (min-width:480) and (max-width: 767px){
 
+  .visible-tablet {
+    display: inherit !important;
+  }
+  .hidden-tablet {
+    display: none !important;
+  }
+}
 @media (max-width: 480px) {
   .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
