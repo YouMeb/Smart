@@ -64,8 +64,14 @@ ol, ul {
 	display: inline;
 	margin-top: 10px;
 }
-
-
+.cartcontentnav{
+	height: 32px;
+	border-bottom: 3px solid #FF8C00;
+	margin-top: 20px;
+}
+.cartcontentframe{
+	padding: 20px;
+}
 
 /*span9 Title*/
 .title_1>div>h3{

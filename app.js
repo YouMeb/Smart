@@ -36,6 +36,18 @@ app.get('/homepage', function(req, res) {
 app.get('/carts', function(req, res) {
   res.render('carts');
 });
+app.get('/carts2', function(req, res) {
+  res.render('carts2');
+});
+app.get('/carts3', function(req, res) {
+  res.render('carts3');
+});
+app.get('/carts4', function(req, res) {
+  res.render('carts4');
+});
+app.get('/carts5', function(req, res) {
+  res.render('carts5');
+});
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
