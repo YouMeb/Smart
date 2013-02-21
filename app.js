@@ -33,6 +33,9 @@ app.get('/', routes.index);
 app.get('/homepage', function(req, res) {
   res.render('homepage');
 });
+app.get('/carts', function(req, res) {
+  res.render('carts');
+});
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){

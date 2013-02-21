@@ -1221,14 +1221,6 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
-  .row-fluid .cartstep{
-    width: 24.5%;
-    float: left
-  }
-    .row-fluid .cartstepwhite{
-    width: 0%;
-    float: left
-  }
   .span12,
   .row-fluid .span12 {
     width: 100%;
