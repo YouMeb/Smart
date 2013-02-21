@@ -7,6 +7,7 @@
     <link rel='stylesheet' href='/css/smart_RWD.css' />
     <link rel='stylesheet' href='/css/smart_tml.css' />
     <link rel='stylesheet' href='/js/bootstrap-carousel.js' />
+    <link rel='stylesheet' href='/js/bootstrap-tab.js' />
   </head>
   <body>
 	<style type="text/css"> 
@@ -269,18 +270,61 @@
 						  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>-->
 						</div>
 	  				</li>
-
+	  				<!-- header tag --> 
 	  				<li class="span6">
-						<ul id="myTab" class="nav nav-tabs">
-							<li>
-								<a href="#home" data-toggle="tab">Home</a>
+	  					<!-- tag -->
+						<ul id="myTab" class="nav nav-tabs ">
+							<li class="span6">
+								<a href="#home" data-toggle="tab" >
+									<ul>
+										<li >
+											<img src="./images/hot.jpg" class="fire"/>
+											熱門討論
+										</li>
+									</ul>
+								</a>
 							</li>
-							<li class="active">
-								<a href="#profile" data-toggle="tab">Profile</a>
+							<li class="span6 active">
+								<a href="#profile" data-toggle="tab">
+									<ul>
+										<li >
+											<img src="./images/new.jpg" class="fire"/>
+											最新討論
+										</li>
+									</ul>
+								</a>
 							</li>
 						</ul>
+						<!-- tag End -->
+						<div id="myTabContent" class="tab-content tagframe">
+							<div class="tab-pane fade active in" id="home">
+								<ul>
+									<li class="span6">
+										<ul class="span12">
+											<li class="span4">
+												<img src="images/discussions/thumb_1.jpg">
+											</li>
+											<li class="span8">
+												<div class="span12">
+													[問題] 韓國國民年金報酬率勝台灣
+												</div>
+												<div class="span12">
+													國民年金報酬率國民年金報酬率國民年金報酬
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li class="span6">
+										123
+									</li>
+								</ul>
+							</div>
+							<div class="tab-pane fade" id="profile">
+								<p>hey</p>
+							</div>
+            			</div>
 	  				</li>
-	  				<!-- End -->
+	  				<!-- header tag End -->
 	  			</ul>
 	  		</div>
 	  	</div>
@@ -301,18 +345,22 @@
 			  			</div>
 			  			<div class="row-fluid">
 				  			<div class="span6 contentframe">
-								<img class="img-110" src="./images/discussions/thumb_2.jpg" style="height:140px"/>
-				  				<div class="content-220">
-				  					<div class="row-fluid">
-					  					<div class="span12">
-					  						<h4 class="Btitle">郭榮芳 - 財報選股實務</h4>
-					  					</div>
-					  					<div class="span12">
-											<!--四小時學會掌握企業財報與經營本質，一看就懂的企業獲利模式分析法，2013財......-->
-										</div>
-									<div class="btn btn-warning">投資理財</div>
-									</div>
-				  				</div>
+				  				<ul>
+				  					<li>
+										<img class="span4" src="./images/discussions/thumb_2.jpg" style="height:140px"/>
+						  				<div class="span8">
+						  					<div class="row-fluid">
+							  					<div class="span12">
+							  						<h4 class="Btitle">郭榮芳 - 財報選股實務</h4>
+							  					</div>
+							  					<div class="span12">
+													<!--四小時學會掌握企業財報與經營本質，一看就懂的企業獲利模式分析法，2013財......-->
+												</div>
+											<div class="btn btn-warning">投資理財</div>
+											</div>
+						  				</div>
+						  			</li>
+						  		</ul>
 				  			</div>
 				  			<div class="span6 contentframe">
 				  				<img class="img-110" src="./images/discussions/thumb_2.jpg" style="height:140px"/>

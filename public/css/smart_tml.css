@@ -46,6 +46,14 @@ ol, ul {
 .contentframe > img{
 	float: left;
 }
+.tagframe{
+	border-left:1px solid #ddd;
+	border-right:1px solid #ddd;
+	border-bottom:1px solid #ddd;
+	margin-top: -20px;
+	padding-top: 20px;
+	height: 230px;
+}
 /*  content size */
 .content-220{
 	width: 220;
@@ -144,7 +152,12 @@ ol, ul {
 	color: #fff;
 	line-height: 1em;
 }
-
+.fire{
+	margin-right: 10px;
+}
+.new_discuss{
+	margin-right: 10px;
+}
 /* header */
 .header_line{
 	background: bottom url(../images/menu_border.jpg) repeat-x;
