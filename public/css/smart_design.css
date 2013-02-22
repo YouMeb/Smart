@@ -134,6 +134,20 @@
 	padding: 10px 0 3px 25px;
 	margin: 40px 0 16px 0;
 }
+.ATCtitle3 {
+
+	background-image: url(../images/header_in_secodary.jpg);
+background-repeat: no-repeat;
+background-position: 5px 13px;
+display: block;
+height: 30px;
+width: 180px;
+border-bottom: #FF8C00 1px dotted;
+font-size: 18px;
+color: #FF8C00;
+padding: 0 0 8px 25px;
+margin: 10px 0 16px 0;
+}
 .hotACT {
 	height: 44px;
 	width: 215px;
