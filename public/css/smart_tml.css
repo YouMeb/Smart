@@ -307,6 +307,11 @@ ol, ul {
 	font-size: 10px;
 	text-align: center;
 }
+.footertopnav_title{
+	width: 13.27%;
+	margin-right: 1%;
+	float: left
+}
 .footertopnav_title p{
 	border-bottom: 5px solid #e7e7e7;
 }
