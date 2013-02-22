@@ -154,8 +154,14 @@ ol, ul {
 .fire{
 	margin-right: 10px;
 }
+.fire_title{
+	color: #c1272d;
+}
 .new_discuss{
 	margin-right: 10px;
+}
+.new_discuss_title{
+	color:#3f8cf5;
 }
 /* header */
 .header_line{
@@ -253,4 +259,13 @@ ol, ul {
 }
 .ulnomargin{
 	margin: 0;
+}
+.showheader_font3 ul li {
+	color: #a5a5a5;
+}
+.tagframe{
+	height:255px;
+}
+.headpicframe{
+	height: 315px;
 }

@@ -194,7 +194,7 @@
 							<a href="#"></a>
 						</li>
 						<li class="">
-							<a href="#">同學會<p style="float:right;margin-right:10px">v</p></a>
+							<a href="#">同學會<img src="./images/arrow.png" style="float:right;"/></a>
 						</li>
 						<li class="">
 							<a href="#">課程</a>
@@ -203,7 +203,7 @@
 							<a href="#">DVD</a>
 						</li>
 						<li class="">
-							<a href="#">雜誌<p style="float:right;margin-right:10px">v</p></a>
+							<a href="#">雜誌<img src="./images/arrow.png" style="float:right;"/></a>
 						</li>
 						<li class="">
 							<a href="#">叢書</a>
@@ -232,26 +232,27 @@
 						<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">課程</a>
 					</li>
 					<li class="dropdown">
-						<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">DVD</a>
+						<a href="#" id="drop3" role="button" class="dropdown-toggle" data-toggle="dropdown">DVD</a>
 					</li>
 					<li class="dropdown">
-						<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">雜誌</a>
+						<a href="#" id="drop4" role="button" class="dropdown-toggle" data-toggle="dropdown">雜誌</a>
 					</li>
 					<li class="dropdown">
-						<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">叢書</a>
+						<a href="#" id="drop5" role="button" class="dropdown-toggle" data-toggle="dropdown">叢書</a>
 					</li>
 					<li class="dropdown">
-						<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">討論區</a>
+						<a href="#" id="drop6" role="button" class="dropdown-toggle" data-toggle="dropdown">討論區</a>
 					</li>
 					<li class="dropdown">
-						<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">限時搶購</a>
+						<a href="#" id="drop7" role="button" class="dropdown-toggle" data-toggle="dropdown">限時搶購</a>
 					</li>
 				</ul>
 			</div>
 		</div>
 	</div>
 	<!-- show content -->
-	<div class="container hidden-phone">
+	<div id"showaddiv" style="width:100%;z-index:99;position:relative;margin-top:-20px;border-radius:0;">
+	<div class="container hidden-phone" style="background:#fff;margin:top:-20px;">
 		<div class="row-fluid">
 	  		<div class="span12 blockframe showheadercontent">
 	  			<ul>
@@ -268,13 +269,13 @@
 	  		</div>
 	  	</div>
 	</div>
+	</div>
 	<script>
 
 	$(function() {
 		/**
 		 *
 		 */
-
 		var $mini_top_tab_subs = $('#mini_top_tab_sub').find('li');
 
 		$mini_top_tab_subs.on('click', '', {}, function(event) {
@@ -333,6 +334,7 @@
 			}
 
 		});
+
 		$lis.on('mouseleave', '', {}, function() {
 
 			$(window).on('mousemove', '', {}, function(event) {
@@ -392,51 +394,51 @@
 						  </ol>
 						  <!-- Carousel items -->
 						  <div class="carousel-inner">
-						    <div class="active item">
+						    <div class="active item headpicframe">
 						    	<img src="/images/test/test.jpg" />
 						    	<div class="carousel-caption carousel_title">
 									<h4>買房5年賺1倍　蔡淑臻重拾投資信心</h4>
 									<p>19歲就走上伸展台的蔡淑臻，在秀場上穿戴的是精品服飾、背的是名牌包；但私底下的她，名牌極少「沾身」。</p>
 								</div>
 						    </div>
-						    <div class="item">
+						    <div class="item headpicframe">
 						    	<img src="/images/test/test.jpg" />
-						    	<div class="carousel-caption">
-									<h4>First Thumbnail label</h4>
-									<p>hihi</p>
+						    	<div class="carousel-caption carousel_title">
+									<h4>This is Title2</h4>
+									<p>19歲就走上伸展台的蔡淑臻，在秀場上穿戴的是精品服飾、背的是名牌包；但私底下的她，名牌極少「沾身」。</p>
 								</div>
 						    </div>
-						    <div class="item">
+						    <div class="item headpicframe">
 						    	<img src="/images/test/test.jpg" />
-						    	<div class="carousel-caption">
-									<h4>First Thumbnail label</h4>
-									<p>kerker</p>
+						    	<div class="carousel-caption carousel_title">
+									<h4>This is Title3</h4>
+									<p>19歲就走上伸展台的蔡淑臻，在秀場上穿戴的是精品服飾、背的是名牌包；但私底下的她，名牌極少「沾身」。</p>
 								</div>
 						    </div>
 						  </div>
 						  <!-- Carousel nav -->
-						  <!--<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-						  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>-->
+						  <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+						  <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
 						</div>
 	  				</li>
 	  				<!-- header tag --> 
 	  				<li class="span6">
 	  					<!-- tag -->
 						<ul id="myTab" class="nav nav-tabs ">
-							<li class="span6">
+							<li class="span6 active">
 								<a href="#home" data-toggle="tab" >
 									<ul>
-										<li >
+										<li class="fire_title">
 											<img src="./images/hot.jpg" class="fire"/>
 											熱門討論
 										</li>
 									</ul>
 								</a>
 							</li>
-							<li class="span6 active">
+							<li class="span6">
 								<a href="#profile" data-toggle="tab">
 									<ul>
-										<li >
+										<li class="new_discuss_title">
 											<img src="./images/new.jpg" class="fire"/>
 											最新討論
 										</li>
@@ -448,13 +450,13 @@
 						<div id="myTabContent" class="tab-content tagframe">
 							<div class="tab-pane fade active in" id="home">
 								<ul>
-									<li class="span6 in-portrait-span12">
+									<li class="span6 in-portrait-span12 ulnomargin">
 										<ul class="span12">
 											<li class="span4">
 												<img src="images/discussions/thumb_1.jpg">
 											</li>
 											<li class="span8">
-												<div class="span12">
+												<div class="span12 fire_title">
 													[問題] 韓國國民年金報酬率勝台灣
 												</div>
 												<div class="span12">
@@ -462,12 +464,12 @@
 												</div>
 											</li>
 										</ul>
-										<ul class="span12">
+										<ul class="span12 ulnomargin">
 											<li class="span4">
 												<img src="images/discussions/thumb_1.jpg">
 											</li>
 											<li class="span8">
-												<div class="span12">
+												<div class="span12 fire_title">
 													[問題] 韓國國民年金報酬率勝台灣
 												</div>
 												<div class="span12">
@@ -475,12 +477,12 @@
 												</div>
 											</li>
 										</ul>
-										<ul class="span12">
+										<ul class="span12 ulnomargin">
 											<li class="span4">
 												<img src="images/discussions/thumb_1.jpg">
 											</li>
 											<li class="span8">
-												<div class="span12">
+												<div class="span12 fire_title">
 													[問題] 韓國國民年金報酬率勝台灣
 												</div>
 												<div class="span12">
@@ -489,7 +491,7 @@
 											</li>
 										</ul>
 									</li>
-									<li class="span6 hidden-phone hidden-tablet-portrait">
+									<li class="span6 hidden-phone hidden-tablet-portrait showheader_font3">
 										<ul class="span12">
 											<li>
 												[問題] 韓國國民年金報酬率 ......
@@ -508,7 +510,65 @@
 								</ul>
 							</div>
 							<div class="tab-pane fade" id="profile">
-								<p>hey</p>
+								<ul>
+									<li class="span6 in-portrait-span12 ulnomargin">
+										<ul class="span12">
+											<li class="span4">
+												<img src="images/discussions/thumb_1.jpg">
+											</li>
+											<li class="span8">
+												<div class="span12 fire_title">
+													[問題] 韓國國民年金報酬率勝台灣
+												</div>
+												<div class="span12">
+													國民年金報酬率國民年金報酬率國民年金報酬
+												</div>
+											</li>
+										</ul>
+										<ul class="span12 ulnomargin">
+											<li class="span4">
+												<img src="images/discussions/thumb_1.jpg">
+											</li>
+											<li class="span8">
+												<div class="span12 fire_title">
+													[問題] 韓國國民年金報酬率勝台灣
+												</div>
+												<div class="span12">
+													國民年金報酬率國民年金報酬率國民年金報酬
+												</div>
+											</li>
+										</ul>
+										<ul class="span12 ulnomargin">
+											<li class="span4">
+												<img src="images/discussions/thumb_1.jpg">
+											</li>
+											<li class="span8">
+												<div class="span12 fire_title">
+													[問題] 韓國國民年金報酬率勝台灣
+												</div>
+												<div class="span12">
+													國民年金報酬率國民年金報酬率國民年金報酬
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li class="span6 hidden-phone hidden-tablet-portrait showheader_font3">
+										<ul class="span12">
+											<li>
+												[問題] 韓國國民年金報酬率 ......
+											</li>
+											<li>
+												[問題] 韓國國民年金報酬率 ......
+											</li>
+											<li>
+												[問題] 韓國國民年金報酬率 ......
+											</li>
+											<li>
+												[問題] 韓國國民年金報酬率 ......
+											</li>
+										</ul>
+									</li>
+								</ul>
 							</div>
             			</div>
 	  				</li>
