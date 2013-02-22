@@ -200,6 +200,10 @@ ol, ul {
 	padding-left: 25px;
 	float: right;
 }
+.header_search{
+	width: 180px;
+	border-radius: 50px;
+}
 /*   footer div */
 .footerabout{
 	background: #ccc;
