@@ -19,13 +19,13 @@
 			<div class="row-fluid">
 				<div class="span4"></div>
 				<div class="span8 top_login">
-					<ul class="memberNAV toploginheader" style="float:right;">
-						<li id="cart" class="cart">(3)▼
+					<ul class="memberNAV toploginheader">
+						<li id="cart" class="cart"><a>(3)</a>
                         <li><a href="#">訂單查詢</a> </li>
                         <li class="active"><a href="">會員中心</a></li>
                         <li><a href="#">登入</a> </li>
                         <li><a href="#">註冊</a></li>
-                        <li id="top_my_account" style="background:url(images/user_id.jpg) no-repeat ">Allen Lin▼</li>
+                        <li><a>Allen Lin</a></li>
 						</li>
 					</ul>
 				</div>	
@@ -41,8 +41,8 @@
 								<div class="span6">
 								<p class="key">熱門：<a href="#">關鍵字</a>、<a href="#">關鍵字</a>、<a href="#">關鍵字</a>、<a href="#">關鍵字</a></p>
 								</div>
-								<div class="span6" style="magin:0;padding:0">
-									<input type="text" placeholder="Search…" class="search_input header_search" style="	margin-top: 20px;margin-bottom: 0px;border-radius:30px">
+								<div class="span6 span_margin0">
+									<input type="search" placeholder="Search…" class="search_input header_search">
 								</div>
 							</div>
 						</div>
@@ -55,22 +55,22 @@
 	<!--  -->
 	<div class="navbar visible-phone">
 		<div class="navbar-inner phoneheader-inner">
-			<div class="container phone-container" style="padding-left:0px;padding-right:0px">
+			<div class="container phone-container phoneheaderframe" >
 				<ul class="nav general_nav" role="navigation">
-					<li class="dropdown span3" style="width:24%;border:0">
-						<a id="drop1" href="#" style="padding:0" role="button" class="dropdown-toggle" data-toggle="dropdown">
-							<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" style="margin-right:80%;margin-top:3px;float:left;">
+					<li class="dropdown span3 phonetopheaderleft">
+						<a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">
+							<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
 							</button>
 						</a>
 					</li>
-					<li class="dropdown" style="width:50%; border:0">
-						<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown" style="padding-top:0"><img src="./images/phonelogo.png" style="width:100%"/></a>
+					<li class="dropdown phonetopheadercenter">
+						<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown"><img src="./images/phonelogo.png"/></a>
 					</li>
-					<li class="dropdown" style="width:24%; border:0">
-						<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown"><img src="./images/phonelogin.png" style="margin-left:60%;float:right;width:50px"/>
+					<li class="dropdown phonetopheaderright">
+						<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown"><img src="./images/phonelogin.png"/>
 						</a>
 					</li>
 				</ul>				
@@ -80,7 +80,7 @@
 							<a href="#"></a>
 						</li>
 						<li class="">
-							<a href="#">同學會<img src="./images/arrow.png" style="float:right;"/></a>
+							<a href="#">同學會<img src="./images/arrow.png" class="arrow_pic"/></a>
 						</li>
 						<li class="">
 							<a href="#">課程</a>
@@ -89,7 +89,7 @@
 							<a href="#">DVD</a>
 						</li>
 						<li class="">
-							<a href="#">雜誌<img src="./images/arrow.png" style="float:right;"/></a>
+							<a href="#">雜誌<img src="./images/arrow.png" class="arrow_pic"/></a>
 						</li>
 						<li class="">
 							<a href="#">叢書</a>
@@ -111,7 +111,7 @@
 		<div class="navbar-inner">
 			<div class="container">
 				<ul class="nav general_nav" role="navigation">
-					<li class="dropdown" style="border:0px">
+					<li class="dropdown noborder" >
 						<a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">同學會</a>
 					</li>
 					<li class="dropdown">
@@ -137,8 +137,8 @@
 		</div>
 	</div>
 	<!-- show content -->
-	<div id"showaddiv" style="width:100%;z-index:99;position:relative;margin-top:-20px;border-radius:0;display:none;">
-	<div class="container hidden-phone" style="background:#fff;margin:top:-20px;">
+	<div id"showaddiv1" class="showadframe" >
+	<div class="container hidden-phone showadframecontent">
 		<div class="row-fluid">
 	  		<div class="span12 blockframe showheadercontent">
 	  			<ul>
@@ -306,7 +306,7 @@
 						</div>
 	  				</li>
 	  				<!-- header tag --> 
-	  				<li class="span6 hidden-phone" style="margin-left:2%;">
+	  				<li class="span6 hidden-phone toptcontent" >
 	  					<!-- tag -->
 						<ul id="myTab" class="nav nav-tabs ">
 							<li class="span6 active">
@@ -415,7 +415,7 @@
 												</div>
 											</li>
 										</ul>
-										<ul class="span12 ulnomargin" style="margin:0;padding:0">
+										<ul class="span12 ulnomargin span_margin0">
 											<li class="span4 phone-pic4">
 												<img src="images/discussions/thumb_1.jpg">
 											</li>
@@ -428,7 +428,7 @@
 												</div>
 											</li>
 										</ul>
-										<ul class="span12 ulnomargin" style="margin:0;padding:0">
+										<ul class="span12 ulnomargin span_margin0">
 											<li class="span4 phone-pic4">
 												<img src="images/discussions/thumb_1.jpg">
 											</li>
@@ -480,7 +480,8 @@
 			<div id="collapsefireOne" class="accordion-body collapse in">
 				<div class="accordion-inner tag-inner">
 					<li class="span6 in-portrait-span12 ulnomargin">
-						<ul class="span12 row-fluid" style="margin:0;padding:0">
+						<a class="row-fluid">
+						<ul class="span12 span_padding0">
 							<li class="span4 phone-pic4">
 								<img src="images/discussions/thumb_1.jpg">
 							</li>
@@ -493,7 +494,9 @@
 								</div>
 							</li>
 						</ul>
-						<ul class="span12 ulnomargin row-fluid">
+						</a>
+						<a class="row-fluid">
+						<ul class="span12 ulnomargin span_padding0">
 							<li class="span4 phone-pic4">
 								<img src="images/discussions/thumb_1.jpg">
 							</li>
@@ -506,7 +509,9 @@
 								</div>
 							</li>
 						</ul>
-						<ul class="span12 ulnomargin row-fluid">
+						</a>
+						<a class="row-fluid">
+						<ul class="span12 ulnomargin span_padding0">
 
 							<li class="span4 phone-pic4">
 								<img src="images/discussions/thumb_1.jpg">
@@ -520,6 +525,7 @@
 								</div>
 							</li>
 						</ul>
+						</a>
 					</li>
 				</div>
 			</div>
@@ -698,7 +704,7 @@
 				  			<div class="span12">
 				  				<ul class="row-fluid">
 				  					<li class="span3 phone-pic">
-				  						<img src="images/discussions/buy1.jpg" style="width:100%;">
+				  						<img src="images/discussions/buy1.jpg">
 				  					</li>
 				  					<li class="span8 phone-content">
                                 		<h4>英式復古電話機</h4>
@@ -712,7 +718,7 @@
                                 </ul>
                                 <ul class="row-fluid">
 				  					<li class="span3 phone-pic">
-				  						<img src="images/discussions/buy1.jpg" style="width:100%;">
+				  						<img src="images/discussions/buy1.jpg">
 				  					</li>
 				  					<li class="span8 phone-content">
                                 		<h4>英式復古電話機</h4>
@@ -1282,7 +1288,7 @@
 						<li>
 							<div>
 								<ul>
-									<li><div style="height:60px;width:100%"></div>
+									<li><div class="fb_space_div"></div>
 									</li>	
 									<li>
 										<a class="clickablockfont"><img src="./images/fb_r1_c1.png" /></a>
@@ -1390,14 +1396,14 @@
 		<div class="accordion-group navfooter-group">
 			<div class="accordion-heading navfooter-heading navfooter-fb">
 				<a class="accordion-toggle" href="https://www.facebook.com/smartmonthly">
-					<img src="./images/phonefb.png" style="margin-right:10px"/>Smart致富月刊
+					<img src="./images/phonefb.png" class="fbicon"/>Smart致富月刊
 				</a>
 			</div>
 		</div>
 		<div class="accordion-group navfooter-group">
 			<div class="accordion-heading navfooter-heading navfooter-fb">
 				<a class="accordion-toggle" href="https://www.facebook.com/55vip">
-					<img src="./images/phonefb.png" style="margin-right:10px"/>盤後同學會
+					<img src="./images/phonefb.png" class="fbicon"/>盤後同學會
 				</a>
 			</div>
 		</div>

@@ -69,6 +69,30 @@ ol, ul {
 	border-left:1px solid #e0e0e0;
 	
 }
+.general_nav >.noborder{
+	border: 0;
+}
+.general_nav >.phonetopheadercenter{
+	width:50%; border:0
+}
+
+.general_nav >.phonetopheadercenter>a>img{
+	width:100%
+}
+.general_nav >.phonetopheaderright{
+	width:24%; border:0
+}
+.general_nav >.phonetopheaderright>a>img{
+	margin-left:60%;float:right;width:50px
+}
+.general_nav >.phonetopheaderleft{
+	width:24%;border:0
+}
+.general_nav >.phonetopheaderleft>a>button{
+	margin-right:80%;margin-top:3px;float:left;
+}
+
+
 .cartstepframe{
 	display: inline;
 	margin-top: 10px;
@@ -202,10 +226,7 @@ ol, ul {
 	padding-left: 25px;
 	float: right;
 }
-.header_search{
-	width: 180px;
-	border-radius: 50px;
-}
+
 /*   footer div */
 .footerabout{
 	background: #ccc;
@@ -302,6 +323,7 @@ ol, ul {
 .toploginheader{
 	margin-right: 30px;
 	margin-top:10px;
+	float: right;
 }
 .footertopnav ul li div ul li a{
 	cursor: pointer;
@@ -333,4 +355,22 @@ ol, ul {
 }
 .row-fluid [class*="span6"]{
 	margin-left: 0;
+}
+.row-fluid [class*="toptcontent"] {
+    margin-left: 2%;
+}
+.fb_space_div{
+	height:60px;width:100%
+}
+.showadframe{
+	width:100%;z-index:99;position:relative;margin-top:-20px;border-radius:0;display:none;
+}
+.showadframecontent{
+	background:#fff;margin:top:-20px;
+}
+.arrow_pic{
+	float:right;
+}
+.fbicon{
+	margin-right: 10px;
 }
