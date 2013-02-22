@@ -234,4 +234,14 @@ ol, ul {
 }
 .navfooter-heading>a{
 	color: #666;
+	text-decoration: none;
+}
+.navfooter-inner{
+	padding: 9px 15px;
+	border-top: 1px solid #e5e5e5;
+	background: #999;
+	color: #fff
+}
+.navfooter-fb{
+	background: #fff
 }
