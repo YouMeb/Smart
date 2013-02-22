@@ -319,3 +319,10 @@ ol, ul {
 	color: #000;
 	cursor: pointer;
 }
+.singlecursor:hover{
+	text-decoration: none;
+}
+.singlecursor{
+	cursor: pointer;
+	
+}
