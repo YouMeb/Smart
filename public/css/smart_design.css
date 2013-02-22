@@ -94,7 +94,7 @@
 	background-position: 5px 13px;
 	display: block;
 	height: 30px;
-	width: 190px;
+	width: 180px;
 	border-bottom: #FF8C00 1px dotted;
 	font-size: 18px;
 	color: #FF8C00;
@@ -127,11 +127,11 @@
 	background-position: 5px 13px;
 	display: block;
 	height: 30px;
-	width: 190px;
+	width: 180px;
 	border-bottom: #FF8C00 1px dotted;
 	font-size: 18px;
 	color: #FF8C00;
-	padding: 0 0 8px 25px;
+	padding: 10px 0 3px 25px;
 	margin: 40px 0 16px 0;
 }
 .hotACT {
