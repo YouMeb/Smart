@@ -315,3 +315,7 @@ ol, ul {
 .footertopnav_title p{
 	border-bottom: 5px solid #e7e7e7;
 }
+.clickablockfont{
+	color: #000;
+	cursor: pointer;
+}
