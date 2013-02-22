@@ -1230,6 +1230,15 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
+  .row-fluid .phone-pic{
+    width: 25%;
+    float: left;
+  }
+  .row-fluid .phone-content{
+    margin-left:2%; 
+    width: 65%;
+    float: left;
+  }
   .phoneblock .span3{
 
 
