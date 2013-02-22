@@ -242,6 +242,10 @@ ol, ul {
 	-moz-border-radius: 0px;
 	border-radius: 0px;
 }
+.tag-group{
+	background: #fff;
+}
+
 .navfooter-heading>a{
 	color: #666;
 	text-decoration: none;
@@ -250,6 +254,12 @@ ol, ul {
 	padding: 9px 15px;
 	border-top: 1px solid #e5e5e5;
 	background: #999;
+	color: #fff
+}
+.tag-inner{
+	padding: 9px 15px;
+	border-top: 1px solid #e5e5e5;
+	background: #fff;
 	color: #fff
 }
 .navfooter-fb{
@@ -272,4 +282,13 @@ ol, ul {
 }
 .headpicframe{
 	height: 315px;
+}
+
+
+
+/*
+*/
+.toploginheader{
+	margin-right: 30px;
+	margin-top:10px;
 }
