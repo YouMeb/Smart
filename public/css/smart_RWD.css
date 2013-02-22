@@ -1010,6 +1010,10 @@
     width: 48.61878453038674%;
     *width: 48.56559304102504%;
   }
+  .row-fluid .in-portrait-span12{
+    width: 100%;
+    *width: 99.94680851063829%;
+  } 
   .row-fluid .span5 {
     width: 40.05524861878453%;
     *width: 40.00205712942283%;
