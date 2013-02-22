@@ -229,6 +229,12 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
+    .row-fluid [class*="span_test"] {
+
+    margin-left: 0;
+    *margin-left: 0;
+  
+  }
   .row-fluid [class*="span"]:first-child {
     margin-left: 0;
   }
@@ -583,6 +589,12 @@
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
+  }
+  .row-fluid [class*="span_test"] {
+
+    margin-left: 0;
+    *margin-left: 0;
+  
   }
   .row-fluid [class*="span"]:first-child {
     margin-left: 0;
@@ -968,6 +980,12 @@
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
+  }
+      .row-fluid [class*="span_test"] {
+
+    margin-left: 0;
+    *margin-left: 0;
+  
   }
   .row-fluid [class*="span"]:first-child {
     margin-left: 0;
