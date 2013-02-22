@@ -245,3 +245,12 @@ ol, ul {
 .navfooter-fb{
 	background: #fff
 }
+.phoneheaderbar ul li{
+	border-bottom: 1px solid #aaa;
+}
+.phoneheaderbar ul li a{
+	margin-left: 10px;
+}
+.ulnomargin{
+	margin: 0;
+}
