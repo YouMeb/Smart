@@ -33,6 +33,9 @@ app.get('/', routes.index);
 app.get('/homepage', function(req, res) {
   res.render('homepage');
 });
+app.get('/referenceitem', function(req, res) {
+  res.render('referenceitem');
+});
 app.get('/testhomepage', function(req, res) {
   res.render('testhomepage');
 });
