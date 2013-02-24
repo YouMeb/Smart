@@ -522,7 +522,56 @@ div.mega.open {
 .ref1_mainleft > .row-fluid > a > .span4{
 	margin-right: 1%;
 } 
+.ref_top_title>h3{
+		line-height: 1;
+	color: #FF8C00;
+	font-size: 22px;
 
+}
+.ref_top_title>h4{
+	color: #000;
+}
+.ref_top_frame{
+margin-top: 50px;
+}
+.ref_price_buttom_frame{
+	margin-top: 100px;
+}
+.ref_top_content{
+	color: #000;
+}
+.ref_top_content [class*=span]{
+	margin:0;
+}
+.ref_top_content [class*=ref_price_frame]{
+	margin-bottom: 10px;
+}
+.redfont >b{
+	text-decoration: line-through;
+	color: red;
+width: 80px;
+font-size: 22px;
+}
+.nonesredfonttyle >b{
+	text-decoration:none;
+		color: red;
+width: 80px;
+font-size: 22px;
+}
+.ref_price_frame > ul > .span3,
+.ref_price_frame > ul > .span5,
+.ref_price_frame > ul > .span8
+{
+
+	text-align: right;
+}
+.add-cart{
+	margin-top: 95px;
+	margin-left: 20px;
+	color: #FF4E03;
+	border: solid 1px #FF4E03;
+	
+}
 /*daily 1 page end */
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
