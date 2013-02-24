@@ -558,6 +558,14 @@ font-size: 22px;
 width: 80px;
 font-size: 22px;
 }
+.redfont_1>b{
+	text-decoration:none;
+		color: red;
+width: 80px;
+font-size: 22px;
+font-weight: normal;
+
+}
 .ref_price_frame > ul > .span3,
 .ref_price_frame > ul > .span5,
 .ref_price_frame > ul > .span8
@@ -584,6 +592,36 @@ font-size: 22px;
 	background: #aaa;
 	margin-top: 20px;
 }
+.reference_img_large{
+	width: 100%;
+}
+.ref_midpro_title{
+	line-height: 1;
+color: #FF8C00;
+font-size: 22px;
+}
+.ref_midpro_content{
+	margin-left: 2%;
+}
+.ref_midpro_title2{
+	color: #000;
+}
+.row-fluid [class*="ref_midpro_bottom_content"] {
+	margin-top: 20px;
+}
+.reddelete >b{ 
+	text-decoration: line-through;
+	color: red;
+width: 80px;
+font-size: 22px;
+font-weight: normal;
+}
+.ref_detail{
+	margin-top: 55px;
+}
+	.ref_midpro{
+		margin-top: 10px;
+	}
 /*daily 1 page end */
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
@@ -624,6 +662,14 @@ font-size: 22px;
 		color: #000;
 		padding: 0px;
 	}
+	.ref_detail{
+		margin-top: 0px;
+		float: right;
+	}
+	.ref_midpro_bottom_content{
+		text-align: right;
+	}
+
 }
 
 @media (max-width: 480px){
