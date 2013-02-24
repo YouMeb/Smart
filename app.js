@@ -36,6 +36,9 @@ app.get('/homepage', function(req, res) {
 app.get('/referenceitem', function(req, res) {
   res.render('referenceitem');
 });
+app.get('/referenceitem1', function(req, res) {
+  res.render('referenceitem1');
+});
 app.get('/testhomepage', function(req, res) {
   res.render('testhomepage');
 });
