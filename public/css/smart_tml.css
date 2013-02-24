@@ -608,6 +608,14 @@ font-size: 22px;
 		width: 30%;
 		float: left;
 	}
+	.ref_top_content{
+		padding: 30px;
+		border: 1px solid #e0e0e0;
+	}
+	.add-cart{
+		margin-top: 10px;
+		margin:10px 35%;
+	}
 	.ref_title{
 		width: 70%;
 		float: left;
