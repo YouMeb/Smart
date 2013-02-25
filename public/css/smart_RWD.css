@@ -1365,6 +1365,14 @@ margin: 0;
     top: 20px;
   }
 
+  .row-fluid [class*="cart_block"]{
+
+    width: 50%;
+    float:left;
+  }
+  .row-fluid [class*="cart_block_frame"]{
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {

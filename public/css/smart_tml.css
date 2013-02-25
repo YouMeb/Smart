@@ -491,7 +491,10 @@ margin-bottom: -4px;
 	.row-fluid [class*="span"]:first-child{
 		margin: 0;
 	}
- 
+	.row-fluid [class*="havebonus"]:first-child{
+		margin-top: 30px
+	}
+	
 	.row-fluid [class*="span"]:first-child  .zonetitem1, .row-fluid [class*="span"]:first-child  .zonetitem2, .row-fluid [class*="span"]:first-child  .zonetitem3{
 		margin: 5px 0px 10px 5px;
 	}
@@ -504,7 +507,9 @@ margin-bottom: -4px;
 	margin-right: 1%;
 }	
 
-
+.cartcontentframe .row-fluid .span1 p {
+	text-align: center;
+}
 /* daily 1 page*/
 .ref_title{
 	background: #666;
@@ -617,10 +622,26 @@ font-weight: normal;
 .ref_detail{
 	margin-top: 55px;
 }
-	.ref_midpro{
-		margin-top: 10px;
-	}
+.ref_midpro{
+	margin-top: 10px;
+}
 /*daily 1 page end */
+
+
+.cart_hint_title1{
+	margin-top: 30px;
+}
+.cart_suggeust{
+	text-align: center;
+	padding:10px;
+	background: #ffedcf;
+	color: red;
+	border: 2px dotted red;
+
+}
+.btnBK{
+	margin-top: 30px
+}
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
 		width: 100%;
@@ -665,6 +686,20 @@ font-weight: normal;
 		float: right;
 	}
 	.ref_midpro_bottom_content{
+		text-align: right;
+	}
+	.btnBK{
+	margin-top: 0px;
+	margin-bottom: 30px;
+	}
+	.cartcontentframe .row-fluid .span1 p,
+	.cart_block b{
+		text-align: left;
+	}
+	.cartcontentframe .row-fluid .span1 p{
+		text-align: right;
+	}
+	.delete_block{
 		text-align: right;
 	}
 
