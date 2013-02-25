@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Smart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='./css/smart.css' />
+    <link rel='stylesheet' href='./css/smart_RWD.css' />
+    <link rel='stylesheet' href='./css/smart_tml.css' />
+    <link rel='stylesheet' href='./css/smart_design.css' />
+  </head>
+  <body>
+	<style type="text/css"> 
+
+	.show-grid {
+	  margin-top: 10px;
+	  margin-bottom: 20px;
+	}
+	/*.show-grid [class*="span"] {
+	  background-color: #eee;
+	  text-align: center;
+	  -webkit-border-radius: 3px;
+	     -moz-border-radius: 3px;
+	          border-radius: 3px;
+	  min-height: 40px;
+	  line-height: 40px;
+	}
+	.show-grid [class*="span"]:hover {
+	  background-color: #ddd;
+	}
+	.show-grid .show-grid {
+	  margin-top: 0;
+	  margin-bottom: 0;
+	}
+	.show-grid .show-grid [class*="span"] {
+	  margin-top: 5px;
+	}
+	.show-grid [class*="span"] [class*="span"] {
+	  background-color: #ccc;
+	}
+	.show-grid [class*="span"] [class*="span"] [class*="span"] {
+	  background-color: #999;
+	}*/
+	</style>
+	<!--  尚未寫  -->
+	<header class="hidden-phone">
+		<div class="container">
+			<div class="row-fluid">
+				<div class="span7"></div>
+				<div class="span5 top_login">
+					<!--
+					<div id="navbar-example" class="navbar navbar-static">
+					<div class="navbar-inner">
+					<ul class="nav" role="navigation">
+						<li class="dropdown">
+							<a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">同學會</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">課程</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">DVD</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">雜誌</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">叢書</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">討論區</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">限時搶購</a>
+						</li>
+					</ul>
+					</div>
+					</div>
+					-->
+					<!--<div id="navbar-example" class="navbar navbar-static">
+					<div class="navbar-inner">
+					<ul class="nav" role="navigation">
+						<a href="#">
+							<li id="cart">
+								(3)▼
+								<div class="menu">
+									 menu
+								</div>
+							</li>
+						</a>
+						<a href="#">
+							<li id="top_my_account" style="background:url(images/user_id.jpg) no-repeat ">
+								Allen Lin▼
+								<div class="menu">
+									 menu
+								</div>
+							</li>
+						</a>
+						<div id="unsigned_links" style="display:;">
+							<a href="#"><li>加入會員</li></a>
+							<a href="#"><li>會員登入</li></a>
+							<a href="#"><li>會員中心</li></a>
+							<a href="#"><li>訂單查詢</li></a>
+						</div>
+					</ul>
+					</div>
+					</div>-->
+					<ul class="memberNAV toploginheader">
+						<li id="cart" class="cart"><a href="#" >(3)</a></li>
+                        <li><a href="#" class="ordercheck">訂單查詢</a></li>
+                        <li><a href="#" class="membercenter">會員中心</a></li>
+                        <li><a href="#" class="login">登入</a> </li>
+                        <li><a href="#" class="signup">註冊</a></li>
+                        <li><a href="#" class="membername">Allen Lin</a></li>
+					</ul>
+				</div>	
+			</div>
+			<div class="row-fluid">
+				<div class="span12 logoBar">
+					<div class="row-fluid">
+						<div class="span6">
+							<a class="logo" href="homepage.html"></a>
+						</div>
+						<div class="span6 search">
+							<div class="row-fluid">
+								<div class="span6 hotkeyword">
+								<p class="key">熱門：<a href="#">關鍵字</a>、<a href="#">關鍵字</a>、<a href="#">關鍵字</a>、<a href="#">關鍵字</a></p>
+								</div>
+								<div class="span6 span_margin0 searchinput searchBK">
+                                <form name="" method="post" action="" >
+                                	<input type="search" placeholder="Search…" class="search_input header_search searchBAR" >
+                                    <input name="" type="image" class="searchBTN" src="images/search_looking_glass.gif"/ >
+                                </form>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>	
+			</div>
+		</div>
+	</header>
+	<div class="header_line"></div>
+	<!--  -->
+	<div class="navbar navbar-inverse navbar-fixed-top visible-phone">
+		<div class="navbar-inner">
+			<div class="container">
+				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="brand" href="./index.html">Bootstrap</a>
+				<div class="nav-collapse collapse">
+					<ul class="nav">
+						<li class="">
+							<a href="./index.html">Home</a>
+						</li>
+						<li class="">
+							<a href="./getting-started.html">Get started</a>
+						</li>
+						<li class="">
+							<a href="./scaffolding.html">Scaffolding</a>
+						</li>
+						<li class="">
+							<a href="./base-css.html">Base CSS</a>
+						</li>
+						<li class="active">
+							<a href="./components.html">Components</a>
+						</li>
+						<li class="">
+							<a href="./javascript.html">JavaScript</a>
+						</li>
+						<li class="">
+							<a href="./customize.html">Customize</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+    <!-- Header's Buttom Nav(General)-->
+	<div id="navbar-example" class="navbar navbar-static hidden-phone">
+		<div class="navbar-inner">
+			<div class="container">
+				<ul class="nav general_nav" role="navigation">
+					<li class="dropdown" style="border:0px">
+						<a id="drop1" href="#" role="button" class="dropdown-toggle" data-toggle="dropdown">同學會</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">課程</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">DVD</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">雜誌</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">叢書</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">討論區</a>
+					</li>
+					<li class="dropdown">
+						<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown">限時搶購</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+    <!-- Header's Buttom Nav(General) End-->
+  	<div class="container">
+  		<div class="row-fluid">
+  			<div class="span12">
+  				<div class="row-fluid span12 cartstepframe">
+  					<!--<div class="span1 cartstep cartstepwhite"> 
+  					</div>-->
+                    <div class="span2 cartstep myCart">我的購物車 
+  					</div>
+  					<div class="span2 cartstep cartBG"> 
+  						<a class="active">
+                        	<span>step1</span><br>我的購物車
+                        </a>
+  					</div>
+  					<div class="span2 cartstep cartBG"> 
+  						<a href="carts2.html">
+                        	<span>step2</span><br>填寫資料
+                        </a>
+  					</div>
+  					<div class="span2 cartstep cartBG"> 
+  						<a href="carts3.html">
+                        	<span>step3</span><br>確認訂單＆付款
+                        </a>
+  					</div>
+  					<div class="span2 cartstep cartBG"> 
+  						<a href="carts4.html">
+                        	<span>step</span><br>4訂單確認
+                        </a>
+  					</div>
+  					<div class="span2 cartstep cartBG"> 
+  						<a href="carts5.html">
+                        	<span>step5</span><br>填寫參加者資料
+                        </a>
+  					</div>
+  					<!--<div class="span1 cartstep cartstepwhite"> 
+  					</div>-->
+  				</ul>
+	  		</div>
+  		</div>
+  		<div class="row-fluid">
+  			<div class="span12 cartcontentnav">
+		  		  <a  href="carts.html"><li class="span2">我的購物車</li></a>
+           	      <a href="carts_bonus2.html"><li class="span2">紅利查詢</li></a>
+				  <a href="#"><li class="span2 active ">兌換券清單</li></a>
+		   </div>
+		</div>
+
+  		<div class="row-fluid">
+	  		<div class="span12 blockframe aboutCart">
+	  			<div class="row-fluid title_2">
+			  	</div>
+	  			<div class="row-fluid">
+	  				<div class="span12 cartcontentframe">
+	  					<div class="row-fluid itemNAV">
+	  						<div class="span2">
+	  							<p>兌換券種類</p>
+	  						</div>
+	  						<div class="span1">
+	  							<p>剩餘數量</p>
+	  						</div>
+	  						<div class="span7">
+  							  <p>最近一筆兌換記錄</p>
+  						   </div>
+	  						<div class="span2">
+  							</div>
+	  					</div>
+	  					<!-- 使用紀錄 -->
+	  					<div class="row-fluid itemNAV">
+	  						<div class="span2">
+                            	<p>盤後同學會</p>
+	  						</div>
+	  						<div class="span1">
+                            	<p class="charge">3</p>
+	  						</div>
+	  						<div class="span7">
+  							    <p>2012/9/22  使用<span>1</span> 張：<a href="">溫國信 - 存好股，穩穩賺 - 12/10 台北場</a></p>
+  						  	</div>
+	  						<div class="span2">
+                            	<p><a href="">看所有紀錄</a></p>
+	  						</div>
+	  					</div>
+	  					<!-- 使用紀錄 End -->
+                       <!-- 使用紀錄 -->
+	  					<div class="row-fluid itemNAV">
+	  						<div class="span2">
+                            	<p>下班同學會</p>
+	  						</div>
+	  						<div class="span1">
+                            	<p class="charge">2</p>
+	  						</div>
+	  						<div class="span7">
+  							    <p>2012/9/22  使用<span>1</span> 張：<a href="">溫國信 - 存好股，穩穩賺 - 12/10 台北場</a></p>
+  						  	</div>
+	  						<div class="span2">
+                            	<p><a href="">看所有紀錄</a></p>
+	  						</div>
+	  					</div>
+	  					<!-- 使用紀錄 End -->
+                       <!-- 使用紀錄 -->
+	  					<div class="row-fluid itemNAV">
+	  						<div class="span2">
+                            	<p>課程</p>
+	  						</div>
+	  						<div class="span1">
+                            	<p class="charge">1</p>
+	  						</div>
+	  						<div class="span7">
+  							    <p>2012/9/22  使用<span>1</span> 張：<a href="">溫國信 - 存好股，穩穩賺 - 12/10 台北場</a></p>
+  						  	</div>
+	  						<div class="span2">
+                            	<p><a href="">看所有紀錄</a></p>
+	  						</div>
+	  					</div>
+	  					<!-- 使用紀錄 End -->
+                        <div class="row-fluid ">
+                        	<div class="span9"></div>
+                        	<div class="span3 timeproblem">兌換券有無截止日期問題？</div>
+                        </div>
+	  				</div>
+	  			</div>
+
+	  		</div>
+  		</div>
+  		<div class="row-fluid ">
+  			<div class="span12 visible-phone">
+  				建議使用桌上或平板頁面完成結帳流程
+  			</div>
+  		</div>
+</div>
+</div>
+<!-- footer開始 -->
+  	<footer>
+		<p class="footerabout hidden-phone">
+			<a href="#">關於商周集團</a> ｜<a href="#"> 廣告合作</a> ｜ <a href="#">隱私權聲明</a> ｜ <a href="#">文章授權</a> ｜ <a href="#">常見問題</a>｜ <a href="#">客服信箱</a> ｜ <a href="#">網站導覽</a> ｜ <a href="#">活動總覽</a> ｜<a href="#"> 新聞中心</a>
+		</p>
+		<div class="footercopyright">
+			課戶服務/電話訂購專線：02-2510-8888　傳真：02-2502-5410　服務時間：週一至週五09:00~18:30 (例假日除外)<br>
+			本網站版權屬於 城邦文化事業股份有限公司 所有，未經本站同意，請勿擅用文字及圖案。<br>
+			Copyright © 1999 - 2013 Business Weekly a division of Cite Publishing Ltd All Rights Reserved.
+		</div>
+  </footer>
+	<!-- footer結束 -->
+<!--<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':3001/livereload.js?snipver=1"></' + 'script>')</script>-->
+
+</body>
+</html>
