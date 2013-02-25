@@ -642,6 +642,10 @@ font-weight: normal;
 .btnBK{
 	margin-top: 30px
 }
+.cart_block_frame{
+	padding-bottom: 30px;
+	border-bottom: 1px solid #aaa;
+}
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
 		width: 100%;
