@@ -33,37 +33,37 @@ app.get('/', routes.index);
 app.get('/homepage', function(req, res) {
   res.render('homepage');
 });
-app.get('/referenceitem', function(req, res) {
-  res.render('referenceitem');
+app.get('/7_0', function(req, res) {
+  res.render('7_0');
 });
-app.get('/referenceitem1', function(req, res) {
-  res.render('referenceitem1');
+app.get('/7_1', function(req, res) {
+  res.render('7_1');
 });
-app.get('/referenceitem2', function(req, res) {
-  res.render('referenceitem2');
+app.get('/7_2', function(req, res) {
+  res.render('7_2');
 });
 app.get('/testhomepage', function(req, res) {
   res.render('testhomepage');
 });
-app.get('/carts', function(req, res) {
-  res.render('carts');
+app.get('/9_0carts', function(req, res) {
+  res.render('9_0carts');
 });
-app.get('/carts2', function(req, res) {
-  res.render('carts2');
+app.get('/9_4carts2', function(req, res) {
+  res.render('9_4carts2');
 });
-app.get('/carts3', function(req, res) {
-  res.render('carts3');
+app.get('/9_2carts3', function(req, res) {
+  res.render('9_2carts3');
 });
-app.get('/carts4', function(req, res) {
-  res.render('carts4');
+app.get('/9_3carts4', function(req, res) {
+  res.render('9_3carts4');
 });
-app.get('/carts5', function(req, res) {
-  res.render('carts5');
+app.get('/9_1carts5', function(req, res) {
+  res.render('9_1carts5');
 });
-app.get('/carts_bonus2', function(req, res) {
-  res.render('carts_bonus2');
+app.get('/9_5carts_bonus2', function(req, res) {
+  res.render('9_5carts_bonus2');
 });
-app.get('/carts_bonus3', function(req, res) {
+app.get('/9_6carts_bonus3', function(req, res) {
   res.render('carts_bonus3');
 });
 
