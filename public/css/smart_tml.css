@@ -884,6 +884,11 @@ font-weight: normal;
 		height: 30px;
 		border: 0
 	}
+	.li_classtopheader_l2,.li_magatopheader_l2{
+		padding-left: 70px;
+		background: #ccc;
+		height: 40px;
+	}
 	.magazine_topheader,.class_topheader{
 		padding: 0;
 		background: #aaa;
