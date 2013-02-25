@@ -684,6 +684,26 @@ font-weight: normal;
 	padding-bottom: 30px;
 	border-bottom: 1px solid #aaa;
 }
+
+.cartcontentnav a {
+	text-decoration: none;
+}
+
+.cartcontentnav li{
+	text-align: center;
+	text-decoration: none;
+	height: 49px;
+	color: #FF8B00;
+}
+.cartcontentnav li:hover,.cartcontentnav .active{
+	text-align: center;
+	text-decoration: none;
+	margin: 0px;
+	height: 49px;
+	background-image: url(../images/today_store_ative_tab.jpg);
+	background-position: center -1px;
+	color: #FFF;
+}
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
 		width: 100%;
@@ -782,6 +802,45 @@ font-weight: normal;
 		text-decoration: none;
 		padding: 0;
 	}
+	.cartcontentnav{
+		
+		text-align: center;
+		margin:0;
+		border: 0px;
+		margin-top: 25px;
+
+	}
+	.cartcontentnav a {
+		background: #fff;
+		width: 32%;
+		float: left;
+		border:0px;
+		border: 1px dotted #ccc;
+
+	}
+	.cart_hint_title1{
+		margin-top: 10px;
+	}
+	.cartcontentnav li{
+		text-align: center;
+		text-decoration: none;
+		color: #666;
+		background: #fff;
+		line-height: 50px;
+		border:0px;
+	}
+	.cartcontentnav li:hover,.cartcontentnav .active{
+		text-align: center;
+		text-decoration: none;
+		margin: 0px;
+		height: 49px;
+		float: left;
+		background:#e0e0e0;
+		background-position: center -1px;
+		color: #666;
+		color: red;
+	}
+
 
 }
 
