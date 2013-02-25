@@ -677,7 +677,7 @@ font-weight: normal;
 	border: 2px dotted red;
 
 }
-.btnBK{
+.btnBK,.shoppingBK,.cart_step_3{
 	margin-top: 30px
 }
 .cart_block_frame{
@@ -750,7 +750,7 @@ font-weight: normal;
 	.ref_midpro_bottom_content{
 		text-align: right;
 	}
-	.btnBK{
+	.btnBK,.shoppingBK,.cart_step_3{
 	margin-top: 0px;
 	margin-bottom: 30px;
 	}
@@ -839,6 +839,9 @@ font-weight: normal;
 		background-position: center -1px;
 		color: #666;
 		color: red;
+	}
+	.charge,.NT{
+		text-align: right;
 	}
 
 

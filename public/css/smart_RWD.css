@@ -1391,10 +1391,11 @@ margin: 0;
     float: left;
     margin-bottom: 30px;
   }
-  .cart_form > b{
+  .cart_form > b,.cart_form > p{
     width: 100%;
     text-align: left;
   }
+
   .row-fluid select[class*="produc_select"]{
      width: 50%;
      float: left;
