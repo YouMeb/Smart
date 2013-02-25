@@ -60,6 +60,14 @@ app.get('/carts4', function(req, res) {
 app.get('/carts5', function(req, res) {
   res.render('carts5');
 });
+app.get('/carts_bonus2', function(req, res) {
+  res.render('carts_bonus2');
+});
+app.get('/carts_bonus3', function(req, res) {
+  res.render('carts_bonus3');
+});
+
+
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
