@@ -913,3 +913,11 @@ font-weight: normal;
 .fatfooter{
 	margin:15px auto;
 }
+
+.cartsum, .cartshippingsum, .carttotal, .cartbonusr, .cartbonus{
+	text-align:right;
+}
+
+.row-fluid [class*="span"]:first-child  .cartstepframe{
+	margin-bottom: 20px;
+}

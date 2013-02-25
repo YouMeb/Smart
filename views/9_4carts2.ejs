@@ -12,7 +12,7 @@
 </head> 
  <body>
  	<% include header %>
-  	<div class="container">
+  	<div class="container s2">
   		<div class="row-fluid">
   			<div class="span12">
   				<div class="row-fluid span12 cartstepframe">
@@ -55,22 +55,20 @@
 		  	</div>
 		</div>
   		<div class="row-fluid">
-	  		<div class="span12 blockframe">
-				<div class="accordion-heading">
-					<a class="accordion-toggle cart_content_details" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
-						<div class="row-fluid title_2">
-					  		<div class="span12 talk">
-					  			<h3>訂單明細
-					  				<div class="cartbkframe">
-					  					<img src="./images/old-go-bottom.png" />
-					  				</div>
-					  			</h3>
-					  		</div>
-			  			</div>
-					</a>
-				</div>
-				<div id="collapseOne" class="accordion-body collapse in">
-					<div class="accordion-inner">
+	  		<div class="span12 blockframe accordion-heading">
+				<a class="accordion-toggle cart_content_details" data-toggle="collapse" data-parent="#accordion2" href="#collapseOne">
+					<div class="row-fluid title_2">
+						<div class="span12 talk">
+							<h3>訂單明細
+								<div class="cartbkframe">
+									<img src="./images/old-go-bottom.png" />
+								</div>
+							</h3>
+						</div>
+					</div>
+				</a>
+				
+				<div id="collapseOne" class="accordion-body collapse">
 					<!-- 訂單明細內容  -->
 						<div class="row-fluid">
 			  				<div class="span12 cartcontentframe ">
@@ -98,34 +96,24 @@
 			  						</div>
 			  					</div>
 			  					<!-- 購物車明細內容 -->
-			  					<div class="row-fluid cartBK cart_block_frame">
+			  					<div class="row-fluid cartBK">
 			  						<div class="span4">
-			  							<div class="row-fluid">
-			  								<div class="row-fluid">
-				  								<div class="span3 img-80 hidden-phone" style="height:80px;background:#aaa"><!--  這個放商品圖  -->
-				  								</div>
-				  								<div class="span9">
-				  									<div class="row-fluid">
-					  									<div class="span12 itemKIND">
-					  										盤後同學會
-					  									</div>
-					  									<div class="span12">
-					  										<p class="itemNAME">溫國信 - 存好股，穩穩賺</p>
-					  									</div>
-				  									</div>
-				  								</div>
-			  								</div>
-			  							</div>
-			  						</div> 
+										<div class="media shoppingitem span12">
+										<a class="pull-left sitemimg img-80 hidden-phone span3" href="#">
+											<img class="media-object" src="./images/discussions/thumb_2.jpg">
+										</a>
+										<a class="sitemtext" href="#">
+											<div class="media-body">
+												<span class="label label-warning btnDF">投資理財</span>
+												<div class="media-heading itemKIND">郭榮芳 - 財報選股實</div>
+												<p class="itemNAME">四小時學會掌握企業財報與經營本質，一看就懂的企業獲利模式分析法，2013財......</p>
+											</div>
+										</a>
+										</div>
+									</div>
 			  						<div class="span3 itemFORMAT cart_form">
 			  							<b class="visible-phone">商品規格</b><!-- 手機版上才出現 -->
-			  							<select class="span12 produc_select">
-											<option>1</option>
-											<option>2</option>
-											<option>3</option>
-											<option>4</option>
-											<option>5</option>
-										</select>
+			  							<p>這是商品規格</p>
 			  						</div>
 			  						<div class="span1 cart_block">
 			  							<b class="visible-phone ">單價</b><!-- 手機版上才出現 -->
@@ -133,13 +121,7 @@
 		  						  	</div>
 			  						<div class="span1 cart_block">
 			  							<b class="visible-phone">數量</b><!-- 手機版上才出現 -->
-			  							<select class="span12">
-											<option>1</option>
-											<option>2</option>
-											<option>3</option>
-											<option>4</option>
-											<option>5</option>
-										</select>
+			  							<p>1</p>
 			  						</div>
 			  						<div class="span1 discount cart_block">
 			  							<b class="visible-phone">優惠價</b><!-- 手機版上才出現 -->
@@ -162,32 +144,22 @@
 		                        <!-- 購物車明細內容 -->
 			  					<div class="row-fluid cartBK cart_block_frame">
 			  						<div class="span4">
-			  							<div class="row-fluid">
-			  								<div class="row-fluid">
-				  								<div class="span3 img-80 hidden-phone" style="height:80px;background:#aaa">
-				  								</div>
-				  								<div class="span9">
-				  									<div class="row-fluid">
-					  									<div class="span12 itemKIND">
-					  										盤後同學會
-					  									</div>
-					  									<div class="span12">
-					  										<p class="itemNAME">溫國信 - 存好股，穩穩賺</p>
-					  									</div>
-				  									</div>
-				  								</div>
-			  								</div>
-			  							</div>
-			  						</div> 
+										<div class="media shoppingitem span12">
+										<a class="pull-left sitemimg img-80 hidden-phone span3" href="#">
+											<img class="media-object" src="./images/discussions/thumb_2.jpg">
+										</a>
+										<a class="sitemtext" href="#">
+											<div class="media-body">
+												<span class="label label-warning btnDF">投資理財</span>
+												<div class="media-heading itemKIND">郭榮芳 - 財報選股實</div>
+												<p class="itemNAME">四小時學會掌握企業財報與經營本質，一看就懂的企業獲利模式分析法，2013財......</p>
+											</div>
+										</a>
+										</div>
+									</div> 
 			  						<div class="span3 itemFORMAT cart_form">
 			  							<b class="visible-phone">商品規格</b><!-- 手機版上才出現 -->
-			  							<select class="span12 produc_select">
-											<option>1</option>
-											<option>2</option>
-											<option>3</option>
-											<option>4</option>
-											<option>5</option>
-										</select>
+			  							<p>這是商品規格</p>
 			  						</div>
 			  						<div class="span1 cart_block">
 			  							<b class="visible-phone ">單價</b><!-- 手機版上才出現 -->
@@ -195,13 +167,7 @@
 		  						  	</div>
 			  						<div class="span1 cart_block">
 			  							<b class="visible-phone">數量</b><!-- 手機版上才出現 -->
-			  							<select class="span12">
-											<option>1</option>
-											<option>2</option>
-											<option>3</option>
-											<option>4</option>
-											<option>5</option>
-										</select>
+			  							<p>00</p>
 			  						</div>
 			  						<div class="span1 discount cart_block">
 			  							<b class="visible-phone">優惠價</b><!-- 手機版上才出現 -->
@@ -224,57 +190,38 @@
 			  				</div>
 			  			</div>
 					<!--  訂單明細內容結束-->
-					</div>
 				</div>
 	  			
 	  			<div class="row-fluid title_2">
 			  		<div class="span12">
 		  			  <h3>紅利折抵</h3>
 			  		</div>
-			  		<div class="span12">		  			
+			  		<div class="span12 bonusarea">		  			
 						<input type="radio" name="" value="" class="radio">不折抵<br>
 						<input type="radio" name="" value="" class="radio">紅利 100 點可折抵 1 元現金，我要使用<input type="text" class="textbox" value="500"> 點紅利，折抵<input type="text" class="textbox" value="5"> 元現金。
                         <span class="notify"><a class="bonusRULE"href="#">紅利折抵規則</a></span><br>
                         <div class="LACKbonus">您的紅利不足</div>
-                        <br><br><br>
-		  		  </div>
+					</div>
 				</div>
-	  			<ul class="row-fluid"> 
-	  				<li class="span7">
-	  				</li>
-	  				<li class="span2"><p class="NT">此訂單金額總計</p>
-	  				</li>
-	  				<li class="span1">
-	  					<p class="NT">NT$</p>
-	  				</li>
-	  				<li class="span1">
-	  					<p class="charge">12.2</p>
-	  				</li>
-	  			</ul>
-	  			<ul class="row-fluid"> 
-	  				<li class="span7">
-	  				</li>
-	  				<li class="span2"><p class="NT">紅利折抵</p>
-	  				</li>
-	  				<li class="span1">
-	  					<p class="NT">NT$</p>
-	  				</li>
-	  				<li class="span1">
-	  					<p class="charge">77</p>
-	  				</li>
-	  			</ul>
-	  			<ul class="row-fluid"> 
-	  				<li class="span7">
-	  				</li>
-	  				<li class="span2"><p class="NT">實際應付金額</p>
-	  				</li>
-	  				<li class="span1">
-	  					<p class="NT"><b>NT$</b></p>
-	  				</li>
-	  				<li class="span1">
-	  					<p class="charge"><b>5</b></p>
-	  				</li>
-	  			</ul>
+	  			<!-- 金額結算區內容 -->
+				<div class="cartprice">
+					<div class="row-fluid cartsum"> 
+						<span class="sumdesc"></span>
+						<span class="sumlabel">此訂單金額總計</span>
+						<span class="summoney">NT$</span><span class="sumprice">12,117</span>
+					</div>
+					<div class="row-fluid cartbonusr"> 
+						<span class="sumdesc fare"></span>
+						<span class="sumlabel">紅利折抵</span>
+						<span class="summoney">NT$</span><span class="sumprice">12,117</span>
+					</div>
+					<div class="row-fluid carttotal"> 
+						<span class="sumdesc fare"></span>
+						<span class="sumlabel">實際應付金額</span>
+						<span class="summoney">NT$</span><span class="sumprice">12,117</span>
+					</div>
+				</div>
+	  			<!-- 金額結算區內容 End-->
 				<div class="row-fluid title_2">
 			  		<div class="span12">
 			  			<h3>訂購人資訊</h3>
@@ -290,7 +237,7 @@
 							<dt>行動電話</dt>
 							<dd>
 								<input type="text" value="0912-345678" class="buyerTXT">
-								&nbsp;格式：0912-345678
+								<span class="carts3desc">格式：0912-345678</span>
 								
 							</dd>
 							<dt>Email</dt>
@@ -396,18 +343,13 @@
   				建議使用桌上或平板頁面完成結帳流程
   			</div>
   		</div>
-  		<div class="row-fluid shoppingBK" >
-	  		<ul>
-	  			<li class="span3">
-	  			</li>
-	  			<li class="span6">
-	  				<div class="btn TOshop">繼續購物</div>
-	  				<div class="btn btn-warning TOpay">開始結帳</div>
-	  			</li>
-	  			<li class="span3">
-	  			</li>
-	  		</ul>
-  		</div>
+  		<div class="row-fluid btnBK text-center">
+        	<div class="span12">
+            	<button class="btn btn-large SPBKbtn">回上一步</button>
+            	<button class="btn btn-large btn-warning SPBKbtn">開始結帳</button>
+        	</div>
+            
+    	</div>
         </div>
 <% include small_footer %>
 </body>

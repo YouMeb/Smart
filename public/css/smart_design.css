@@ -292,13 +292,11 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 }
 
 .itemKIND {
-	margin-top: -12px;
 	color: #4C4C4C;
 }
 .itemNAME {
-	font-size: 16px;
+	
 	color: #333333;
-	margin-top: -10px;
 }
 .itemFORMAT {
 	height: 19px;
@@ -365,21 +363,15 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 
 
 .TOshop {
-	display: block;
-	text-align: center;
 	border-radius: 10px;
 	border: #808080 solid 1px;
 	color: #4C4C4C;
-	float: left;
 }
 .TOpay {
-	display: block;
-	text-align: center;
 	border-radius: 10px;
 	border: #808080 solid 1px;
 	color: #FF4D02;
 	text-shadow: none;
-	float: right;
 }
 .textbox {
 	margin-right: 5px;
