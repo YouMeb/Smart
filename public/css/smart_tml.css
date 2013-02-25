@@ -710,6 +710,29 @@ font-weight: normal;
 .cartbkframe{
 	float:right;margin-right:20px
 }
+.pro_ref_frame{
+	margin-left: 0;
+}
+.nav-tabs .pro_tab, .nav-tabs .pro_tab2{
+	width: 30%;
+}
+.pro-nav-tabs{
+	border-bottom: 1px solid #e0e0e0;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.pro-nav-tabs > .active > a {
+	color: red;
+}
+.limit_time_h1{
+	width: 20%;
+	text-align: left;
+	font-size:25px;
+}
+.pro_ref_breadtitle{
+	margin-left: 0
+}
+
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
 		width: 100%;
@@ -848,6 +871,11 @@ font-weight: normal;
 	}
 	.charge,.NT{
 		text-align: right;
+	}
+	.limit_time_h1{
+	width: 30%;
+	text-align: left;
+	font-size:18px;
 	}
 
 
