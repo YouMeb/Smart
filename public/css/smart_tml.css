@@ -507,6 +507,44 @@ margin-bottom: -4px;
 	margin-right: 1%;
 }	
 
+
+/* 購物車 */
+.cartBG a{
+	background-image: url(../images/cartBG.gif);
+	background-repeat: no-repeat;
+	background-position: top;
+	display: block;
+	height: 57px;
+	width: 152px;
+	font-family: "Myriad Pro";
+	font-size: 18px;
+	color: #7F7F7F;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 0;
+	margin-bottom: 5px;
+}
+.cartBG span {
+	font-size: 24px;
+}
+.cartBG a:hover,.cartBG .active{
+	background-image: url(../images/cartBG.gif);
+	background-repeat: no-repeat;
+	background-position: bottom;
+	display: block;
+	height: 56px;
+	width: 152px;
+	font-family: "Myriad Pro";
+	font-size: 18px;
+	color: #524640;
+	text-align: center;
+	padding: 10px 10px 0  0;
+	text-decoration: none;
+}
+
 .cartcontentframe .row-fluid .span1 p {
 	text-align: center;
 }
@@ -705,6 +743,44 @@ font-weight: normal;
 	}
 	.delete_block{
 		text-align: right;
+	}
+	.cartBG{
+		width: 20%;
+		padding: 2px;
+		background:#e0e0e0;
+		border: 1px solid #aaa;
+	}
+	.cartBG a{
+		background:#e0e0e0;
+		background-repeat: no-repeat;
+		background-position: top;
+		display: block;
+		height: 57px;
+		width: 100%;
+		font-family: "Myriad Pro";
+		font-size: 16px;
+		color: #7F7F7F;
+		text-decoration: none;
+		margin-bottom: 5px;
+		padding: 0;
+		text-align: left;
+	}
+	.cartBG span {
+		font-size: 16px;
+		width: 100%;
+	}
+	.cartBG a:hover,.cartBG .active{
+		background:#e0e0e0;
+		background-repeat: no-repeat;
+		background-position: bottom;
+		display: block;
+		height: 57px;
+		width: 100%;
+		font-family: "Myriad Pro";
+		font-size: 16px;
+		color: #524640;
+		text-decoration: none;
+		padding: 0;
 	}
 
 }

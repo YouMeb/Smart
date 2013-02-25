@@ -219,44 +219,6 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 
 
 
-
-/* 購物車 */
-.cartBG a{
-	background-image: url(../images/cartBG.gif);
-	background-repeat: no-repeat;
-	background-position: top;
-	display: block;
-	height: 57px;
-	width: 152px;
-	font-family: "Myriad Pro";
-	font-size: 18px;
-	color: #7F7F7F;
-	text-align: center;
-	text-decoration: none;
-	padding-top: 10px;
-	padding-right: 10px;
-	padding-bottom: 0;
-	padding-left: 0;
-	margin-bottom: 5px;
-}
-.cartBG span {
-	font-size: 24px;
-}
-.cartBG a:hover,.cartBG .active{
-	background-image: url(../images/cartBG.gif);
-	background-repeat: no-repeat;
-	background-position: bottom;
-	display: block;
-	height: 56px;
-	width: 152px;
-	font-family: "Myriad Pro";
-	font-size: 18px;
-	color: #524640;
-	text-align: center;
-	padding: 10px 10px 0  0;
-	text-decoration: none;
-}
-
 .myCart {
 	font-size: 24px;
 	width: 100px;
