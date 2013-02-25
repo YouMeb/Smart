@@ -704,6 +704,12 @@ font-weight: normal;
 	background-position: center -1px;
 	color: #FFF;
 }
+.accordion-heading .cart_content_details{
+	padding: 0px;
+}
+.cartbkframe{
+	float:right;margin-right:20px
+}
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
 		width: 100%;
