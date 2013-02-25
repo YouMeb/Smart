@@ -264,6 +264,7 @@
 					</li>
 				</ul>				
 				<div class="nav-collapse collapse phoneheaderbar">
+
 					<ul class="nav">
 						<li class="search level1">
 							<div class="searchinput">
@@ -271,18 +272,19 @@
 							</div>
 						</li>
 						<li class="dropdown level1">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">同學會<img src="./images/arrow.png" class="arrow_pic"/></a>
-							<ul class="dropdown-menu">
-								<li class="level2">
-									<a href="#">同學會a<img src="./images/arrow.png" class="arrow_pic"/></a>
-								</li>
-								<li class="level2">
-									<a href="#">同學會b<img src="./images/arrow.png" class="arrow_pic"/></a>
-								</li>
-								<li class="level2">
-									<a href="#">同學會c<img src="./images/arrow.png" class="arrow_pic"/></a>
-								</li>
-							</ul>
+							<div class="accordion-group hone_nav_header_group">
+								<div class="accordion-heading phone_nav_header">
+									<a class="accordion-toggle collapsed" data-toggle="collapse" href="#classdiv">
+									同學會<img src="./images/arrow.png" class="arrow_pic"/>
+									</a>
+								</div>
+								<div id="classdiv" class="accordion-body collapse in">
+									<ul class="accordion-inner class_topheader">
+										<li class="li_classtopheader"><a href="#">同學會a</a></li>
+										<li class="li_classtopheader"><a href="#">同學會b</a></li>
+									</ul>
+								</div>
+							</div>
 						</li>
 						<li class="level1">
 							<a href="#">課程</a>
@@ -291,7 +293,19 @@
 							<a href="#">DVD</a>
 						</li>
 						<li class="level1">
-							<a href="#">雜誌<img src="./images/arrow.png" class="arrow_pic"/></a>
+							<div class="accordion-group hone_nav_header_group">
+								<div class="accordion-heading phone_nav_header">
+									<a class="accordion-toggle collapsed" data-toggle="collapse"href="#magazinediv">
+									雜誌<img src="./images/arrow.png" class="arrow_pic"/>
+									</a>
+								</div>
+								<div id="magazinediv" class="accordion-body collapse in">
+									<ul class="accordion-inner magazine_topheader">
+										<li class="li_magatopheader"><a href="#">雜誌a</a></li>
+										<li class="li_magatopheader"><a href="#">雜誌b</a></li>
+									</ul>
+								</div>
+							</div>
 						</li>
 						<li class="level1">
 							<a href="#">叢書</a>

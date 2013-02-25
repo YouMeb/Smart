@@ -877,8 +877,26 @@ font-weight: normal;
 	text-align: left;
 	font-size:18px;
 	}
+	.hone_nav_header_group{
+		border: 0;
+	}
+	.li_magatopheader,.li_classtopheader{
+		height: 30px;
+		border: 0
+	}
+	.magazine_topheader,.class_topheader{
+		padding: 0;
+		background: #aaa;
 
-
+	}
+	.phoneheaderbar ul li .magazine_topheader a,.phoneheaderbar ul li .class_topheader a{
+		margin-left: 25px;
+		line-height: 20px;
+	}
+	.magazine_topheader a,.class_topheader a{
+		color: #fff;
+		
+	}
 }
 
 @media (max-width: 480px){
