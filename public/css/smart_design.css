@@ -13,10 +13,6 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 }
 .logo {
 	background-image: url(../images/logo.jpg);
-	display: block;
-	height: 52px;
-	width: 347px;
-	margin-left: 69px;
 	background-repeat: no-repeat;
 }
 
