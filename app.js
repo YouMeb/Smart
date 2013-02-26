@@ -71,8 +71,20 @@ app.get('/9_5carts_bonus2', function(req, res) {
 app.get('/9_6carts_bonus3', function(req, res) {
   res.render('9_6carts_bonus3');
 });
-app.get('/basic', function(req, res) {
-  res.render('basic');
+app.get('/tpl1', function(req, res) {
+  res.render('tpl1');
+});
+app.get('/tpl2', function(req, res) {
+  res.render('tpl2');
+});
+app.get('/tpl3', function(req, res) {
+  res.render('tpl3');
+});
+app.get('/tpl4', function(req, res) {
+  res.render('tpl4');
+});
+app.get('/tpl5', function(req, res) {
+  res.render('tpl5');
 });
 
 app.get('/users', user.list);
