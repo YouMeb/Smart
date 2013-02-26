@@ -203,6 +203,9 @@ ol, ul {
 	background: bottom url(../images/menu_border.jpg) repeat-x;
 	height: 3px;
 }
+.small_line{
+	height: 2px;
+}
 .top_login{
 	height: 40px;
 }
@@ -327,6 +330,11 @@ ol, ul {
 */
 .toploginheader{
 	margin-right: 30px;
+	margin-top:10px;
+	float: right;
+}
+.small_loginheader{
+		margin-right: 0px;
 	margin-top:10px;
 	float: right;
 }
@@ -691,6 +699,44 @@ font-weight: normal;
 
 .row-fluid [class*="span"]:first-child  .cartstepframe{
 	margin-bottom: 20px;
+}
+#mainNAV {
+	padding: 10px;
+}
+#mainNAV ul {
+	
+}
+#mainNAV ul .divide {
+	float: left;
+	height: 24px;
+	width: 1px;
+	background-color: #E5E5E5;
+	margin-top: 3px;
+}
+#mainNAV li a {
+	display: block;
+	width: 60px;
+	padding: 3px;
+	float: left;
+	text-align: center;
+	font-size: 14px;
+	padding-left: 6px;
+	color: #7F7F7F;
+	
+	padding-bottom: 12px;
+	
+}
+#mainNAV li a:hover {
+	background-image: url(/images/menuHover.gif);
+	background-position: center bottom;
+	background-repeat: no-repeat;
+}
+.smlogobk{
+	padding: 10px;
+}
+.small_logoBar{
+	height: 70px;
+	padding-top: 10px;
 }
 /*  End   */
 /*div.actived{
