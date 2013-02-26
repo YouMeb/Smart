@@ -86,6 +86,9 @@ app.get('/tpl4', function(req, res) {
 app.get('/tpl5', function(req, res) {
   res.render('tpl5');
 });
+app.get('/1_0temp', function(req, res) {
+  res.render('1_0temp');
+});
 
 app.get('/users', user.list);
 
