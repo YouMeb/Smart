@@ -1,15 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
-div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
-	font-family: "微軟正黑體";
-}
 .cart{
-	margin-right:-12p;
+	
 }
 .me {
-	margin-right: -12px;
-	display: none;
+	
 }
 .logo {
 	background-image: url(../images/logo.jpg);
@@ -17,35 +13,18 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 }
 
 .key {
-	display: block;
 	float: right;
 	width: 220px;
 	height: 20px;
 	font-size: 12px;
 	color: #B2B2B2;
-	margin-top: 31px;
-	margin-bottom: 0;
-	margin-left: 0;
-	margin-right: -30px;
+	margin-top: 25px;
+	margin-bottom: 0px;
 }
 .key a {
 	color: #B2B2B2;
 	
 }
-.searchBK {
-	height: 51px;
-}
-.searchBAR {
-	float: right;
-}
-.searchBTN {
-	float: right;
-	clear: both;
-	margin-top: -23px;
-	margin-right: 10px;
-}
- 
-
 
 .memberNAV li,.memberNAV li a{
 	float: right;
@@ -54,48 +33,11 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	margin: 0 10px 0 0;
 	
 }
-.bestBK {
-	height: 183px;
-	float: left;
-	
-}
-.picDF {
-	float: left;
-	margin:6px 0 0 10px;
-	
-}
-.btnDF {
-	height: 12px;
-	width: 72px;
-	background-color: #F7931E;
-	border-radius: 4px;
-	margin-left: 1px;
-	font-size: 12px;
-	line-height: 12px;
-	color: #fff;
-	text-align: center;
-}
+
 .Btitle{
 	display: block;
-	height: 29px;
 	color: #FF8C00;
 	font-size: 16px;
-	margin: 0px 0 0 0;
-}
-.BBK{
-	display: block;
-	height: 85px;
-	font-size: 14px;
-	width:202px;
-	margin:-20px 0 0 0;
-}
-.buyPIC {
-	background-color: #060;
-}
-
-.buyBK {
-	display: block;
-	float: right;
 }
 
 .btnBUY{
@@ -105,43 +47,22 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	width: 152px;
 	line-height: 33px;
 	text-align: center;
-	border-radius: 10px;
 	border: #808080 solid 1px;
-	margin-right: 47px;
-	background: #ffffff; /* Old browsers */
-	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkMGQwZDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-	background: -moz-linear-gradient(top, #ffffff 0%, #d0d0d0 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#d0d0d0)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #ffffff 0%,#d0d0d0 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #ffffff 0%,#d0d0d0 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(top, #ffffff 0%,#d0d0d0 100%); /* IE10+ */
-	background: linear-gradient(to bottom, #ffffff 0%,#d0d0d0 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d0d0d0',GradientType=0 ); /* IE6-8 */
-}
-.picDF2 {
-	float: left;
-	margin:-11px 10px 0 0;
 	
-}
-.Ptitle{
-	color: #FF8C00;
-	font-size: 16px;
-	margin: -7px 0 0 0;
 }
 
 .ATCtitle {
 	background-image: url(../images/header_in_secodary.jpg);
 	background-repeat: no-repeat;
-	background-position: 5px 3px;
+	background-position: 5px 12px;
 	display: block;
 	height: 30px;
-	width: 190px;
 	border-bottom: #FF8C00 1px dotted;
 	font-size: 18px;
 	color: #FF8C00;
 	padding: 0 0 8px 25px;
-	margin: 20px 0 16px 0;
+	
+	
 }
 .article {
 	display: block;
@@ -153,25 +74,13 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	margin-left: auto;
 	
 }
-.article img {
-	float: left;
-	margin-right: 10px;
-}
-.article p {
-	width: 124px;
-	font-size: 14px;
-	float: right;
-	margin: -4px 0 0 0;
-	min-height: 63px;
-	display: block;
-}
+
 .ATCtitle2 {
 	background-image: url(../images/header_in_secodary.jpg);
 	background-repeat: no-repeat;
 	background-position: 5px 3px;
 	display: block;
 	height: 30px;
-	width: 190px;
 	border-bottom: #FF8C00 1px dotted;
 	font-size: 18px;
 	color: #FF8C00;
@@ -181,12 +90,9 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 
 
 .hotACT {
-	font-size: 14px;
-	color: #191919;
-	width: 215px;
+	
+
 	padding-top: 10px;
-	margin-bottom: 10px;
-	margin-left: -25px;
 	border-bottom: solid 1px #cccccc;
 	clear: both;
 	padding-bottom: 10px;
@@ -197,9 +103,8 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	background-position: 5px 3px;
 	display: block;
 	height: 30px;
-	width: 190px;
 	border-bottom: #FF8C00 1px dotted;
-	font-size: 16px;
+	font-size: 18px;
 	color: #FF8C00;
 	padding: 0 0 8px 25px;
 	margin: 40px 0 16px 0;
