@@ -66,7 +66,9 @@ app.get('/9_5carts_bonus2', function(req, res) {
 app.get('/9_6carts_bonus3', function(req, res) {
   res.render('9_6carts_bonus3');
 });
-
+app.get('/basic', function(req, res) {
+  res.render('basic');
+});
 
 app.get('/users', user.list);
 
