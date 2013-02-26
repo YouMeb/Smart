@@ -5,10 +5,10 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	font-family: "微軟正黑體";
 }
 .cart{
-
+	margin-right:-12p;
 }
 .me {
-
+	margin-right: -12px;
 	display: none;
 }
 .logo {
@@ -23,7 +23,10 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	height: 20px;
 	font-size: 12px;
 	color: #B2B2B2;
-
+	margin-top: 31px;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: -30px;
 }
 .key a {
 	color: #B2B2B2;
@@ -38,7 +41,8 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 .searchBTN {
 	float: right;
 	clear: both;
-
+	margin-top: -23px;
+	margin-right: 10px;
 }
  
 
@@ -47,7 +51,7 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	float: right;
 	color: #FF8B00;
 	font-size: 12px;
-
+	margin: 0 10px 0 0;
 	
 }
 .bestBK {
@@ -57,7 +61,7 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 }
 .picDF {
 	float: left;
-
+	margin:6px 0 0 10px;
 	
 }
 .btnDF {
@@ -65,7 +69,7 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	width: 72px;
 	background-color: #F7931E;
 	border-radius: 4px;
-
+	margin-left: 1px;
 	font-size: 12px;
 	line-height: 12px;
 	color: #fff;
@@ -76,14 +80,14 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	height: 29px;
 	color: #FF8C00;
 	font-size: 16px;
-
+	margin: 0px 0 0 0;
 }
 .BBK{
 	display: block;
 	height: 85px;
 	font-size: 14px;
 	width:202px;
-
+	margin:-20px 0 0 0;
 }
 .buyPIC {
 	background-color: #060;
@@ -103,19 +107,27 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	text-align: center;
 	border-radius: 10px;
 	border: #808080 solid 1px;
-
-	background: #ffffff;
-
+	margin-right: 47px;
+	background: #ffffff; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkMGQwZDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top, #ffffff 0%, #d0d0d0 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#d0d0d0)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #ffffff 0%,#d0d0d0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #ffffff 0%,#d0d0d0 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #ffffff 0%,#d0d0d0 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #ffffff 0%,#d0d0d0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d0d0d0',GradientType=0 ); /* IE6-8 */
 }
 .picDF2 {
 	float: left;
-
+	margin:-11px 10px 0 0;
 	
 }
 .Ptitle{
 	color: #FF8C00;
 	font-size: 16px;
-
+	margin: -7px 0 0 0;
 }
 
 .ATCtitle {
@@ -129,24 +141,27 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	font-size: 18px;
 	color: #FF8C00;
 	padding: 0 0 8px 25px;
-
+	margin: 20px 0 16px 0;
 }
 .article {
 	display: block;
 	height: 86px;
 	width: 214px;
-
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
 	
 }
 .article img {
 	float: left;
-
+	margin-right: 10px;
 }
 .article p {
 	width: 124px;
 	font-size: 14px;
 	float: right;
-
+	margin: -4px 0 0 0;
 	min-height: 63px;
 	display: block;
 }
@@ -161,7 +176,7 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	font-size: 18px;
 	color: #FF8C00;
 	padding: 0 0 8px 25px;
-
+	margin: 40px 0 16px 0;
 }
 
 
@@ -170,7 +185,8 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	color: #191919;
 	width: 215px;
 	padding-top: 10px;
-
+	margin-bottom: 10px;
+	margin-left: -25px;
 	border-bottom: solid 1px #cccccc;
 	clear: both;
 	padding-bottom: 10px;
@@ -186,10 +202,10 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	font-size: 16px;
 	color: #FF8C00;
 	padding: 0 0 8px 25px;
-
+	margin: 40px 0 16px 0;
 }
 .footerabout.hidden-phone {
-;
+	margin-top: 100px;
 }
 
 .footerabout.hidden-phone a {
@@ -202,12 +218,12 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 .myCart {
 	font-size: 24px;
 	width: 100px;
-
+	margin-right: -25px;
 	padding-left: 10px;
 	padding-top: 20px;
 }
 .row-fluid .span12.cartcontentnav .span2 {
-
+	margin-top: -2px;
 }
 
 
@@ -219,13 +235,15 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 .span12.havebonus {
-
+	margin-top: 30px;
+	margin-bottom: 20px;
 	font-size: 20px;
 }
 .span12.havebonus span {
 	font-size: 26px;
 	color: #C0262C;
-
+	margin-right: 5px;
+	margin-left: 5px;
 }
 
 
@@ -233,7 +251,7 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 
 .talk {
 	float: left;
-
+	margin-top: 16px;
 	
 }
 
@@ -246,11 +264,11 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	font-weight: bold;
 	color: #FF8C00;
 	font-size: 16px;
-
+	margin-bottom: 40px;
 }
 
 .itemNAV {
-
+	margin-bottom: 22px;
 	border-bottom: #f1f1f1 1px dotted;
 	color: #666666;
 }
@@ -266,7 +284,7 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	border-bottom-width: 1px;
 	border-bottom-style: dotted;
 	border-bottom-color: #FF8B00;
-
+	margin-bottom: 25px;
 }
 
 .itemKIND {
@@ -292,23 +310,25 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	font-weight: bold;
 }
 .delete {
-
+	margin-top: -9px;
 }
 .checkbox.inline.span12.USEcoupon {
-
+	margin-left: -20px;
 	font-size: 12px;
 	color: #FF8C00;
-
+	margin-left: -20px;
 	
 }
 
 .for2 {
 	font-size: 14px;
 	color: #FF0000;
-
+	margin-top: 7px;
+	margin-bottom: 10px;
 }
 .row-fluid.title_2 .span12 .radio {
-
+	margin-top: -4px;
+	margin-right: 5px;
 }
 
 .NT {
@@ -328,12 +348,13 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	font-size: 12px;
 }
 .btnBK ul{
-
-
+	margin-right: auto;
+	margin-left: auto;
 	clear: both;
 }
 .btnBK {
-
+	margin-right: auto;
+	margin-left: auto;
 }
 
 
@@ -349,7 +370,10 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	text-shadow: none;
 }
 .textbox {
-
+	margin-right: 5px;
+	margin-left: 10px;
+	margin-top: 6px;
+	margin-bottom: 0px;
 	width: 70px;
 }
 .bonusRULE{
@@ -364,14 +388,19 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 .LACKbonus {
 	font-size: 12px;
 	color: #FF4D02;
-
+	margin-top: -10px;
+	margin-left: 20px;
 }
 .buyer dt {
 	width: 90px;
-
+	margin-right: 15px;
+	margin-bottom: 10px;
 }
 .buyer dd {
-
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
 }
 .buyerTXT {
 	width: 150px;
@@ -384,32 +413,38 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	border-bottom-width: 1px;
 	border-bottom-style: dotted;
 	border-bottom-color: #CCC;
-
+	margin-bottom: 20px;
 	padding-bottom: 20px;
 }
 
 .dl-horizontal.buyer dd .radio {
-
+	margin-top: -4px;
+	margin-left: 5px;
 }
 .dl-horizontal.buyer dd .short {
 	width: 30px;
 }
 .dl-horizontal.buyer .invoice {
-
+	margin-top: -10px;
 
 }
 .invoice input {
-
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 15px;
 }
 .dl-horizontal.CHECKinfo dt {
 	width: 92px;
-
+	margin-right: 15px;
+	margin-bottom: 5px;
 }
 .dl-horizontal.CHECKinfo dd {
-
+	margin-left: 0px;
+	margin-bottom: 5px;
 }
 .SPBKbtn {
-
+	margin-right: 10px;
+	margin-left: 10px;
 	text-shadow: none;
 }
 .timeproblem {
