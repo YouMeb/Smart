@@ -29,7 +29,9 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
-app.get('/', routes.index);
+app.get('/', function(req, res) {
+  res.render('homepage');
+});
 app.get('/homepage', function(req, res) {
   res.render('homepage');
 });
