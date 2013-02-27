@@ -17,7 +17,7 @@ git push
 cd d:\git_project\smart
 
 git 平常使用  每做一小段就做這步
--------
+-------git
 git add .
 git commit -a -m 'test'
 git status 
