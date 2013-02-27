@@ -335,7 +335,8 @@ ol, ul {
 }
 .small_loginheader{
 		margin-right: 0px;
-	
+	margin-top: 0px;
+	margin-bottom: 0px;
 	float: right;
 }
 .footertopnav ul li div ul li a{
@@ -754,7 +755,8 @@ font-weight: normal;
 }
 
 #mainNAV ul {
-	
+	padding: 0;
+	margin: 0;
 }
 #mainNAV ul .divide {
 	float: left;
