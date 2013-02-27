@@ -110,6 +110,15 @@ app.get('/tpl6', function(req, res) {
 app.get('/tpl7', function(req, res) {
   res.render('tpl7');
 });
+app.get('/tpl8', function(req, res) {
+  res.render('tpl8');
+});
+app.get('/tpl9', function(req, res) {
+  res.render('tpl9');
+});
+app.get('/tpl10', function(req, res) {
+  res.render('tpl10');
+});
 app.get('/1_0temp', function(req, res) {
   res.render('1_0temp');
 });

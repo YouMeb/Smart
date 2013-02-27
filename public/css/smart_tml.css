@@ -841,6 +841,29 @@ font-weight: normal;
 	font-weight: normal;
 	line-height: 30px;
 }
+.orange_tab{
+	border-bottom: 3px solid #FF8C00;
+	margin-bottom: 0px;
+}
+.orange_tab .active{
+	text-align: center;
+	color: #FFF;
+}
+.orange_tab .active a{
+	
+	background: #FF8C00;
+	color:#fff;
+}
+.pro_tab_content{
+	border-radius: 5px;
+	padding-top: 10px;
+	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid #d0d0d0;
+	border-left: 1px solid #d0d0d0;
+	border-right: 1px solid #e0e0e0;
+}
 
 @media (min-width: 1200px){
 
