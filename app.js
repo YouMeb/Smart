@@ -38,6 +38,9 @@ app.get('/homepage', function(req, res) {
 app.get('/1_0', function(req, res) {
   res.render('1_0');
 });
+app.get('/6_0', function(req, res) {
+  res.render('6_0');
+});
 app.get('/7_0', function(req, res) {
   res.render('7_0');
 });
@@ -70,6 +73,9 @@ app.get('/9_5carts_bonus2', function(req, res) {
 });
 app.get('/9_6carts_bonus3', function(req, res) {
   res.render('9_6carts_bonus3');
+});
+app.get('/login', function(req, res) {
+  res.render('login');
 });
 app.get('/tpl1', function(req, res) {
   res.render('tpl1');

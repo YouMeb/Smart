@@ -791,6 +791,16 @@ padding: 10px;
 	height: 60px;
 	padding-top: 5px;
 }
+.top-nav-tabs{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+.buttom-nav-contents{
+	border-left:1px solid #e0e0e0;
+	border-right:1px solid #e0e0e0;
+	border-bottom:1px solid #e0e0e0;
+	padding: 10px;
+}
 /*  End   */
 /*div.actived{
 	display: block;
