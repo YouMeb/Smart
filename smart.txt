@@ -2,6 +2,9 @@ youmebdesign
 nicky.chen@youmeb.com
 nickygit2
 
+
+git 安裝專案
+-------
 git clone https://github.com/YouMeb/Smart.git
 
 git add .
@@ -10,8 +13,17 @@ git pull
 git push
 
 
+一開始打開git
+cd d:\git_project\smart
 
-
+git 平常使用  每做一小段就做這步
+-------
+git add .
+git commit -a -m 'test'
+git status 
+(這個做檢查  要全部都出現白字才可以做下一步)
+git pull 
+git push 
 
 
 
