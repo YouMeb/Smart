@@ -802,13 +802,18 @@ padding: 10px;
 	padding: 10px;
 }
 .row-fluid [class*="login_line"]{
-	width: 1px;
 	height: 150px;
-	margin-top: 6px;
-	background: #aaa;
+	margin-top: 12px;
+	background-image:url('/images/m_h_or.png');
+			background-repeat:no-repeat;
+
 }
 .login_normal_frame{
 	padding: 10px;
+	padding-left: 10%;
+}
+.btn_fb{
+	margin-top: 60px;
 }
 
 /*  End   */
@@ -844,10 +849,19 @@ padding: 10px;
 	.row-fluid [class*="span"] {
 		margin-left: 1%;
 	}
+
 	
 	.row-fluid [class*="span"]:first-child{
 		margin: 0;
 	}
+		.row-fluid [class*="phone-login-logo"]:first-child {
+		margin-left: 1%;
+
+	}
+	.row-fluid [class*="login_line"] {
+		margin-left: 3%;
+	}
+	
 	.row-fluid [class*="havebonus"]:first-child{
 		margin-top: 30px
 	}
@@ -874,6 +888,13 @@ padding: 10px;
 	#mainNAV li a {
 		width: 60px;
 	}	
+		.row-fluid .login_normal_frame{
+		padding: 0px;
+		
+	}
+	.row-fluid .login_line{
+		margin-top: 6px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -1041,6 +1062,20 @@ padding: 10px;
 	.nav-tabs .tab1, .tab2 {
 		width: 50%;
 	}
+	.row-fluid [class*="login_line"]{
+		width: 270px;
+		height: 0px;
+		padding: 0;
+		margin-top: 12px;
+		background-image: url('/images/m_v_or.png') ;
+		background-repeat:no-repeat;
+		margin: 0 auto;
+		margin-top: 30px;
+	}
+	.phone-login{
+		text-align: center;
+	}
+
 
 }
 
