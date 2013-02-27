@@ -167,6 +167,9 @@ app.get('/4_1_1temp', function(req, res) {
 app.get('/4_1_2temp', function(req, res) {
   res.render('4_1_2temp');
 });
+app.get('/4_2temp', function(req, res) {
+  res.render('4_2temp');
+});
 
 app.get('/users', user.list);
 
