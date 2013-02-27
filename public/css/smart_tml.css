@@ -832,7 +832,12 @@ font-weight: normal;
 {
 	color: red;
 }
-
+.gohome_title{
+	float: right;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 30px;
+}
 
 @media (min-width: 1200px){
 
