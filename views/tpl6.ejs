@@ -16,18 +16,22 @@
 			<span class="category"><a href="#">Smart</a> &gt; <a href="#">雜誌</a> &gt; <a href="#">基金趨勢</a></span>
 		</div>
 		<div class="container">
-			<div class="span9 pro_ref_frame">
-				<ul class="nav nav-tabs pro-nav-tabs">
-					<li class="limit_time_h1">頁面標題</li>
-					<li class="tab1 active pro_tab"><a href="#tab1" data-toggle="tab">Tab1</a></li>
-					<li class="tab2 pro_tab2"><a href="#tab2" data-toggle="tab">Tab2</a></li>
-				</ul>
-				<div class="tab-content productframe">
-					<div class="tab-pane active" id="tab1">
-				 		這裡放Tab1內容
-					</div>
-					<div class="tab-pane" id="tab2">
-				 		這裡放Tab2內容
+			<!--上方全寬大內容-->
+			<div class="row-fluid">
+				全寬大內容
+			</div>
+			<!--分隔線-->
+			<div class="pro_page_line"><hr></div>
+			<!--下方內容-->
+			<div class="row-fluid">
+				<div class="span12 maincon">
+					<div class="row-fluid show-grid">
+						<!-- 左方主內容開始-->
+						<div class="span9 mainleft">
+							左方主內容
+						</div>
+						<!-- 右方主內容開始-->
+						<% include smart_sidebar %>
 					</div>
 				</div>
 			</div>
