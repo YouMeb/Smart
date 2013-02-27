@@ -451,3 +451,11 @@ div,p h1,h2,h3,h4,h5,h6,th,tr,td,button{
 	font-size: 12px;
 	color: #C0262C;
 }
+/*1*/
+.fb-like{
+	float:right;
+}
+.media-buy .specialPrice{
+	font-size: 21px;
+	color: #990000;
+}
