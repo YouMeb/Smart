@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Smart自學網</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel='stylesheet' href='./css/animate.css' />
+		<link rel='stylesheet' href='./css/smart.css' />
+		<link rel='stylesheet' href='./css/smart_RWD.css' />
+		<link rel='stylesheet' href='./css/smart_tml.css' />
+		<link rel='stylesheet' href='./css/smart_design.css' />		
+	</head> 
+	<body>
+	<% include header %>
+	<!--上方全寬大內容-->
+	<div class="container">
+		<div class="row-fluid">
+			全寬大內容
+	  	</div>
+	</div>
+    <!-- 中間主要內容開始 -->
+  	<div class="container">
+  		<div class="row-fluid">
+	  		<div class="span12 maincon">
+		  		<div class="row-fluid show-grid">
+					<!-- 左方主內容開始-->
+			  		<div class="span9 mainleft">
+					左方主內容
+			  		</div>
+					<!-- 右方主內容開始-- -->
+			  		<% include smart_sidebar %>
+				</div>
+			</div>
+		</div>
+	</div>
+	<% include footer %>
+</body>
+</html>
