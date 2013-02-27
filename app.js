@@ -131,6 +131,12 @@ app.get('/7_0testbyphil', function(req, res) {
 app.get('/testheaderpage', function(req, res) {
   res.render('testheaderpage');
 });
+app.get('/4_1_1temp', function(req, res) {
+  res.render('4_1_1temp');
+});
+app.get('/4_1_2temp', function(req, res) {
+  res.render('4_1_2temp');
+});
 
 app.get('/users', user.list);
 
