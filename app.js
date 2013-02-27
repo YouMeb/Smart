@@ -95,7 +95,6 @@ app.get('/tpl5', function(req, res) {
 app.get('/1_0temp', function(req, res) {
   res.render('1_0temp');
 });
-<<<<<<< HEAD
 app.get('/1_1temp', function(req, res) {
   res.render('1_1temp');
 });
@@ -108,12 +107,11 @@ app.get('/3_1temp', function(req, res) {
 app.get('/4_0temp', function(req, res) {
   res.render('4_0temp');
 });
-=======
+
 app.get('/testheaderpage', function(req, res) {
   res.render('testheaderpage');
 });
 
->>>>>>> 84a5e59dfeec6f506ffcb9dcb92f01ab14c5d78b
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
