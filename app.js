@@ -62,6 +62,24 @@ app.get('/10_3', function(req, res) {
 app.get('/10_3_1', function(req, res) {
   res.render('10_3_1');
 });
+app.get('/10_4_1', function(req, res) {
+  res.render('10_4_1');
+});
+app.get('/10_4_2', function(req, res) {
+  res.render('10_4_2');
+});
+app.get('/10_4_3', function(req, res) {
+  res.render('10_4_3');
+});
+app.get('/10_4_4', function(req, res) {
+  res.render('10_4_4');
+});
+app.get('/10_4_5', function(req, res) {
+  res.render('10_4_5');
+});
+app.get('/10_4_6', function(req, res) {
+  res.render('10_4_6');
+});
 app.get('/testhomepage', function(req, res) {
   res.render('testhomepage');
 });
@@ -109,6 +127,15 @@ app.get('/tpl6', function(req, res) {
 });
 app.get('/tpl7', function(req, res) {
   res.render('tpl7');
+});
+app.get('/tpl8', function(req, res) {
+  res.render('tpl8');
+});
+app.get('/tpl9', function(req, res) {
+  res.render('tpl9');
+});
+app.get('/tpl10', function(req, res) {
+  res.render('tpl10');
 });
 app.get('/1_0temp', function(req, res) {
   res.render('1_0temp');
