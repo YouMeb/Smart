@@ -825,6 +825,19 @@ font-weight: normal;
 .forget_ps{
 	margin-left: 100px;
 }
+.title5{
+	font-size: 17.5px;
+}
+.red_title5
+{
+	color: red;
+}
+.gohome_title{
+	float: right;
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 30px;
+}
 
 @media (min-width: 1200px){
 
@@ -878,6 +891,9 @@ font-weight: normal;
 	
 	.row-fluid [class*="span"]:first-child  .bczonetitem1, .row-fluid [class*="span"]:first-child  .bczonetitem2, .row-fluid [class*="span"]:first-child  .bczonetitem3, .row-fluid [class*="span"]:first-child  .bczonetitem4{
 		margin: 0px 0px 5px 0px;
+	}
+	.row-fluid [class*="f_lg_tltle"]:first-child{
+		margin-top: 20px;
 	}
 }
 

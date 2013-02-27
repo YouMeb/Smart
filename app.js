@@ -53,6 +53,15 @@ app.get('/7_2', function(req, res) {
 app.get('/10_2', function(req, res) {
   res.render('10_2');
 });
+app.get('/10_2_1', function(req, res) {
+  res.render('10_2_1');
+});
+app.get('/10_3', function(req, res) {
+  res.render('10_3');
+});
+app.get('/10_3_1', function(req, res) {
+  res.render('10_3_1');
+});
 app.get('/testhomepage', function(req, res) {
   res.render('testhomepage');
 });
