@@ -80,6 +80,9 @@ app.get('/10_4_5', function(req, res) {
 app.get('/10_4_6', function(req, res) {
   res.render('10_4_6');
 });
+app.get('/10_5', function(req, res) {
+  res.render('10_5');
+});
 app.get('/testhomepage', function(req, res) {
   res.render('testhomepage');
 });
