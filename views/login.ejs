@@ -13,16 +13,6 @@
 	<body>
 		<% include header %>
 		<div class="container">
-			<!--<span class="category"><a href="#">Smart</a> &gt; <a href="#">雜誌</a> &gt; <a href="#">基金趨勢</a></span>-->
-			<div class="span2">
-			</div>
-			<div class="span8">
-				
-			</div>
-			<div class="span2">
-			</div>
-		</div>
-		<div class="container">
 			<div class="row-fluid">
 				<div class="span2">
 				</div>
@@ -34,8 +24,10 @@
 						<div class="span4">
 							登入facebook
 						</div>
-						<div class="span8">
-							<ul>
+						<div class="span1 login_line">
+						</div>
+						<div class="span7 login_normal_frame">
+							<ul class="login_normal_content">
 								<li>
 									帳號：<input type="text" placeholder="輸入E-mail...">
 								</li>
@@ -43,7 +35,7 @@
 									密碼：<input type="text" placeholder="輸入密碼">
 								</li>
 								<li>
-									<span> <input type="checkbox">記住我</span>
+									<span><input type="checkbox">記住我</span>
 									<span><a href="#">忘記密碼</a></span>
 								</li>
 								<li> 
@@ -57,6 +49,6 @@
 				</div>
 			</div>
 		</div>
-		<% include footer %>
+		<% include small_footer %>
 	</body>
 </html>

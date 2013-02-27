@@ -801,6 +801,16 @@ padding: 10px;
 	border-bottom:1px solid #e0e0e0;
 	padding: 10px;
 }
+.row-fluid [class*="login_line"]{
+	width: 1px;
+	height: 150px;
+	margin-top: 6px;
+	background: #aaa;
+}
+.login_normal_frame{
+	padding: 10px;
+}
+
 /*  End   */
 /*div.actived{
 	display: block;
@@ -1031,6 +1041,7 @@ padding: 10px;
 	.nav-tabs .tab1, .tab2 {
 		width: 50%;
 	}
+
 }
 
 @media (max-width: 480px){
