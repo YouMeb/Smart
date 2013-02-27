@@ -105,6 +105,9 @@ app.get('/3_0temp', function(req, res) {
 app.get('/3_1temp', function(req, res) {
   res.render('3_1temp');
 });
+app.get('/4_0temp', function(req, res) {
+  res.render('4_0temp');
+});
 =======
 app.get('/testheaderpage', function(req, res) {
   res.render('testheaderpage');
