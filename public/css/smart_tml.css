@@ -810,7 +810,7 @@ font-weight: normal;
 }
 .login_normal_frame{
 	padding: 10px;
-	padding-left: 10%;
+	
 }
 .btn_fb{
 	margin-top: 60px;
@@ -821,6 +821,9 @@ font-weight: normal;
 }
 .rm_me{
 	margin-left: 45px
+}
+.rm_me input{
+	vertical-align:-3px;
 }
 .forget_ps{
 	margin-left: 100px;
