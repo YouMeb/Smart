@@ -62,6 +62,24 @@ app.get('/10_3', function(req, res) {
 app.get('/10_3_1', function(req, res) {
   res.render('10_3_1');
 });
+app.get('/10_4_1', function(req, res) {
+  res.render('10_4_1');
+});
+app.get('/10_4_2', function(req, res) {
+  res.render('10_4_2');
+});
+app.get('/10_4_3', function(req, res) {
+  res.render('10_4_3');
+});
+app.get('/10_4_4', function(req, res) {
+  res.render('10_4_4');
+});
+app.get('/10_4_5', function(req, res) {
+  res.render('10_4_5');
+});
+app.get('/10_4_6', function(req, res) {
+  res.render('10_4_6');
+});
 app.get('/testhomepage', function(req, res) {
   res.render('testhomepage');
 });
