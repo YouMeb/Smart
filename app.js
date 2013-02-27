@@ -92,6 +92,12 @@ app.get('/tpl4', function(req, res) {
 app.get('/tpl5', function(req, res) {
   res.render('tpl5');
 });
+app.get('/tpl6', function(req, res) {
+  res.render('tpl6');
+});
+app.get('/tpl7', function(req, res) {
+  res.render('tpl7');
+});
 app.get('/1_0temp', function(req, res) {
   res.render('1_0temp');
 });
@@ -107,7 +113,9 @@ app.get('/3_1temp', function(req, res) {
 app.get('/4_0temp', function(req, res) {
   res.render('4_0temp');
 });
-
+app.get('/7_0testbyphil', function(req, res) {
+  res.render('7_0testbyphil');
+});
 app.get('/testheaderpage', function(req, res) {
   res.render('testheaderpage');
 });
