@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Smart自學網</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel='stylesheet' href='./css/animate.css' />
+		<link rel='stylesheet' href='./css/smart.css' />
+		<link rel='stylesheet' href='./css/smart_RWD.css' />
+		<link rel='stylesheet' href='./css/smart_tml.css' />
+		<link rel='stylesheet' href='./css/smart_design.css' />		
+	</head> 
+	<body>
+		<% include header %>
+		<div class="container">
+			<span class="category"><a href="#">Smart</a> &gt; <a href="#">雜誌</a> &gt; <a href="#">基金趨勢</a></span>
+		</div>
+		<div class="container">
+			<div class="span9 pro_ref_frame">
+				<ul class="nav nav-tabs pro-nav-tabs">
+					<li class="limit_time_h1">頁面標題</li>
+					<li class="tab1 active pro_tab"><a href="#tab1" data-toggle="tab">Tag1</a></li>
+					<li class="tab2 pro_tab2"><a href="#tab2" data-toggle="tab">Tag2</a></li>
+				</ul>
+				<div class="tab-content productframe">
+					<div class="tab-pane active" id="tab1">
+				 		這裡放Tag1內容
+					</div>
+					<div class="tab-pane" id="tab2">
+				 		這裡放Tag2內容
+					</div>
+				</div>
+			</div>
+		</div>
+		<% include small_footer %>
+	</body>
+</html>
