@@ -38,6 +38,9 @@ app.get('/homepage', function(req, res) {
 app.get('/1_0', function(req, res) {
   res.render('1_0');
 });
+app.get('/6_0', function(req, res) {
+  res.render('6_0');
+});
 app.get('/7_0', function(req, res) {
   res.render('7_0');
 });
@@ -71,6 +74,9 @@ app.get('/9_5carts_bonus2', function(req, res) {
 app.get('/9_6carts_bonus3', function(req, res) {
   res.render('9_6carts_bonus3');
 });
+app.get('/login', function(req, res) {
+  res.render('login');
+});
 app.get('/tpl1', function(req, res) {
   res.render('tpl1');
 });
@@ -89,6 +95,7 @@ app.get('/tpl5', function(req, res) {
 app.get('/1_0temp', function(req, res) {
   res.render('1_0temp');
 });
+<<<<<<< HEAD
 app.get('/1_1temp', function(req, res) {
   res.render('1_1temp');
 });
@@ -98,6 +105,12 @@ app.get('/3_0temp', function(req, res) {
 app.get('/3_1temp', function(req, res) {
   res.render('3_1temp');
 });
+=======
+app.get('/testheaderpage', function(req, res) {
+  res.render('testheaderpage');
+});
+
+>>>>>>> 84a5e59dfeec6f506ffcb9dcb92f01ab14c5d78b
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){

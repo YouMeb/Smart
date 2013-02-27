@@ -1,75 +1,8 @@
-<!--上方Header開始  分為1.桌面/平板與2.手機-->
+<!--購物車上方Header開始  分為1.桌面/平板與2.手機-->
 <!--1.桌面/平版Header開始-->
-<header class="hidden-phone bigheader">
-	<div class="container headercontent">
-		<div class="row-fluid">
-			<div class="span4 blank"></div>
-			<div class="span8 top_login">
-				<ul class="memberNAV toploginheader">
-					<li id="cart" class="cart"><a href="#" >(3)</a></li>
-                    <li><a href="#" class="ordercheck">訂單查詢</a></li>
-                    <li><a href="#" class="membercenter">會員中心</a></li>
-                    <li><a href="#" class="login">登入</a> </li>
-                    <li><a href="#" class="signup">註冊</a></li>
-                    <li><a href="#" class="membername">Allen Lin</a></li>
-					
-				</ul>
-			</div>	
-		</div>
-		<div class="row-fluid">
-			<div class="span12 logoBar">
-				<div class="row-fluid">
-					<div class="span6 logo">
-						<img src="./images/logo.jpg" />
-					</div>
-					<div class="span6 search">
-						<div class="row-fluid">
-							<div class="hotkeyword">
-								<input type="search" placeholder="Search…" class="search_input header_search">
-								<p class="key">熱門：<a href="#">關鍵字</a>、<a href="#">關鍵字</a>、<a href="#">關鍵字</a>、<a href="#">關鍵字</a></p>
-								
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>	
-		</div>
-	</div>
-	<div class="header_line"></div>
-	<div id="navbar" class="navbar navbar-static hidden-phone">
-		<div class="navbar-inner">
-			<div class="container">
-				<ul class="nav general_nav" role="navigation">
-					<li class="dropdownmenu noborder" >
-						<a href="#" id="drop1" role="button" class="dropdown-toggle" data-toggle="dropdown" data-section="aa">同學會</a>
-					</li>
-					<li class="dropdownmenu" >
-						<a href="#" id="drop2" role="button" class="dropdown-toggle" data-toggle="dropdown" data-section="class">課程</a>
-					</li>
-					<li class="dropdownmenu" >
-						<a href="#" id="drop3" role="button" class="dropdown-toggle" data-toggle="dropdown" data-section="DVD">DVD</a>
-					</li>
-					<li class="dropdownmenu" >
-						<a href="#" id="drop4" role="button" class="dropdown-toggle" data-toggle="dropdown" data-section="magazine">雜誌</a>
-					</li>
-					<li class="dropdownmenu" >
-						<a href="#" id="drop5" role="button" class="dropdown-toggle" data-toggle="dropdown" data-section="book">叢書</a>
-					</li>
-					<li class="dropdownmenu">
-						<a href="#" id="drop6" role="button" class="dropdown-toggle" data-toggle="dropdown" data-section="forum">討論區</a>
-					</li>
-					<li class="dropdownmenu">
-						<a href="#" id="drop7" role="button" class="dropdown-toggle" data-toggle="dropdown" data-section="purchase">限時搶購</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</header>
-
+<% include small_header %>
 <% include header_show %>
-
-<!--1.桌面/平版Header結束-->	
+<!--1.購物車桌面/平版Header結束-->	
 <!--2.手機Header包含選單開始-->
 <div class="navbar visible-phone smallheader">
 	<div class="navbar-inner phoneheader-inner">
