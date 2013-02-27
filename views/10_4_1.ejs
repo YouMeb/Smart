@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Smart自學網</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel='stylesheet' href='./css/animate.css' />
+		<link rel='stylesheet' href='./css/smart.css' />
+		<link rel='stylesheet' href='./css/smart_RWD.css' />
+		<link rel='stylesheet' href='./css/smart_tml.css' />
+		<link rel='stylesheet' href='./css/smart_design.css' />		
+	</head> 
+	<body>
+		<% include header %>
+		<div class="container">
+			<span class="category"><a href="#">Smart</a> &gt; <a href="#">雜誌</a> &gt; <a href="#">基金趨勢</a></span>
+		</div>
+
+		<div class="container product 7_0">
+			<div class="span12 pro_ref_frame ">
+				<ul class="nav nav-tabs pro-nav-tabs orange_tab">
+					<li class="limit_time_h1">會員中心</li>
+					<li class="tab1 active pro_tab3"><a href="#tab1" data-toggle="tab">訂單查詢</a></li>
+					<li class="tab2 pro_tab3"><a href="#tab2" data-toggle="tab">紅利查詢</a></li>
+					<li class="tab1 pro_tab3"><a href="#tab3" data-toggle="tab">套票清單</a></li>
+					<li class="tab2 pro_tab3"><a href="#tab4" data-toggle="tab">訂戶服務</a></li>
+					<li class="tab2 pro_tab3"><a href="#tab5" data-toggle="tab">帳號資料</a></li>
+				</ul>
+				<div class="tab-content productframe pro_tab_content">
+					<div class="tab-pane active" id="tab1">
+					這裡放Tab1內容
+					</div>
+					<div class="tab-pane" id="tab2">
+					這裡放Tab2內容
+					</div>
+					<div class="tab-pane" id="tab3">
+					這裡放Tab3內容
+					</div>
+					<div class="tab-pane" id="tab4">
+						<div class="row-fluid">
+							<div class="span3 hidden-phone">
+								<ul>
+									<li>查詢訂戶編號
+									</li>
+									<li>查詢到期期數
+									</li>
+									<li>更改收件地址
+									</li>
+									<li>雜誌補寄申請
+									</li>
+									<li>讀者服務信箱
+									</li>
+									<li>索取紙本發票
+									</li>
+								</ul>
+							</div>
+							<select class="user_service_sel visible-phone">
+								<option>查詢訂戶編號</option>
+								<option>查詢到期期數</option>
+								<option>更改收件地址</option>
+								<option>雜誌補寄申請</option>
+								<option>讀者服務信箱</option>
+								<option>索取紙本發票</option>
+							</select>
+							<div class="span9">
+								<div class="span12">
+									<h3>查詢訂戶編號</h3>
+								</div>
+								<div class="span12 readuser_fr">
+									<ul>
+										<li> <span>訂戶姓名 : </span><input type="text" placeholder="請輸入雜誌的收件人姓名">
+										</li>
+										<li><span>Email信箱 : </span><input type="text" placeholder="請輸入與您訂閱時填寫的Email">
+										</li>
+										<li><div class="btn">送出</div></li>
+									</ul>	
+								</div>
+								<div class="span12">
+									˙『線上訂戶服務』功能於訂閱完成後5~7個工作天方可使用，造成不便，敬請見諒！
+								</div>
+								<div class="span12 small_hint_fr">
+									<h4>小叮嚀</h4>
+
+									親愛的訂戶您好：
+									若要在線上查詢您的「訂戶編號」， 請輸入「雜誌收件人姓名」及您訂閱時所留下的「 E-Mail 信箱」， 系統將自動寄送您的「訂戶編號」至您的 E-Mail 信箱。
+									為了保障您的資料安全，若您輸入的 E-Mail 信箱非當初所留，或訂閱時沒有留下 E-Mail 信箱， 可透過 <a href="#">讀者服務信箱</a> ，或洽《Smart智富月刊》讀者服務中心（02）2510-8888，亦可查詢您的訂戶編號。
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="tab-pane" id="tab5">
+					這裡放Tab5內容
+					</div>
+				</div>
+			</div>
+		</div>
+		<% include small_footer %>
+	</body>
+</html>
