@@ -921,6 +921,7 @@ font-weight: normal;
 	.row-fluid [class*="f_lg_tltle"]:first-child{
 		margin-top: 20px;
 	}
+	
 }
 
 @media (max-width: 979px) and (min-width: 768px){
@@ -942,6 +943,9 @@ font-weight: normal;
 	}
 	.row-fluid .login_line{
 		margin-top: 6px;
+	}
+	.rm_me{
+	margin-left: 0px;
 	}
 }
 
@@ -1127,6 +1131,7 @@ font-weight: normal;
 		padding: 10px;
 		padding-left: 0%;
 	}
+	
 }
 
 @media (max-width: 480px){
