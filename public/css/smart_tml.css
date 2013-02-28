@@ -915,7 +915,9 @@ font-weight: normal;
 .fr_bt{
 	float: right;
 }
-
+.small_tag_div{
+	padding-top: 25px;
+}
 @media (min-width: 1200px){
 
 	.row-fluid .span9 .blockframe:first-child{
