@@ -26,7 +26,16 @@
 					<div class="tab-content productframe">
 						<div class="tab-pane active" id="tab1">
 							<div class="row-fluid">
-								<div class="span12">所有活動</div>
+								<div class="span12"><a href="#">所有活動</a> | 類型
+									<select>
+										<option>內湖區</option>
+										<option>查詢到期期數</option>
+										<option>更改收件地址</option>
+										<option>雜誌補寄申請</option>
+										<option>讀者服務信箱</option>
+										<option>索取紙本發票</option>
+									</select>
+								</div>
 								<div class="span12">
 									<div class="media contentitem">
 										<a class="pull-left contentimg" href="#">
@@ -101,6 +110,17 @@
 										</a>
 									</div>
 								</div>
+								<div class="pagination text-center">
+									<ul>
+										<li><a href="#">Prev</a></li>
+										<li><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li><a href="#">5</a></li>
+										<li><a href="#">Next</a></li>
+									</ul>
+								</div>
 							</div>
 						</div>
 						<div class="tab-pane" id="tab2">
@@ -111,6 +131,6 @@
 				<% include smart_sidebar %>
 			</div>
 		</div>
-		<% include small_footer %>
+		<% include footer %>
 	</body>
 </html>
