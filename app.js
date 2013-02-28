@@ -44,6 +44,9 @@ app.get('/6_0', function(req, res) {
 app.get('/6_1', function(req, res) {
   res.render('6_1');
 });
+app.get('/6_2', function(req, res) {
+  res.render('6_2');
+});
 app.get('/7_0', function(req, res) {
   res.render('7_0');
 });
