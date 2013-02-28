@@ -179,7 +179,12 @@ app.get('/4_1_2temp', function(req, res) {
 app.get('/4_2temp', function(req, res) {
   res.render('4_2temp');
 });
-
+app.get('/4_2_2temp', function(req, res) {
+  res.render('4_2_2temp');
+});
+app.get('/5_0temp', function(req, res) {
+  res.render('5_0temp');
+});
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
