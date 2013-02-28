@@ -918,6 +918,29 @@ font-weight: normal;
 .small_tag_div{
 	padding-top: 25px;
 }
+.404_fr{
+	padding: 20px;
+}
+
+.404_search{
+	float: left;
+
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	font-size: 16px;
+	border-top: solid 1px #eeeeee;
+	border-left: solid 1px #eeeeee;
+	border-right: solid 1px #eeeeee;
+	border-bottom: solid 1px #eeeeee;
+	background: url(../images/search_looking_glass.gif) no-repeat 96% 50%;
+	padding: 3px 10px;
+	color: #ff8c00;
+}
+.404_fr_title{
+	font-size: 40px;
+	border-bottom: 1px solid #000;
+}
 @media (min-width: 1200px){
 
 	.row-fluid .span9 .blockframe:first-child{
