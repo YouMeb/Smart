@@ -863,6 +863,7 @@ font-weight: normal;
 	border-bottom: 1px solid #d0d0d0;
 	border-left: 1px solid #d0d0d0;
 	border-right: 1px solid #e0e0e0;
+	padding: 0px 5px 5px 5px;
 }
 .readuser_fr{
 	border-top: 1px dotted #aaa;
@@ -879,6 +880,10 @@ font-weight: normal;
 	width: 100%;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+.cancelStoreFr{
+	padding-top:0px;
+	padding-bottom:15px;
 }
 
 @media (min-width: 1200px){
@@ -937,7 +942,9 @@ font-weight: normal;
 	.row-fluid [class*="f_lg_tltle"]:first-child{
 		margin-top: 20px;
 	}
-	
+	.user_center_frame [class*="span12"]{
+		margin: 0;
+	}
 }
 
 @media (max-width: 979px) and (min-width: 768px){
