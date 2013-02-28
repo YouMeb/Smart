@@ -889,6 +889,16 @@ font-weight: normal;
 	margin-left: 0;
 	margin-top: 30px;
 }
+.dis_post_fr{
+	border: 1px solid #aaa;
+}
+.dis_post_title_fr{
+	width: 100%;
+	background: #e0e0e0;
+}
+.dis_post_content_fr{
+	padding: 3%;
+}
 @media (min-width: 1200px){
 
 	.row-fluid .span9 .blockframe:first-child{
