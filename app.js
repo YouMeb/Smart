@@ -101,6 +101,9 @@ app.get('/10_7_1', function(req, res) {
 app.get('/11', function(req, res) {
   res.render('11');
 });
+app.get('/12_0', function(req, res) {
+  res.render('12_0');
+});
 app.get('/404', function(req, res) {
   res.render('404');
 });
