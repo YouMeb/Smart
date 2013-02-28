@@ -899,6 +899,23 @@ font-weight: normal;
 .dis_post_content_fr{
 	padding: 3%;
 }
+.res_div h4{
+	padding-bottom: 15px;
+	border-bottom: 2px solid #ccc; 
+
+}
+.res_post_fr{
+	padding: 5px;
+}
+.res_post_fr h3{
+	background: #f7f7f7;
+	padding-left: 20px;
+	font-size: 18px;
+}
+.fr_bt{
+	float: right;
+}
+
 @media (min-width: 1200px){
 
 	.row-fluid .span9 .blockframe:first-child{
