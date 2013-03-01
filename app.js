@@ -56,6 +56,9 @@ app.get('/7_1', function(req, res) {
 app.get('/7_2', function(req, res) {
   res.render('7_2');
 });
+app.get('/8', function(req, res) {
+  res.render('8');
+});
 app.get('/10_2', function(req, res) {
   res.render('10_2');
 });
