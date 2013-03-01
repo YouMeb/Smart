@@ -11,7 +11,7 @@ $(function() {
 		$mini_top_tab_subs.removeClass('checktime');
 		$showadframe.removeClass('fadeIn').addClass('fadeOut');
 	})
-	$pic_ad.on("swipe", function() {
+	$pic_ad.on("swipeleft", function() {
 	    alert('you swiped left!');
 	});
 	$mini_top_tab_subs.on('tap', function(event) {
