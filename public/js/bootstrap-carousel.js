@@ -199,18 +199,20 @@
     $target.carousel(options)
 
     if (slideIndex = $this.attr('data-slide-to')) {
+      //console.log($target);
       $target.data('carousel').pause().to(slideIndex).cycle()
     }
 
     e.preventDefault()
   })
-  var $pic_ad =$('.headpicframe').hammer();
-    $pic_ad.on("swipeleft", function() {
-      $('.headpicframe').data('carousel').pause().to('2').cycle();
+  // var $pic_ad =$('.headpicframe').hammer();
+  //   $pic_ad.on("tap", function() {
+  //     console.log($('.headpicframe'));
+  //     //$('.headpicframe').data('carousel').pause().to(2).cycle();
 
-    // $target.carousel(options)
-    //   //alert('you swiped left!');
-    //   $target.data('carousel').pause().to(slideIndex).cycle()
-  });
+  //   // $target.carousel(options)
+  //   //   //alert('you swiped left!');
+  //   //   $target.data('carousel').pause().to(slideIndex).cycle()
+  // });
 
 }(window.jQuery);
