@@ -4,7 +4,7 @@ $(function() {
 		$showadframe = $('.showadframe'),
 		$megas = $('.showadframe'),
 		$lis = $('.dropdownmenu'),
-		$pic_ad =$('.slidebanner').hammer(),
+		$pic_ad =$('.headpicframe').hammer(),
 		$mouseleavemenu = $('.megamenu');
 
 	$mouseleavemenu.on('mouseleave', function(event) {
