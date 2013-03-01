@@ -943,7 +943,11 @@ font-weight: normal;
 	background: #f0f0f0;
 	margin-bottom: 30px;
 }
-
+.search_resault_div{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #aaa;
+}
 
 @media (min-width: 1200px){
 
