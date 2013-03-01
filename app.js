@@ -206,6 +206,12 @@ app.get('/4_2_1temp', function(req, res) {
 app.get('/5_1temp', function(req, res) {
   res.render('5_1temp');
 });
+app.get('/2_0temp', function(req, res) {
+  res.render('2_0temp');
+});
+app.get('/2_1temp', function(req, res) {
+  res.render('2_1temp');
+});
 app.get('/users', user.list);
 
 http.createServer(app).listen(app.get('port'), function(){
