@@ -1,3 +1,6 @@
-檔名					使用的tpl
+﻿檔名					使用的tpl
 --------------------------
+1_0temp.ejs                       tpl2
+1_1temp.ejs                       tpl1
+
 10_2.ejs   			  tpl2

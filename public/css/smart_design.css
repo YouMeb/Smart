@@ -357,6 +357,9 @@
 	color: #C0262C;
 }
 /*1同學會*/
+.category{
+	margin-bottom: 20px;
+}
 .topTitle{
 	padding-top: 30px; 
 }
@@ -368,7 +371,7 @@
 	color: #990000;
 	padding: 0 20px;
 }
-.media-object{
+.topcontent1_0 .media-object,.topcontent1_1 .media-object{
 	margin: 0 10px 10px 0;
 }
 .btnDF{
@@ -385,7 +388,7 @@
 .media dl{
 	margin: 0 0 5px 0;
 }
-.media .dl-horizontal dt{
+.topcontent1_0 .media .dl-horizontal dt{
 	text-align: left;
 	width: 100px;
 	
@@ -404,6 +407,36 @@
 }
 .pagination .prev:hover,.pagination .next:hover{
 	color:#666;
+}
+.speaker1_1,.speech1_1,.youtube1_1,.speechPlace1_1{
+	margin-bottom: 35px;
+}
+.speaker1_1 h4,.speech1_1 h4,.youtube1_1 h4,.speechPlace1_1 h4,.suggestion1_1 h4{
+	text-decoration: underline;
+	font-size: 16px;
+}
+.speaker1_1 .media,.speech1_1 li{
+	padding-left: 20px;
+}
+.speaker1_1 .media h5{
+	margin-top: 0px;
+}
+.speaker1_1 .media,.speechPlace1_1 .span6,.suggestionList .media{
+	margin:0 0 20px 0;
+}
+.speechPlace1_1 .media .dl-horizontal dt{
+	text-align: left;
+	width: 50px;
+}
+.productdesc .ref_hint_tilte{
+	text-decoration: underline;
+	padding-left: 5px;
+}
+.productdesc .ref_hint_content{
+	padding-left: 20px;
+}
+.fb-like-bottom{
+	padding-bottom:80px;
 }
 /*2*/
 
