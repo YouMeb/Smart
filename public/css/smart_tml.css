@@ -931,6 +931,26 @@ font-weight: normal;
 	margin-bottom: 10px;
 	border-bottom: 2px solid #c0c0c0;
 }
+.dis_title1 h3{
+	background: url(../images/sector_header.jpg) left no-repeat #f2f2f2;
+	font-size: 18px;
+	padding-left: 20px;
+	line-height: 1.7;
+	height: 30px;
+	margin-bottom: 20px;
+}
+.search_bar{
+	background: #f0f0f0;
+	margin-bottom: 30px;
+}
+.search_resault_div{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-bottom: 1px dotted #aaa;
+}
+
 @media (min-width: 1200px){
 
 	.row-fluid .span9 .blockframe:first-child{
