@@ -4,12 +4,18 @@ $(function() {
 		$showadframe = $('.showadframe'),
 		$megas = $('.showadframe'),
 		$lis = $('.dropdownmenu'),
+		$close_btn = $('.close_style').hammer(),
 		$mouseleavemenu = $('.megamenu');
 
 	$mouseleavemenu.on('mouseleave', function(event) {
 		$mini_top_tab_subs.removeClass('checktime');
 		$showadframe.removeClass('fadeIn').addClass('fadeOut');
 	});
+	$close_btn.on('tap', function(event){
+		$mini_top_tab_subs.removeClass('checktime');
+		$showadframe.removeClass('fadeIn').addClass('fadeOut');
+	})
+
 	$mini_top_tab_subs.on('tap', function(event) {
 		event.preventDefault();
 		$mini_top_tab_subs.each(function() {
