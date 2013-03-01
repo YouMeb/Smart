@@ -205,7 +205,7 @@
   })
   var $pic_ad =$('.headpicframe').hammer();
     $pic_ad.on("swipeleft", function() {
-      alert('you swiped left!');
+      //alert('you swiped left!');
       $target.data('carousel').pause().to(slideIndex).cycle()
   });
 
