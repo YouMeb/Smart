@@ -1,10 +1,10 @@
 $(function() {
 	//首頁選單開始
-	var $mini_top_tab_subs = $('.dropdownmenu').find('a'),
+	var $mini_top_tab_subs = $('.dropdownmenu').find('a').hammer(),
 		$showadframe = $('.showadframe'),
 		$megas = $('.showadframe'),
 		$lis = $('.dropdownmenu'),
-		$pic_ad =$('.slidebanner'),
+		$pic_ad =$('.slidebanner').hammer(),
 		$mouseleavemenu = $('.megamenu');
 
 	$mouseleavemenu.on('mouseleave', function(event) {
