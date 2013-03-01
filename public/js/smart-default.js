@@ -4,15 +4,11 @@ $(function() {
 		$showadframe = $('.showadframe'),
 		$megas = $('.showadframe'),
 		$lis = $('.dropdownmenu'),
-		$pic_ad =$('.headpicframe').hammer(),
 		$mouseleavemenu = $('.megamenu');
 
 	$mouseleavemenu.on('mouseleave', function(event) {
 		$mini_top_tab_subs.removeClass('checktime');
 		$showadframe.removeClass('fadeIn').addClass('fadeOut');
-	})
-	$pic_ad.on("swipeleft", function() {
-	    alert('you swiped left!');
 	});
 	$mini_top_tab_subs.on('tap', function(event) {
 		event.preventDefault();
