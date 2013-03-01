@@ -356,11 +356,54 @@
 	font-size: 12px;
 	color: #C0262C;
 }
-/*1*/
-.fb-like{
+/*1同學會*/
+.topTitle{
+	padding-top: 30px; 
+}
+.fb-like-left{
 	float:right;
 }
-.media-buy .specialPrice{
+.media-buy .specialPrice1_1{
 	font-size: 21px;
 	color: #990000;
+	padding: 0 20px;
 }
+.media-object{
+	margin: 0 10px 10px 0;
+}
+.btnDF{
+	text-shadow:none;
+	margin: 0 0 8px 0;
+}
+.btnDF.right{
+	float: right;
+	margin-right: 30px;
+}
+.media-heading{
+	margin: 0 0 10px 0;
+}
+.media dl{
+	margin: 0 0 5px 0;
+}
+.media .dl-horizontal dt{
+	text-align: left;
+	width: 100px;
+	
+}
+.media .dl-horizontal dd{
+	text-align: left;
+	margin-left: 0;
+	
+}
+.pagination ul{
+	margin: 30px 0 100px 0;
+}
+.pagination .prev,.pagination .next{
+	background-color: #FF8C00;
+	color:#fff;
+}
+.pagination .prev:hover,.pagination .next:hover{
+	color:#666;
+}
+/*2*/
+
