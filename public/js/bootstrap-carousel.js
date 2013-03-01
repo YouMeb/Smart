@@ -194,14 +194,25 @@
       , $target = $($this.attr('data-target') || (href = $this.attr('href')) && href.replace(/.*(?=#[^\s]+$)/, '')) //strip for ie7
       , options = $.extend({}, $target.data(), $this.data())
       , slideIndex
-
+     // console.log('1'+$this.attr('data-target'));
+      
     $target.carousel(options)
 
     if (slideIndex = $this.attr('data-slide-to')) {
+      //console.log($target);
       $target.data('carousel').pause().to(slideIndex).cycle()
     }
 
     e.preventDefault()
   })
+  // var $pic_ad =$('.headpicframe').hammer();
+  //   $pic_ad.on("tap", function() {
+  //     console.log($('.headpicframe'));
+  //     //$('.headpicframe').data('carousel').pause().to(2).cycle();
+
+  //   // $target.carousel(options)
+  //   //   //alert('you swiped left!');
+  //   //   $target.data('carousel').pause().to(slideIndex).cycle()
+  // });
 
 }(window.jQuery);

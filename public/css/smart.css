@@ -4259,6 +4259,7 @@ input[type="submit"].btn.btn-mini {
 
 .tab-content {
   overflow: auto;
+  overflow-x:hidden;
 }
 
 .tabs-below > .nav-tabs,
