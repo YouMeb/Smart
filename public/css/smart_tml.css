@@ -342,7 +342,7 @@ ol, ul {
 .footertopnav ul li div ul li a{
 	cursor: pointer;
 	color: #888;
-	font-size: 10px;
+	font-size: 12px;
 	text-align: center;
 }
 .footertopnav_title{
@@ -389,7 +389,7 @@ ol, ul {
 
 .nav-tabs{
 	margin-top: 0px;
-	border-bottom: none;
+	
 }
 
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus{
@@ -409,7 +409,7 @@ ol, ul {
 }
 
 .nav{
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 
 .maincon{
@@ -956,6 +956,23 @@ font-weight: normal;
 	cursor: pointer;
 }
 
+.row-fluid [class*="span"]:first-child .mainleft {
+		margin: 0px 0 10px 0;
+}
+	
+.row-fluid [class*="span"] .mainright{
+		margin-top:10px;
+		margin-left: 1%;
+}
+
+.row-fluid [class*="tabbable"] {
+	margin: 0;
+}
+
+.row-fluid [class*="span"] {
+margin-left: 1%;
+}
+
 @media (min-width: 1200px){
 
 	.row-fluid .span9 .blockframe:first-child{
@@ -986,6 +1003,9 @@ font-weight: normal;
 		margin-left: 1%;
 	}
 
+	.row-fluid [class*="span"]:first-child .mainleft {
+		margin: 10px 0px 10px 0;
+	}
 	
 	.row-fluid [class*="span"]:first-child{
 		margin: 0;
