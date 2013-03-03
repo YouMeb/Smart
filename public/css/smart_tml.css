@@ -342,7 +342,7 @@ ol, ul {
 .footertopnav ul li div ul li a{
 	cursor: pointer;
 	color: #888;
-	font-size: 10px;
+	font-size: 12px;
 	text-align: center;
 }
 .footertopnav_title{
@@ -389,7 +389,7 @@ ol, ul {
 
 .nav-tabs{
 	margin-top: 0px;
-	border-bottom: none;
+	
 }
 
 .nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus{
@@ -409,7 +409,7 @@ ol, ul {
 }
 
 .nav{
-	margin-bottom: 10px;
+	margin-bottom: 0px;
 }
 
 .maincon{
@@ -914,6 +914,8 @@ font-weight: normal;
 }
 .fr_bt{
 	float: right;
+	padding-top:5px;
+	padding-right:5px;
 }
 .small_tag_div{
 	padding-top: 25px;
@@ -931,14 +933,19 @@ font-weight: normal;
 	margin-bottom: 10px;
 	border-bottom: 2px solid #c0c0c0;
 }
-.dis_title1 h3{
+.dis_title1{
 	background: url(../images/sector_header.jpg) left no-repeat #f2f2f2;
-	font-size: 18px;
-	padding-left: 20px;
+	margin-bottom: 0px;
+	height: 30px;
+}
+.dis_title1 h2{
 	line-height: 1.7;
 	height: 30px;
-	margin-bottom: 20px;
+	font-size: 18px;
+	padding-left: 20px;
+	display:inline;
 }
+
 .search_bar{
 	background: #f0f0f0;
 	margin-bottom: 30px;
@@ -954,6 +961,27 @@ font-weight: normal;
 	padding: 10px;
 	font-size: 20px;
 	cursor: pointer;
+}
+
+.row-fluid [class*="span"]:first-child .mainleft {
+		margin: 0px 0 10px 0;
+}
+	
+.row-fluid [class*="span"] .mainright{
+		margin-top:10px;
+		margin-left: 1%;
+}
+
+.row-fluid [class*="tabbable"] {
+	margin: 0;
+}
+
+.row-fluid [class*="span"] {
+margin-left: 1%;
+}
+
+.navbar{
+	margin-bottom: 0px;
 }
 
 @media (min-width: 1200px){
@@ -986,6 +1014,9 @@ font-weight: normal;
 		margin-left: 1%;
 	}
 
+	.row-fluid [class*="span"]:first-child .mainleft {
+		margin: 10px 0px 10px 0;
+	}
 	
 	.row-fluid [class*="span"]:first-child{
 		margin: 0;
