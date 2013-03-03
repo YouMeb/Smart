@@ -914,6 +914,8 @@ font-weight: normal;
 }
 .fr_bt{
 	float: right;
+	padding-top:5px;
+	padding-right:5px;
 }
 .small_tag_div{
 	padding-top: 25px;
@@ -931,14 +933,19 @@ font-weight: normal;
 	margin-bottom: 10px;
 	border-bottom: 2px solid #c0c0c0;
 }
-.dis_title1 h3{
+.dis_title1{
 	background: url(../images/sector_header.jpg) left no-repeat #f2f2f2;
-	font-size: 18px;
-	padding-left: 20px;
+	margin-bottom: 0px;
+	height: 30px;
+}
+.dis_title1 h2{
 	line-height: 1.7;
 	height: 30px;
-	margin-bottom: 20px;
+	font-size: 18px;
+	padding-left: 20px;
+	display:inline;
 }
+
 .search_bar{
 	background: #f0f0f0;
 	margin-bottom: 30px;
@@ -971,6 +978,10 @@ font-weight: normal;
 
 .row-fluid [class*="span"] {
 margin-left: 1%;
+}
+
+.navbar{
+	margin-bottom: 0px;
 }
 
 @media (min-width: 1200px){

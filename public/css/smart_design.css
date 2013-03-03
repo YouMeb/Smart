@@ -358,10 +358,14 @@
 }
 /*1*/
 .category{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
+	color: #BBB;
+}
+.category a{
+	color: #BBB;
 }
 .topTitle{
-	padding-top: 30px; 
+	padding-top: 0px; 
 }
 .fb-like{
 	padding-bottom: 5px;
@@ -441,6 +445,11 @@
 .fb-like-bottom{
 	padding-bottom:80px;
 }
+
+.topcontent1_0 ul li{
+	margin-left:20px;
+}
+
 /*2*/
 .TimePlace2_1{
 	margin:0 0 40px 0;
