@@ -140,6 +140,17 @@ ol, ul {
 	margin-bottom: 0px;
 	margin-left: 0px;
 }
+.title_5 > h3
+{
+	
+font-size: 18px;
+padding-left: 0px;
+line-height: 1.7;
+height: 35px;
+border-bottom: 2px solid #e0e0e0;
+margin-bottom: 0px;
+margin-left: 0px;
+}
 /* span3 title*/
 
 .vi_title_1
@@ -347,7 +358,7 @@ ol, ul {
 }
 .footertopnav_title{
 	width: 13.27%;
-	margin-right: 1%;
+	
 	float: left
 }
 .footertopnav_title p{
@@ -510,7 +521,7 @@ ol, ul {
 }
 
 .row-fluid [class*="ref1_mainleft_span"]:first-child{
-	margin-right: 1%;
+	
 }	
 /* 購物車 */
 .cartBG a{
@@ -565,7 +576,7 @@ ol, ul {
 	font-size: 22px;
 }
 .ref1_mainleft > .row-fluid > a > .span4{
-	margin-right: 1%;
+	
 } 
 .ref_top_title>h3{
 		line-height: 1;
@@ -866,6 +877,9 @@ font-weight: normal;
 	padding: 0px 5px 5px 5px;
 	margin-top: 20px;
 }
+.toptab_content{
+	margin-top:0;
+}
 .readuser_fr{
 	border-top: 1px dotted #aaa;
 	border-bottom: 1px dotted #aaa;
@@ -951,6 +965,10 @@ font-weight: normal;
 	background: #f0f0f0;
 	margin-bottom: 30px;
 }
+.search_bar >ul{
+	margin-left: 20px;
+	margin-right:20px;
+}
 .search_resault_div{
 	margin-bottom: 20px;
 	padding-bottom: 20px;
@@ -970,7 +988,7 @@ font-weight: normal;
 	
 .row-fluid [class*="span"] .mainright{
 		margin-top:10px;
-		margin-left: 1%;
+		
 }
 
 .row-fluid [class*="tabbable"] {
@@ -978,7 +996,7 @@ font-weight: normal;
 }
 
 .row-fluid [class*="span"] {
-margin-left: 1%;
+
 }
 
 .navbar{
@@ -1035,6 +1053,9 @@ margin-top: 20px;
 	padding-left: 20px;
 }
 .list_rd_fr >span{
+	padding-left: 20px;
+}
+.discus_ti_fr >span{
 	padding-left: 20px;
 }
 .usct_cartprice{
@@ -1139,7 +1160,34 @@ margin-top: 20px;
 	padding-bottom: 15px;
 	padding-top: 15px;
 }
-@media (min-width: 1200px){
+.dis_title2 h2 {
+line-height: 1.7;
+height: 30px;
+font-size: 18px;
+padding-left: 20px;
+display: inline;
+
+}
+.dis_title2{
+	background: #f7f7f7;
+}
+.direpo_fr li{
+padding-left: 20px;
+}
+.direpo_fr{
+	padding-top: 40px;
+}
+
+.dis_post_title_fr >.row-fluid >div{
+	padding: 10px;
+}
+.st6_t ul ,.st6_2t ul,.st6_3t ul{
+padding: 0px;
+margin: 0px;
+}
+
+
+
 
 	.row-fluid .span9 .blockframe:first-child{
 		margin: 0;
@@ -1166,7 +1214,7 @@ margin-top: 20px;
 	}
 	
 	.row-fluid [class*="span"] {
-		margin-left: 1%;
+		
 	}
 
 	.row-fluid [class*="span"]:first-child .mainleft {
@@ -1177,7 +1225,7 @@ margin-top: 20px;
 		margin: 0;
 	}
 		.row-fluid [class*="phone-login-logo"]:first-child {
-		margin-left: 1%;
+		
 
 	}
 	.row-fluid [class*="login_line"] {
@@ -1205,7 +1253,16 @@ margin-top: 20px;
 		margin: 0;
 
 	}
-}
+	.st6_1 [class*="span"]:first-child{
+		
+	}
+	.st6_2 [class*="span"]:first-child{
+	
+	}
+	.st6_3 [class*="span"]:first-child{
+		
+	}
+
 
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {

@@ -26,7 +26,7 @@
 					</ul>
 					<div class="tab-content productframe">
 						<div class="tab-pane active" id="tab1">
-							<div class="span12 text-center small_tag_div">
+							<div class="span12 text-center small_tag_div_ti">
 								<a href="#">理財投資綜合討論</a>｜<a href="#">股票投資</a>｜<a href="#">基金債券</a>｜<a href="#">房地產</a>｜<a href="#">保險稅務</a>
 							</div>
 							<div class="span12">
@@ -59,7 +59,7 @@
 													<div class="media-body contenttext">
 														<!-- <h5 class="media-heading">經濟指標告訴你＆沒告訴你的事</h5> -->
 														<ul>
-															<li>天晴</li>
+															<li><a href="#">天晴</a></li>
 															<li>等級  11  [推薦部落客]</li>
 															<li>發表  31</li>
 															<li>回應  0</li>
@@ -68,7 +68,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="span4">
+										<div class="span4 text-right">
 											2013-01-31 10:28
 										</div>
 									</div>
@@ -92,7 +92,7 @@
 								<div class="dis_post_title_fr">
 									<div class="row-fluid">
 										<div class="span2">
-										# 1樓<br/>
+										# 1樓<br class="hidden-phone"/><br class="hidden-phone"/><br class="hidden-phone"/><br class="hidden-phone"/>
 										<a href="#">檢舉留言</a>
 										</div>
 										<div class="span6">
@@ -104,7 +104,7 @@
 													<div class="media-body contenttext">
 														<!-- <h5 class="media-heading">經濟指標告訴你＆沒告訴你的事</h5> -->
 														<ul>
-															<li>天晴</li>
+															<li><a href="#">天晴</a></li>
 															<li>等級  11  [推薦部落客]</li>
 															<li>發表  31</li>
 															<li>回應  0</li>
@@ -113,8 +113,9 @@
 												</div>
 											</div>
 										</div>
-										<div class="span4">
+										<div class="span4 text-right">
 											2013-01-31 10:28
+											<br class="hidden-phone"/><br class="hidden-phone"/><br class="hidden-phone"/><br class="hidden-phone"/>
 											<div class="btn">回覆回應</div>
 										</div>
 									</div>
@@ -124,39 +125,47 @@
 								</div>
 							</div>
 							<div class="span12 res_div">
+
 								<h4>回覆主題</h4>
 								<div class="span12 res_post_fr">
-									
-									<h3>
-										<img src="images/post_img.png" />發表您的看法
-										<div class="fr_bt">
-											<a href="#">回應列表</a>&nbsp&nbsp&nbsp<a href="#">回應規則</a>
-										</div>
-									</h3>
-									<div class="span12">
-										歡迎提出您的看法與見解，請先<a href="#">登入會員</a>或<a href="#">加入會員</a>，並請詳情<a href="#">回應規則</a>
+									<div class="span12 dis_title2">
+										<h2><img src="images/post_img.png" />發表您的看法</h2><a href="#" class="fr_bt">回應規則</a>&nbsp&nbsp&nbsp <a href="#" class="fr_bt">回應列表</a> 
 									</div>
-									<div class="span12">
-										會員暱稱：<input type="text"><br/>
-										回應內容：<textarea rows="3"></textarea><br/>
-										<div class="500fontsfr">您還可以輸入500字</div>
-									</div>
-									<div class="btn">送出</div>
-								</div>
-							</div>
-							<div class="span12 text-center">
-								<div class="pagination">
-									<ul>
-										<li><a href="#">Prev</a></li>
-										<li><a href="#">1</a></li>
-										<li><a href="#">2</a></li>
-										<li><a href="#">3</a></li>
-										<li><a href="#">4</a></li>
-										<li><a href="#">5</a></li>
-										<li><a href="#">Next</a></li>
+									<ul class="row-fluid direpo_fr">
+										<li class="span12">
+											歡迎提出您的看法與見解，請先<a href="#">登入會員</a>或<a href="#">加入會員</a>，並請詳情<a href="#">回應規則</a>
+										</li>
+										<li class="span12">
+											<dl class="form_1 dl-horizontal buyer rs-numdl">
+												<dt>
+													<span>會員暱稱： </span>
+												</dt>
+												<dd>
+													<input type="text">
+												</dd>
+												<dt>
+													<span>回應內容：</span>
+												</dt>
+												<dd>
+													<textarea rows="3"></textarea>
+												</dd>
+												<dt>
+												</dt>
+												<dd>
+													您還可以輸入500字
+												</dd>
+												<dt>
+												</dt>
+												<dd>
+													<div class="btn btn-large sent-btn">送出</div>
+												</dd>
+											</dl>
+										</li>
 									</ul>
+									
 								</div>
 							</div>
+							<% include pagination %>
 						</div>
 						<div class="tab-pane" id="tab2">
 						這裡放Tab2內容
