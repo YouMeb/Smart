@@ -1115,6 +1115,14 @@ margin-top: 20px;
 	text-align: left;
 	width: 120px;
 }
+.reader_msgmail dt{
+	text-align: left;
+	width: 120px;
+}
+.getpaper_content dt{
+	text-align: left;
+	width: 120px;
+}
 @media (min-width: 1200px){
 
 	.row-fluid .span9 .blockframe:first-child{
