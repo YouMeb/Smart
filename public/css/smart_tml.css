@@ -204,7 +204,7 @@ ol, ul {
 }
 .small_line{
 	height: 2px;
-	margin-bottom: 30px;
+	
 }
 .top_login{
 	height: 40px;
@@ -496,7 +496,7 @@ ol, ul {
 	width:100%;
 	z-index:99;
 	position:relative;
-	margin-top:-20px;border-radius:0;
+	border-radius:0;
 	position: absolute;
 	visibility: visible;
 	display: none;
