@@ -46,34 +46,9 @@
 					  			<span class="red_title5"> *為必填項目</span>
 		                    </div>
 					  		<div class="span12">
-		                        <dl class="form_1 dl-horizontal buyer line">
-									<dt><span class="red_title5">*</span> 帳號</dt>
-									<dd>
-										<input type="text" value="王大明" class="buyerTXT">
-										<input type="radio" name="gender" value="male" class="radio"> 先生
-										<input type="radio" name="gender" value="female" class="radio"> 小姐
-									</dd>
-									<dt><span class="red_title5">*</span> 密碼</dt>
-									<dd>
-										<input type="text" value="0912-345678" class="buyerTXT">
-										<span class="carts3desc">格式：0912-345678</span>
-									</dd>
-									<dt><span class="red_title5">*</span> 再次輸入密碼</dt>
-									<dd>
-										<input type="text" value="ccool2486@gmail.com" class="buyerTXT">
-									</dd>
-									<div class="clear"></div>
-								</dl>
-		                    </div>
-		                   	<div class="span12 cancelStoreFr">
-		                   		<a href="#">取消</a>&nbsp&nbsp&nbsp<div class="btn btn-small">儲存</div>
-		                   	</div>
-		                   	<div class="span12">
-					  			<span class="title5">個人檔案</span>
-					  			<span class="red_title5"> *為必填項目</span>
-		                    </div>
-		                    <div class="span12">
-		                        <dl class="form_1 dl-horizontal buyer line">
+		                        <dl class="form_1 dl-horizontal buyer con_user_fr">
+		                        	<dt><span class="red_title5">*</span> Email 帳號</dt>
+		                        	<dd><span>123@aaa.com</span></dd>
 									<dt><span class="red_title5">*</span> 姓名</dt>
 									<dd>
 										<input type="text" value="0912-345678" class="buyerTXT">
@@ -84,7 +59,7 @@
 									</dd>
 									<dt><span class="red_title5">*</span> 生日</dt>
 									<dd>
-										<select name="county" class="place">
+										<select class="sel-w1">
 		                                	<option value="">2013</option>
 											<option value="taipei">2010</option>
 											<option value="shinbei">2011</option>
@@ -92,7 +67,7 @@
 											<option value="keelung">2013</option>
 										</select>
 										年
-										<select name="county" class="place">
+										<select class="sel-w1">
 		                                	<option value="">1</option>
 											<option value="taipei">1</option>
 											<option value="shinbei">2</option>
@@ -100,7 +75,7 @@
 											<option value="keelung">4</option>
 										</select>
 										月
-										<select name="county" class="place">
+										<select class="sel-w1">
 		                                	<option value="">1</option>
 											<option value="taipei">1</option>
 											<option value="shinbei">2</option>
@@ -109,12 +84,52 @@
 										</select>
 										日
 									</dd>
-									<dt><span class="red_title5">*</span> 行動電話</dt>
+									<dt><span class="red_title5">*</span>聯絡Email</dt>
 									<dd>
-										<input type="text" value="0912-345678" class="buyerTXT">
-										<span class="carts3desc">格式：0912-345678</span>
-										
+										<input type="text">
 									</dd>
+									<dt><span class="red_title5">*</span> 手機號碼</dt>
+									<dd>
+										<input type="text">
+									</dd>
+									<dt>室內電話</dt>
+									<dd>
+										<input type="text">
+									</dd>
+									<dt>連絡地址 :	
+									</dt>
+									<dd>
+										<select class="sel-w1">
+											<option>台北市</option>
+											<option></option>
+											<option></option>
+											<option></option>
+											<option></option>
+											<option></option>
+										</select>
+										<select class="sel-w1">
+											<option>內湖區</option>
+											<option>查詢到期期數</option>
+											<option>更改收件地址</option>
+											<option>雜誌補寄申請</option>
+											<option>讀者服務信箱</option>
+											<option>索取紙本發票</option>
+										</select>
+										<input type="text" class="sel-w0" placeholder="郵遞區號">
+										<input type="text" placeholder="地址">
+									</dd>
+								</dl>
+		                    </div>
+		                   	<div class="span12 cancelStoreFr">
+		                   		<a href="#">取消</a>&nbsp&nbsp&nbsp<div class="btn btn-small sent-btn">儲存</div>
+		                   	</div>
+		                   	<div class="span12">
+					  			<span class="title5">個人檔案</span>
+					  			<span class="red_title5"> *為必填項目</span>
+		                    </div>
+		                    <div class="span12">
+		                        <dl class="form_1 dl-horizontal buyer con_user_fr">
+									
 									<dt>暱稱</dt>
 									<dd>
 										<input type="text" value="ccool2486@gmail.com" class="buyerTXT">
@@ -187,13 +202,13 @@
 								</dl>
 					  		</div>
 					  		<div class="span12 cancelStoreFr">
-					  			<a href="#">取消</a>&nbsp&nbsp&nbsp<div class="btn btn-small">儲存</div>
+					  			<a href="#">取消</a>&nbsp&nbsp&nbsp<div class="btn btn-small sent-btn">儲存</div>
 					  		</div>
 					  		<div class="span12">
 					  			<span class="title5">更改密碼</span>
 		                    </div>
 		                    <div class="span12">
-		                        <dl class="form_1 dl-horizontal buyer line">
+		                        <dl class="form_1 dl-horizontal buyer con_user_fr">
 		                        	<dt>舊密碼：</dt>
 									<dd>
 										<input type="text">
@@ -210,7 +225,7 @@
 		                        </dl>
 		                    </div>
 		                    <div class="span12 cancelStoreFr">
-		                    	<a href="#">取消</a>&nbsp&nbsp&nbsp<div class="btn btn-small">儲存</div>
+		                    	<a href="#">取消</a>&nbsp&nbsp&nbsp<div class="btn btn-small sent-btn">儲存</div>
 		                	</div>
 		                </div>
 					</div>

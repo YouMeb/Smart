@@ -1153,6 +1153,20 @@ margin-top: 20px;
 	text-align: left;
 	width: 120px;
 }
+.con_user_fr dt{
+text-align: left;
+	width: 120px;
+}
+.con_user_fr{
+	padding-top: 20px;
+	border-top:1px dotted #e0e0e0;
+	border-bottom: 1px dotted #e0e0e0;
+}
+.con_user_fr >dt ,.con_user_fr >dd{
+	padding: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
 .redf1{
 	color: #C0262C;
 }
@@ -1185,6 +1199,7 @@ padding-left: 20px;
 padding: 0px;
 margin: 0px;
 }
+
 
 
 @media (min-width: 1200px){
