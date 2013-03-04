@@ -985,6 +985,160 @@ margin-left: 1%;
 	margin-bottom: 0px;
 }
 
+.itemNAV {
+	padding-top:20px;
+	padding-bottom: 10px;
+	border-bottom: #f1f1f1 1px dotted;
+	color: #666666;
+}
+.double-item{
+	background: #f0f0f0;
+
+}
+.itemNAV:hover{
+	border-top:1px solid #aaa;
+	background: #ccc;
+	border-bottom:1px solid #aaa;
+}
+.itemNAV p {
+	text-align: center;
+}
+.itemNAV .span7 p span {
+	color: #C0262C;
+}
+.recodeSelect{
+	padding-bottom: 10px;
+}
+.user_center_frame_resault >ul{
+padding: 30px;
+/*border: 1px solid #aaa;*/
+background: #f7f7f7;
+border-radius: 15px;
+margin-top: 20px;
+}
+.new_bn_t1{
+	padding-bottom: 15px;
+}
+.rs_t1{
+	font-size: 18px;
+}
+.itemNAV >span{
+	padding-left: 20px;
+}
+.itemNAV >div{
+	padding-left: 20px;
+}
+.title_usct >span{
+	padding-left: 20px;
+}
+.sr_bonus_fr > span{
+	padding-left: 20px;
+}
+.list_rd_fr >span{
+	padding-left: 20px;
+}
+.usct_cartprice{
+	margin-top: 20px;
+}
+.ticket_list>span{
+	padding-left: 20px;
+}
+.usse-nav >ul{
+	margin-right:60px; 
+}
+.usse-nav ul li{
+	padding: 10px;
+	margin-top: 10px;
+}
+.usse-nav ul li:hover{
+	background: #efefef;
+	border-radius: 0 20px 20px 0;
+	border: 1px solid #aaa;
+}
+.usse-nav ul .active{
+	background: #efefef;
+	border-radius: 0 20px 20px 0;
+	border: 1px solid #aaa;
+}
+.prost2_6,.prost2_7{
+	color: #990000;
+}
+.sent-btn{
+	color: #FF4E03;
+	border: solid 1px #FF4E03;
+}
+.buyer dt {
+	width: 110px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+.buyer dd {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
+.buyerTXT {
+	width: 150px;
+}
+.dl-horizontal.buyer dd .place {
+	width: 164px;
+}
+.dl-horizontal.buyer.line {
+	
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.dl-horizontal.buyer dd .radio {
+	margin-top: -4px;
+	margin-left: 5px;
+}
+.dl-horizontal.buyer dd .short {
+	width: 30px;
+}
+.dl-horizontal.buyer .invoice {
+	margin-top: -10px;
+
+}
+.sel-w0{
+	width: 50px
+}
+.sel-w1{
+	width: 100px;
+}
+.sel-w2{
+	width: 130px;
+}
+.ch_addr dt{
+	width: 120px;
+	text-align: left;
+}
+.rs-numdl dt{
+	text-align: left;
+}
+.resent_mag dt{
+	text-align: left;
+	width: 120px;
+}
+.reader_msgmail dt{
+	text-align: left;
+	width: 120px;
+}
+.getpaper_content dt{
+	text-align: left;
+	width: 120px;
+}
+.redf1{
+	color: #C0262C;
+}
+.user_alert_fr{
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
 @media (min-width: 1200px){
 
 	.row-fluid .span9 .blockframe:first-child{
@@ -1031,7 +1185,10 @@ margin-left: 1%;
 	}
 	
 	.row-fluid [class*="havebonus"]:first-child{
-		margin-top: 30px
+		margin-top: 0px
+	}
+	.row-fluid [class*="new_bn_t1"]:first-child{
+		margin-top: 0px
 	}
 	
 	.row-fluid [class*="span"]:first-child  .zonetitem1, .row-fluid [class*="span"]:first-child  .zonetitem2, .row-fluid [class*="span"]:first-child  .zonetitem3{

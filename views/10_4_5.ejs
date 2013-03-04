@@ -38,7 +38,7 @@
 					</div>
 					<div class="tab-pane" id="tab4">
 						<div class="row-fluid">
-							<div class="span3 hidden-phone">
+							<div class="span3 hidden-phone usse-nav hidden-tablet-portrait">
 								<ul>
 									<li>查詢訂戶編號
 									</li>
@@ -46,15 +46,15 @@
 									</li>
 									<li>更改收件地址
 									</li>
-									<li>雜誌補寄申請
+									<li >雜誌補寄申請
 									</li>
-									<li>讀者服務信箱
+									<li class="active">讀者服務信箱
 									</li>
 									<li>索取紙本發票
 									</li>
 								</ul>
 							</div>
-							<select class="user_service_sel visible-phone">
+							<select class="user_service_sel visible-phone visible-tablet-portrait">
 								<option>查詢訂戶編號</option>
 								<option>查詢到期期數</option>
 								<option>更改收件地址</option>
@@ -68,11 +68,13 @@
 									<!--<span class="red_title5">*為必填項目</span>-->
 								</div>
 								<div class="span12 readuser_fr">
-									<ul>
-										<li>
+									<dl class="form_1 dl-horizontal buyer reader_msgmail">
+										<dt>
 											<span class="red_title5">*</span>
 											問題類別 : 
-											<select>
+										</dt>
+										<dd>
+											<select class="sel-w2">
 												<option>請選擇問題類別</option>
 												<option></option>
 												<option></option>
@@ -88,20 +90,43 @@
 												<option></option>
 												<option></option>
 											</select>
-										</li>
-										<li><span class="red_title5">*</span>您的姓名 :<input type="text">
-										</li>
-										<li><span class="red_title5">*</span>Email :							<input type="text">
-										</li>
-										<li><span class="red_title5">*</span>主旨 :
+											<a href="#">[忘記會員密碼，請按此查詢]</a>
+										</dd>
+										<dt>
+											<span class="red_title5">*</span>您的姓名 :
+										</dt>
+										<dd>
 											<input type="text">
-										</li>
-										<li><span class="red_title5">*</span>留言給我們 :<textarea rows="5"></textarea>
-										</li>
-										<li>請詳述您的問題內容，以便我們盡快為您提供服務。(如您是訂戶，請留訂戶編號或收件人姓名+地址)
-										</li>
-										<li><div class="btn">送出</div></li>
-									</ul>	
+										</dd>
+										<dt>
+											<span class="red_title5">*</span>Email :	
+										</dt>
+										<dd>
+											<input type="text">
+										</dd>
+										<dt>
+											<span class="red_title5">*</span>主旨 :
+										</dt>
+										<dd>
+											<input type="text">
+										</dd>
+										<dt>
+											<span class="red_title5">*</span>留言給我們 :
+										</dt>
+										<dd>
+											<textarea rows="5"></textarea><br/>
+											
+										</dd>
+										<dt>
+										</dt>
+										<dd>請詳述您的問題內容，以便我們盡快為您提供服務。
+										</dd>
+										<dt>
+										</dt>
+										<dd>(如您是訂戶，請留訂戶編號或收件人姓名+地址)
+										</dd>
+										<div class="btn btn-large sent-btn">送出</div>
+									</dl>	
 								</div>
 								<div class="span12">
 									<span>＊《Smart智富月刊》 訂閱問題，請洽讀者服務專線(02)2510-8888</span>
