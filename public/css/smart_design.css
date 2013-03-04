@@ -313,6 +313,7 @@
 .category{
 	margin-bottom: 10px;
 	color: #BBB;
+	display: inline-block;
 }
 .category a{
 	color: #BBB;
@@ -485,6 +486,9 @@
 .title4_0 ul{
 	margin-top: 0px;
 }
+.topcontent4_0{
+	margin-bottom: 30px;
+}
 .mainleft .mg0{
 	margin-left: 0px;
 	margin-bottom: 15px;
@@ -492,6 +496,9 @@
 }
 .mainleft .mg0 li{
 	padding-left: 0px;
+}
+.span8 .media{
+	margin-bottom: 15px;
 }
 .span8 .media .media-body h5{
 	margin-top: 0px;
@@ -513,6 +520,9 @@
 }
 .media-body .issue{
 	margin-bottom: 5px;
+}
+.stitle4_1_2{
+	margin-bottom: 15px;
 }
 .order{
 	color: #FF0000;
@@ -540,5 +550,57 @@
 }
 .otherArticle .span6 .media-object{
 	margin-bottom: 10px;
+	
+}
+.res_divBG{
+	display: block;
+  	width: 100%;
+  	height: 30px;
+  	background-color: #f7f7f7;
+  	padding-left: 20px;
+  	padding-right: 50px;
+  	font-size: 18px;
+  	font-weight: bold;
+}
+.res_divBG a{
+	color: #FF0000;
+  	font-size: 15px;
+  	font-weight: normal;
+}
+.fontsfr500,.res_post_fr .btn{
+	margin-left: 70px;
+}
+.cover4_2{
+	padding: 10px;
+}
+.cover4_2 .media-body{
+	padding-left: 10px;
+}
+.cover4_2 .aboutCover{
+	margin-left: 0px;
+	padding-right: 15px;
+	border-right: solid #666 1px;
+}
+.cover4_2 ul{
+	padding-left: 15px;
+}
+.selectBefore{
+	margin-top: 25px;
+	font-size: 18px;
+	font-weight: bold;
+	display: inline-block;
+}
+.AllCover4_2 .media{
+	margin-left: 0px;
+	margin-bottom: 35px;
+}
+.buyMeg4_2_1 .span4{
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+.cover4_2_1 .covertitle{
+	font-size: 16px;
+	border-bottom: solid #666 1px;
+	margin-bottom: 15px;
 	
 }
