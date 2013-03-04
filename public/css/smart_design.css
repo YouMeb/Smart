@@ -636,10 +636,33 @@
 	float: right;
 	padding-left: 20px;
 }
-.cover4_2_2{
-	padding: 10px;
-	
+.buyMegtitle422 h4,.buyMeg4_2_2 li{
+	padding-left: 15px;
+	margin-bottom: 10px;
 }
-.orderMeg4_2_2{
-	margin-bottom: 30px;
+.buyMeg4_2_2 ul{
+	padding-left: 0px;
+	border-right: solid #666 1px;
+	margin-right: 20px;
+
+}
+.buyMeg4_2_2 .buyMegGive{
+	padding-left: 0px;
+	color: #FF0000;
+}
+.buyMegtitle422 .span4{
+	margin-left: 0px;
+}
+.cost4_2_2 span{
+	color: #FF0000;
+	margin: 0 10px;
+	font-size: 20px;
+}
+.cost4_2_2 li{
+	float:left;
+	margin-bottom: 10px;
+}
+.originalPrice{
+	text-decoration: line-through;
+	padding-left: 14px;
 }
