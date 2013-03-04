@@ -520,8 +520,8 @@ margin-left: 0px;
 	display: none;
 }
 
-.row-fluid [class*="ref1_mainleft_span"]:first-child{
-	
+.row-fluid [class*="ref2_mainleft_span"]:first-child{
+	margin-left: 1%;
 }	
 /* 購物車 */
 .cartBG a{
@@ -1008,6 +1008,7 @@ font-weight: normal;
 	padding-bottom: 10px;
 	border-bottom: #f1f1f1 1px dotted;
 	color: #666666;
+	border-top: #f1f1f1 1px dotted;
 }
 .double-item{
 	background: #f0f0f0;
@@ -1028,14 +1029,14 @@ font-weight: normal;
 	padding-bottom: 10px;
 }
 .user_center_frame_resault >ul{
-padding: 30px;
-/*border: 1px solid #aaa;*/
-background: #f7f7f7;
-border-radius: 15px;
-margin-top: 20px;
+	padding: 25px;
+	/*border: 1px solid #aaa;*/
+	background: #f7f7f7;
+	border-radius: 15px;
+	margin-top: 20px;
 }
 .new_bn_t1{
-	padding-bottom: 15px;
+	
 }
 .rs_t1{
 	font-size: 18px;
@@ -1070,6 +1071,7 @@ margin-top: 20px;
 .usse-nav ul li{
 	padding: 10px;
 	margin-top: 10px;
+	border: 1px solid #fff;
 }
 .usse-nav ul li:hover{
 	background: #efefef;
@@ -1284,7 +1286,67 @@ margin-bottom: 20px;
 .user_title_fr{
 	cursor: pointer;
 }
+.resent_mag{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.rs_t1{
+	margin-top: 0px;
+	padding-top:0px
+}
+.user_center_frame_resault ul{
+	margin-top: 0px;
 
+}
+.row-fluid [class*="span"]:first-child .mainleft2{
+	margin-left: 2%;
+}
+.label-btn {
+	border: 1px solid #fff;
+	cursor: pointer;
+	padding: 8px;
+	font-size: 15px;
+	margin-left: 10px;
+}
+.label-btn:hover{
+	border: 1px solid red;
+}
+.row-fluid [class*="ref_midpro_title2"]{
+	margin-left: 0px;
+}
+.productprice [class*="span"]{
+	margin-left: 0px;
+}
+.ref2_mainleft_fr [class*="span"]{
+	margin-left: 1%;
+}
+
+.list_price span,
+.spical_price span,
+.buy_num_select span,
+.buy_item_spec span{
+	width: 120px;
+	line-height: 30px;
+	margin-left:30px;
+}
+.list_price .title{
+	width: 120px;
+
+}
+.price {
+	color: #C0262C;
+	text-decoration: line-through;
+	font-weight: bold;
+}
+.dis{
+	text-decoration: none;
+}
+.sr_rt_list ul{
+	margin: 10px;
+}
+.srrt_title{
+	margin-left: 15px;
+}
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
 		width: 100%;
@@ -1311,6 +1373,13 @@ margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
+	.search_bar{
+		padding-top: 5px;
+	}
+	.label-btn {
+	margin-left: 0px;
+	margin-top: 10px;
+	}
 	.row-fluid [class*="toptcontent"] {
 		margin-left: 0;
 	}

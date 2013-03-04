@@ -198,11 +198,7 @@
 .discount {
 	color: #C0262C;
 }
-.price {
-	color: #C0262C;
-	text-decoration: line-through;
-	font-weight: bold;
-}
+
 .delete {
 	margin-top: -9px;
 }
@@ -568,7 +564,7 @@
   	font-weight: normal;
 }
 .fontsfr500,.res_post_fr .btn{
-	margin-left: 70px;
+	
 }
 .cover4_2{
 	padding: 10px;
