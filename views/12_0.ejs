@@ -26,7 +26,7 @@
 					<div class="tab-content productframe">
 						<div class="tab-pane active" id="tab1">
 							<div class="row-fluid">
-								<div class="span12"><a href="#">所有活動</a> | 類型
+								<div class="span6"><a href="#">所有活動</a> | 類型
 									<select>
 										<option>內湖區</option>
 										<option>查詢到期期數</option>
@@ -35,6 +35,15 @@
 										<option>讀者服務信箱</option>
 										<option>索取紙本發票</option>
 									</select>
+								</div>
+								<div class="span4 hidden-phone"></div>
+								<div class="span2 text-right">
+								<div class="btn btn-small">
+										<i class="icon-list"></i>
+									</div>
+									<div class="btn btn-small">
+										<i class="icon-calendar"></i>
+									</div>
 								</div>
 								<div class="span12">
 									<div class="media contentitem">
@@ -110,17 +119,7 @@
 										</a>
 									</div>
 								</div>
-								<div class="pagination text-center">
-									<ul>
-										<li><a href="#">Prev</a></li>
-										<li><a href="#">1</a></li>
-										<li><a href="#">2</a></li>
-										<li><a href="#">3</a></li>
-										<li><a href="#">4</a></li>
-										<li><a href="#">5</a></li>
-										<li><a href="#">Next</a></li>
-									</ul>
-								</div>
+								<% include pagination %>
 							</div>
 						</div>
 						<div class="tab-pane" id="tab2">
