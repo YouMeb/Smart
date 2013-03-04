@@ -857,13 +857,14 @@ font-weight: normal;
 .pro_tab_content{
 	border-radius: 5px;
 	padding-top: 10px;
-	-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+	/*-webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 	-moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-	border-bottom: 1px solid #d0d0d0;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
+	/*border-bottom: 1px solid #d0d0d0;
 	border-left: 1px solid #d0d0d0;
-	border-right: 1px solid #e0e0e0;
+	border-right: 1px solid #e0e0e0;*/
 	padding: 0px 5px 5px 5px;
+	margin-top: 20px;
 }
 .readuser_fr{
 	border-top: 1px dotted #aaa;
@@ -1045,6 +1046,7 @@ margin-left: 1%;
 	}
 	.user_center_frame [class*="span12"]{
 		margin: 0;
+
 	}
 }
 
@@ -1206,7 +1208,7 @@ margin-left: 1%;
 		text-align: right;
 	}
 	.limit_time_h1{
-	width: 30%;
+	width: 100%;
 	text-align: left;
 	font-size:18px;
 	}
@@ -1236,7 +1238,7 @@ margin-left: 1%;
 		
 	}
 	.nav-tabs .tab1, .tab2 {
-		width: 50%;
+		
 	}
 	.row-fluid [class*="login_line"]{
 		width: 270px;
