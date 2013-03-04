@@ -15,19 +15,18 @@
 		<div class="container">
 			<span class="category"><a href="#">Smart</a> &gt; <a href="#">雜誌</a> &gt; <a href="#">基金趨勢</a></span>
 		</div>
-
 		<div class="container product 7_0">
 			<div class="span12 pro_ref_frame ">
 				<ul class="nav nav-tabs pro-nav-tabs orange_tab">
 					<li class="limit_time_h1">會員中心</li>
-					<li class="tab1 active pro_tab3"><a href="#tab1" data-toggle="tab">訂單查詢</a></li>
-					<li class="tab2 pro_tab3"><a href="#tab2" data-toggle="tab">紅利查詢</a></li>
-					<li class="tab1 pro_tab3"><a href="#tab3" data-toggle="tab">套票清單</a></li>
-					<li class="tab2 pro_tab3"><a href="#tab4" data-toggle="tab">訂戶服務</a></li>
-					<li class="tab2 pro_tab3"><a href="#tab5" data-toggle="tab">帳號資料</a></li>
+					<li class="tab1 pro_tab3"><a href="/10_3" data-toggle="tab">訂單查詢</a></li>
+					<li class="tab2 pro_tab3"><a href="/10_6" data-toggle="tab">紅利查詢</a></li>
+					<li class="tab1 pro_tab3"><a href="/10_7" data-toggle="tab">套票清單</a></li>
+					<li class="tab2 active pro_tab3"><a href="/10_4_1" data-toggle="tab">訂戶服務</a></li>
+					<li class="tab2 pro_tab3"><a href="/10_5" data-toggle="tab">帳號資料</a></li>
 				</ul>
 				<div class="tab-content productframe pro_tab_content">
-					<div class="tab-pane active" id="tab1">
+					<div class="tab-pane " id="tab1">
 					這裡放Tab1內容
 					</div>
 					<div class="tab-pane" id="tab2">
@@ -36,21 +35,21 @@
 					<div class="tab-pane" id="tab3">
 					這裡放Tab3內容
 					</div>
-					<div class="tab-pane" id="tab4">
+					<div class="tab-pane active" id="tab4">
 						<div class="row-fluid">
 							<div class="span3 hidden-phone usse-nav hidden-tablet-portrait">
 								<ul>
-									<li>查詢訂戶編號
+									<li><a href="/10_4_1">查詢訂戶編號</a>
 									</li>
-									<li>查詢到期期數
+									<li><a href="/10_4_2">查詢到期期數</a>
 									</li>
-									<li>更改收件地址
+									<li><a href="/10_4_3">更改收件地址</a>
 									</li>
-									<li class="active">雜誌補寄申請
+									<li class="active"><a href="/10_4_4">雜誌補寄申請</a>
 									</li>
-									<li>讀者服務信箱
+									<li><a href="/10_4_5">讀者服務信箱</a>
 									</li>
-									<li>索取紙本發票
+									<li><a href="/10_4_6">索取紙本發票</a>
 									</li>
 								</ul>
 							</div>
@@ -64,7 +63,7 @@
 							</select>
 							<div class="span9">
 								<div class="span12">
-									<span class="title5">更改收件地址</span>
+									<span class="title5">雜誌補寄申請</span>
 									<span class="red_title5">*為必填項目</span>
 								</div>
 								<div class="span12 readuser_fr">
@@ -116,12 +115,24 @@
 										<dd>
 											<input type="text">
 										</dd>
-										<dt style="height:auto;">
-											<span class="red_title5">*</span>補寄期數 :
+										<dt>
+											<span class="red_title5">*</span>補寄原因：
 										</dt>
 										<dd>
-											<ul class="row-fluid">
-											<li class="span5">
+											<select>
+												<option>請選擇</option>
+												<option>查詢到期期數</option>
+												<option>更改收件地址</option>
+												<option>雜誌補寄申請</option>
+												<option>讀者服務信箱</option>
+												<option>索取紙本發票</option>
+											</select>
+										</dd>
+									</dl>
+									<span class="red_title5">*</span>補寄期數 :
+									<div class="row-fluid">
+										<ul >
+											<li class="span6">
 												<input type="checkbox">171期
 												<div class="media zonetitem1 span12">
 													<a class="pull-left" href="#">
@@ -136,21 +147,7 @@
 												</div>
 
 											</li>
-											<li class="span5">
-												<input type="checkbox">171期
-												<div class="media zonetitem1 span12">
-													<a class="pull-left" href="#">
-														<img class="media-object" src="./images/discussions/thumb_2.jpg">
-													</a>
-													<a class="contenttext" href="#">
-														<div class="media-body contenttext">
-															<h4 class="Btitle media-heading">小市民股債包租術</h4>
-															<p>2012/12/01  出刊</p>
-														</div>
-													</a>
-												</div>
-											</li>
-											<li class="span5">
+											<li class="span6">
 												<input type="checkbox">171期
 												<div class="media zonetitem1 span12">
 													<a class="pull-left" href="#">
@@ -165,22 +162,24 @@
 												</div>
 											</li>
 										</ul>
-										</dd>
-										<dt>
-											<span class="red_title5">*</span>補寄原因：
-										</dt>
-										<dd>
-											<select>
-												<option>請選擇</option>
-												<option>查詢到期期數</option>
-												<option>更改收件地址</option>
-												<option>雜誌補寄申請</option>
-												<option>讀者服務信箱</option>
-												<option>索取紙本發票</option>
-											</select>
-										</dd>
-										<div class="btn btn-large sent-btn">送出</div>
-									</dl>	
+										<ul>
+											<li class="span6">
+												<input type="checkbox">171期
+												<div class="media zonetitem1 span12">
+													<a class="pull-left" href="#">
+														<img class="media-object" src="./images/discussions/thumb_2.jpg">
+													</a>
+													<a class="contenttext" href="#">
+														<div class="media-body contenttext">
+															<h4 class="Btitle media-heading">小市民股債包租術</h4>
+															<p>2012/12/01  出刊</p>
+														</div>
+													</a>
+												</div>
+											</li>
+										</ul>
+									</div>	
+									<div class="btn btn-large sent-btn">送出</div>
 								</div>
 								<div class="span12">
 									<span>＊「線上訂戶服務」功能於訂閱完成後5~7個工作天方可使用，造成不便，敬請見諒！</span>

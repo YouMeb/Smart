@@ -1028,14 +1028,14 @@ font-weight: normal;
 	padding-bottom: 10px;
 }
 .user_center_frame_resault >ul{
-padding: 30px;
-/*border: 1px solid #aaa;*/
-background: #f7f7f7;
-border-radius: 15px;
-margin-top: 20px;
+	padding: 25px;
+	/*border: 1px solid #aaa;*/
+	background: #f7f7f7;
+	border-radius: 15px;
+	margin-top: 20px;
 }
 .new_bn_t1{
-	padding-bottom: 15px;
+	
 }
 .rs_t1{
 	font-size: 18px;
@@ -1284,7 +1284,31 @@ margin-bottom: 20px;
 .user_title_fr{
 	cursor: pointer;
 }
+.resent_mag{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.rs_t1{
+	margin-top: 0px;
+	padding-top:0px
+}
+.user_center_frame_resault ul{
+	margin-top: 0px;
 
+}
+.row-fluid [class*="span"]:first-child .mainleft2{
+	margin-left: 2%;
+}
+.label-btn {
+	border: 1px solid #fff;
+	cursor: pointer;
+	padding: 8px;
+	font-size: 15px;
+	margin-left: 10px;
+}
+.label-btn:hover{
+	border: 1px solid red;
+}
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
 		width: 100%;
@@ -1311,6 +1335,10 @@ margin-bottom: 20px;
 }
 
 @media (max-width: 767px) {
+	.label-btn {
+	margin-left: 0px;
+	margin-top: 10px;
+	}
 	.row-fluid [class*="toptcontent"] {
 		margin-left: 0;
 	}
