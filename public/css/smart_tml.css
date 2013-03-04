@@ -1167,6 +1167,10 @@ text-align: left;
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
+.con_user_fr2{
+	padding-top: 20px;
+border: 0px;
+}
 .redf1{
 	color: #C0262C;
 }
@@ -1269,7 +1273,17 @@ margin: 0px;
 .row-fluid [class*="megamenu"]:first-child   ul {
 	padding-left: 15px;
 }
-
+.user_title_fr{
+	background: url(/images/sector_header.jpg) left no-repeat #f2f2f2;
+font-size: 18px;
+padding-left: 20px;
+line-height: 1.7;
+height: 30px;
+margin-bottom: 20px;
+}
+.user_title_fr{
+	cursor: pointer;
+}
 
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
