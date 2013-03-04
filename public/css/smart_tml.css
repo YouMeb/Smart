@@ -1034,6 +1034,9 @@ margin-top: 20px;
 .usct_cartprice{
 	margin-top: 20px;
 }
+.ticket_list>span{
+	padding-left: 20px;
+}
 .usse-nav >ul{
 	margin-right:60px; 
 }
@@ -1122,6 +1125,9 @@ margin-top: 20px;
 .getpaper_content dt{
 	text-align: left;
 	width: 120px;
+}
+.redf1{
+	color: #C0262C;
 }
 @media (min-width: 1200px){
 
