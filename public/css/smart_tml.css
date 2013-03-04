@@ -1054,6 +1054,67 @@ margin-top: 20px;
 .prost2_6,.prost2_7{
 	color: #990000;
 }
+.sent-btn{
+	color: #FF4E03;
+	border: solid 1px #FF4E03;
+}
+.buyer dt {
+	width: 110px;
+	margin-right: 15px;
+	margin-bottom: 10px;
+}
+.buyer dd {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+}
+.buyerTXT {
+	width: 150px;
+}
+.dl-horizontal.buyer dd .place {
+	width: 164px;
+}
+.dl-horizontal.buyer.line {
+	
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #CCC;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.dl-horizontal.buyer dd .radio {
+	margin-top: -4px;
+	margin-left: 5px;
+}
+.dl-horizontal.buyer dd .short {
+	width: 30px;
+}
+.dl-horizontal.buyer .invoice {
+	margin-top: -10px;
+
+}
+.sel-w0{
+	width: 50px
+}
+.sel-w1{
+	width: 100px;
+}
+.sel-w2{
+	width: 130px;
+}
+.ch_addr dt{
+	width: 120px;
+	text-align: left;
+}
+.rs-numdl dt{
+	text-align: left;
+}
+.resent_mag dt{
+	text-align: left;
+	width: 120px;
+}
 @media (min-width: 1200px){
 
 	.row-fluid .span9 .blockframe:first-child{

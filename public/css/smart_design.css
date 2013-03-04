@@ -285,43 +285,7 @@
 	margin-top: -10px;
 	margin-left: 20px;
 }
-.buyer dt {
-	width: 90px;
-	margin-right: 15px;
-	margin-bottom: 10px;
-}
-.buyer dd {
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 10px;
-}
-.buyerTXT {
-	width: 150px;
-}
-.dl-horizontal.buyer dd .place {
-	width: 164px;
-}
-.dl-horizontal.buyer.line {
-	
-	border-bottom-width: 1px;
-	border-bottom-style: dotted;
-	border-bottom-color: #CCC;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
-}
 
-.dl-horizontal.buyer dd .radio {
-	margin-top: -4px;
-	margin-left: 5px;
-}
-.dl-horizontal.buyer dd .short {
-	width: 30px;
-}
-.dl-horizontal.buyer .invoice {
-	margin-top: -10px;
-
-}
 .invoice input {
 	margin-top: 10px;
 	margin-right: 5px;

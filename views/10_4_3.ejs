@@ -38,13 +38,13 @@
 					</div>
 					<div class="tab-pane" id="tab4">
 						<div class="row-fluid">
-							<div class="span3 hidden-phone">
+							<div class="span3 hidden-phone usse-nav hidden-tablet-portrait">
 								<ul>
 									<li>查詢訂戶編號
 									</li>
 									<li>查詢到期期數
 									</li>
-									<li>更改收件地址
+									<li class="active">更改收件地址
 									</li>
 									<li>雜誌補寄申請
 									</li>
@@ -54,7 +54,7 @@
 									</li>
 								</ul>
 							</div>
-							<select class="user_service_sel visible-phone">
+							<select class="user_service_sel visible-phone visible-tablet-portrait">
 								<option>查詢訂戶編號</option>
 								<option>查詢到期期數</option>
 								<option>更改收件地址</option>
@@ -68,14 +68,25 @@
 									<span class="red_title5">*為必填項目</span>
 								</div>
 								<div class="span12 readuser_fr">
-									<ul>
-										<li>
+									<dl class="form_1 dl-horizontal buyer ch_addr">
+										<dt>
 											<span class="red_title5">*</span>
-											訂戶編號 : ST<input type="text">請輸入數字共8碼（<a href="#">訂戶編號查詢</a>）
-										</li>
-										<li><span class="red_title5">*</span>訂戶姓名 :<input type="text">
-										</li>
-										<li><span class="red_title5">*</span>原收件地址 :							<select>
+											訂戶編號 : 
+										</dt>
+										<dd>
+											ST<input type="text">請輸入數字共8碼（<a href="#">訂戶編號查詢</a>）
+										</dd>
+										<dt>
+											<span class="red_title5">*</span>訂戶姓名 :
+										</dt>
+										<dd>
+											<input type="text">
+										</dd>
+										<dt>
+											<span class="red_title5">*</span>原收件地址 :	
+										</dt>
+										<dd>
+											<select class="sel-w1">
 												<option>台北市</option>
 												<option></option>
 												<option></option>
@@ -83,7 +94,7 @@
 												<option></option>
 												<option></option>
 											</select>
-											<select>
+											<select class="sel-w1">
 												<option>內湖區</option>
 												<option>查詢到期期數</option>
 												<option>更改收件地址</option>
@@ -91,36 +102,44 @@
 												<option>讀者服務信箱</option>
 												<option>索取紙本發票</option>
 											</select>
-											<input type="text">
-											<input type="text">
-										</li>
-										<li><span class="red_title5">*</span>新收件地址 :
-											<input type="checkbox">台灣地區<input type="checkbox">海外地區
-											<select>
-												<option>內湖區</option>
+											<input type="text" class="sel-w0" placeholder="郵遞區號">
+											<input type="text" placeholder="地址">
+										</dd>
+										<dt><span class="red_title5">*</span>新收件地址 :</dt>
+										<dd>
+											<input type="checkbox">台灣地區 &nbsp&nbsp&nbsp<input type="checkbox">海外地區
+											<br/>
+											<select class="sel-w2">
+												<option>請選擇縣市</option>
 												<option>查詢到期期數</option>
 												<option>更改收件地址</option>
 												<option>雜誌補寄申請</option>
 												<option>讀者服務信箱</option>
 												<option>索取紙本發票</option>
 											</select>
-											<select>
-												<option>內湖區</option>
+											<select class="sel-w2">
+												<option>請選擇地區</option>
 												<option>查詢到期期數</option>
 												<option>更改收件地址</option>
 												<option>雜誌補寄申請</option>
 												<option>讀者服務信箱</option>
 												<option>索取紙本發票</option>
 											</select>
+											<input type="text" class="sel-w0" placeholder="郵遞區號">
+											<input type="text" placeholder="地址">
+										</dd>
+										<dt><span class="red_title5">*</span>聯絡電話 :
+										</dt>
+										<dd>
 											<input type="text">
+										</dd>
+										<dt><span class="red_title5">*</span>Email :
+										</dt>
+										<dd>
 											<input type="text">
-										</li>
-										<li><span class="red_title5">*</span>聯絡電話 :<input type="text">
-										</li>
-										<li><span class="red_title5">*</span>Email :<input type="text">
-										</li>
-										<li><div class="btn">送出</div></li>
-									</ul>	
+										</dd>
+										<div class="btn btn-large sent-btn">送出</div>
+									</dl>
 								</div>
 								<div class="span12">
 									<span>＊如需變更「海外地區地址」可透過 <a href="#">讀者服務信箱</a> 來信變更。</span>
