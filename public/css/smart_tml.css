@@ -140,6 +140,17 @@ ol, ul {
 	margin-bottom: 0px;
 	margin-left: 0px;
 }
+.title_5 > h3
+{
+	
+font-size: 18px;
+padding-left: 0px;
+line-height: 1.7;
+height: 35px;
+border-bottom: 2px solid #e0e0e0;
+margin-bottom: 0px;
+margin-left: 0px;
+}
 /* span3 title*/
 
 .vi_title_1
@@ -866,6 +877,9 @@ font-weight: normal;
 	padding: 0px 5px 5px 5px;
 	margin-top: 20px;
 }
+.toptab_content{
+	margin-top:0;
+}
 .readuser_fr{
 	border-top: 1px dotted #aaa;
 	border-bottom: 1px dotted #aaa;
@@ -951,6 +965,10 @@ font-weight: normal;
 	background: #f0f0f0;
 	margin-bottom: 30px;
 }
+.search_bar >ul{
+	margin-left: 20px;
+	margin-right:20px;
+}
 .search_resault_div{
 	margin-bottom: 20px;
 	padding-bottom: 20px;
@@ -1035,6 +1053,9 @@ margin-top: 20px;
 	padding-left: 20px;
 }
 .list_rd_fr >span{
+	padding-left: 20px;
+}
+.discus_ti_fr >span{
 	padding-left: 20px;
 }
 .usct_cartprice{
@@ -1139,6 +1160,33 @@ margin-top: 20px;
 	padding-bottom: 15px;
 	padding-top: 15px;
 }
+.dis_title2 h2 {
+line-height: 1.7;
+height: 30px;
+font-size: 18px;
+padding-left: 20px;
+display: inline;
+
+}
+.dis_title2{
+	background: #f7f7f7;
+}
+.direpo_fr li{
+padding-left: 20px;
+}
+.direpo_fr{
+	padding-top: 40px;
+}
+
+.dis_post_title_fr >.row-fluid >div{
+	padding: 10px;
+}
+.st6_t ul ,.st6_2t ul,.st6_3t ul{
+padding: 0px;
+margin: 0px;
+}
+
+
 @media (min-width: 1200px){
 
 	.row-fluid .span9 .blockframe:first-child{
@@ -1204,6 +1252,15 @@ margin-top: 20px;
 	.user_center_frame [class*="span12"]{
 		margin: 0;
 
+	}
+	.st6_1 [class*="span"]:first-child{
+		margin-left:1%;
+	}
+	.st6_2 [class*="span"]:first-child{
+		margin-left:1%;
+	}
+	.st6_3 [class*="span"]:first-child{
+		margin-left:1%;
 	}
 }
 
