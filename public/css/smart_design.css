@@ -446,9 +446,6 @@
 .dvdINFO3_1 dl{
 	border-right: solid #666 1px;
 }
-.dvdINFO3_1 p{
-	height:100px;
-}
 .dvdINFO3_1 .specialPrice3_1{
 	font-size: 21px;
 	color: #990000;
@@ -632,6 +629,7 @@
 	float: right;
 	padding-left: 20px;
 }
+/*555555555555555555555555555555555555555555555555555555555555*/
 .buyMegtitle422 h4,.buyMeg4_2_2 li{
 	padding-left: 15px;
 	margin-bottom: 10px;
@@ -661,4 +659,28 @@
 .originalPrice{
 	text-decoration: line-through;
 	padding-left: 14px;
+}
+.BOOKS5_0top h3{
+	text-decoration: underline;
+}
+.buyBOOKS .span6 span{
+	margin-left: 0px;
+}
+.buyBOOKS .span6 .span6{
+	color: #FF0000;
+	font-size: 20px;
+}
+.BOOKS5_0middle .inline .span6{
+	margin-left: 0px;
+	margin-bottom: 20px;
+}
+.BOOKS5_1{
+	margin: 0 0 40px 0;
+}
+.BOOKS5_1 h4{
+	text-decoration: underline;
+	font-size: 16px;
+}
+.BOOKS5_1 .aboutbook{
+	padding-left: 20px;
 }
