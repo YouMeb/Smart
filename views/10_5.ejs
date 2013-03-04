@@ -41,39 +41,17 @@
 					</div>
 					<div class="tab-pane" id="tab5">
 						<div class="row-fluid user_center_frame">
-					  		<div class="span12 talk">
+					  		<div class="span12 talk user_title_fr" data-toggle="collapse" data-parent="#accordion2" href="#user_title_fr1">
 					  			<span class="title5">聯絡資訊</span>
 					  			<span class="red_title5"> *為必填項目</span>
+					  			<span class="cartbkframe"> 
+									<img src="./images/old-go-bottom.png"> 
+								</span>
 		                    </div>
-					  		<div class="span12">
-		                        <dl class="form_1 dl-horizontal buyer line">
-									<dt><span class="red_title5">*</span> 帳號</dt>
-									<dd>
-										<input type="text" value="王大明" class="buyerTXT">
-										<input type="radio" name="gender" value="male" class="radio"> 先生
-										<input type="radio" name="gender" value="female" class="radio"> 小姐
-									</dd>
-									<dt><span class="red_title5">*</span> 密碼</dt>
-									<dd>
-										<input type="text" value="0912-345678" class="buyerTXT">
-										<span class="carts3desc">格式：0912-345678</span>
-									</dd>
-									<dt><span class="red_title5">*</span> 再次輸入密碼</dt>
-									<dd>
-										<input type="text" value="ccool2486@gmail.com" class="buyerTXT">
-									</dd>
-									<div class="clear"></div>
-								</dl>
-		                    </div>
-		                   	<div class="span12 cancelStoreFr">
-		                   		<a href="#">取消</a>&nbsp&nbsp&nbsp<div class="btn btn-small">儲存</div>
-		                   	</div>
-		                   	<div class="span12">
-					  			<span class="title5">個人檔案</span>
-					  			<span class="red_title5"> *為必填項目</span>
-		                    </div>
-		                    <div class="span12">
-		                        <dl class="form_1 dl-horizontal buyer line">
+					  		<div class="span12 collapse in" id="user_title_fr1" >
+		                        <dl class="form_1 dl-horizontal buyer con_user_fr">
+		                        	<dt><span class="red_title5">*</span> Email 帳號</dt>
+		                        	<dd><span>123@aaa.com</span></dd>
 									<dt><span class="red_title5">*</span> 姓名</dt>
 									<dd>
 										<input type="text" value="0912-345678" class="buyerTXT">
@@ -84,7 +62,7 @@
 									</dd>
 									<dt><span class="red_title5">*</span> 生日</dt>
 									<dd>
-										<select name="county" class="place">
+										<select class="sel-w1">
 		                                	<option value="">2013</option>
 											<option value="taipei">2010</option>
 											<option value="shinbei">2011</option>
@@ -92,7 +70,7 @@
 											<option value="keelung">2013</option>
 										</select>
 										年
-										<select name="county" class="place">
+										<select class="sel-w1">
 		                                	<option value="">1</option>
 											<option value="taipei">1</option>
 											<option value="shinbei">2</option>
@@ -100,7 +78,7 @@
 											<option value="keelung">4</option>
 										</select>
 										月
-										<select name="county" class="place">
+										<select class="sel-w1">
 		                                	<option value="">1</option>
 											<option value="taipei">1</option>
 											<option value="shinbei">2</option>
@@ -109,15 +87,74 @@
 										</select>
 										日
 									</dd>
-									<dt><span class="red_title5">*</span> 行動電話</dt>
+									<dt><span class="red_title5">*</span>聯絡Email</dt>
 									<dd>
-										<input type="text" value="0912-345678" class="buyerTXT">
-										<span class="carts3desc">格式：0912-345678</span>
-										
+										<input type="text">
 									</dd>
-									<dt>暱稱</dt>
+									<dt><span class="red_title5">*</span> 手機號碼</dt>
 									<dd>
-										<input type="text" value="ccool2486@gmail.com" class="buyerTXT">
+										<input type="text">
+									</dd>
+									<dt>室內電話</dt>
+									<dd>
+										<input type="text">
+									</dd>
+									<dt>連絡地址 :	
+									</dt>
+									<dd>
+										<select class="sel-w1">
+											<option>台北市</option>
+											<option></option>
+											<option></option>
+											<option></option>
+											<option></option>
+											<option></option>
+										</select>
+										<select class="sel-w1">
+											<option>內湖區</option>
+											<option>查詢到期期數</option>
+											<option>更改收件地址</option>
+											<option>雜誌補寄申請</option>
+											<option>讀者服務信箱</option>
+											<option>索取紙本發票</option>
+										</select>
+										<input type="text" class="sel-w0" placeholder="郵遞區號">
+										<input type="text" placeholder="地址">
+									</dd>
+								</dl>
+		                    </div>
+		                   	<div class="span12 cancelStoreFr">
+		                   		<a href="#">取消</a>&nbsp&nbsp&nbsp<div class="btn btn-small sent-btn">儲存</div>
+		                   	</div>
+		                   	<div class="span12 user_title_fr"  data-toggle="collapse" data-parent="#accordion2" href="#user_title_fr2">
+					  			<span class="title5">個人檔案</span>
+					  			<span class="red_title5"> *為必填項目</span>
+					  			<span class="cartbkframe"> 
+									<img src="./images/old-go-bottom.png"> 
+								</span>
+		                    </div>
+		                    <div class="span12">
+		                        <dl class="form_1 dl-horizontal buyer con_user_fr">
+									<div class="row-fluid userimg_fr">
+										<div class="span3"> <img src="images/stranger.png"/></div>
+										<div class="span9">
+											<dl class="form_1 dl-horizontal">
+												<dt>暱稱</dt>
+												<dd><input type="text"></dd>
+												<dt>上傳大頭貼</dt> 
+												<dd>
+													<div class="input-append update-img">
+														<input class="span10" id="appendedInputButton" type="text">
+														<button class="btn" type="button">瀏覽</button>
+													</div>
+												</dd>
+											</dl>
+										</div>
+									</div>
+									
+									<dt>身分</dt>
+									<dd>
+		                                <input type="checkbox">我不是訂戶 &nbsp&nbsp<input type="checkbox">我是商周訂戶
 									</dd>
 		                            <dt>投資工具</dt>
 		                        	<dd>
@@ -184,16 +221,52 @@
 		                                    </li>
 		                                 </ul>
 									</dd>
+								<dl>
+								
+								<div class="span12">
+								<dl class="form_1 dl-horizontal buyer con_user_fr con_user_fr2 collapse in" id="user_title_fr2">
+									<dt>教育程度</dt>
+									<dd>
+										<select class="sel-w1">
+											<option>請選擇</option>
+										</select>
+									</dd>
+									<dt>職業</dt>
+									<dd>
+										<select class="sel-w1">
+											<option>請選擇</option>
+										</select>
+									</dd>
+									<dt>職稱</dt>
+									<dd>
+										<input type="text">
+									</dd>
+									<dt>個人年所得</dt>
+									<dd>
+										<select class="sel-w1">
+											<option>請選擇</option>
+										</select>
+									</dd>
+									<dt>是否結婚</dt>
+									<dd><input type="checkbox">已婚 &nbsp&nbsp<input type="checkbox">單身
+									<dt>是否有子女</dt>
+									<dd><input type="checkbox">是 &nbsp&nbsp <select class="sel-w0">
+										<option>1</option>
+									</select>位 &nbsp&nbsp <input type="checkbox"> 否
 								</dl>
+								</div>
 					  		</div>
 					  		<div class="span12 cancelStoreFr">
-					  			<a href="#">取消</a>&nbsp&nbsp&nbsp<div class="btn btn-small">儲存</div>
+					  			<a href="#">取消</a>&nbsp&nbsp&nbsp<div class="btn btn-small sent-btn">儲存</div>
 					  		</div>
-					  		<div class="span12">
+					  		<div class="span12 user_title_fr" data-toggle="collapse" data-parent="#accordion2" href="#user_title_fr3">
 					  			<span class="title5">更改密碼</span>
+					  			<span class="cartbkframe"> 
+									<img src="./images/old-go-bottom.png"> 
+								</span>
 		                    </div>
-		                    <div class="span12">
-		                        <dl class="form_1 dl-horizontal buyer line">
+		                    <div class="span12 collapse in" id="user_title_fr3" >
+		                        <dl class="form_1 dl-horizontal buyer con_user_fr">
 		                        	<dt>舊密碼：</dt>
 									<dd>
 										<input type="text">
@@ -210,7 +283,7 @@
 		                        </dl>
 		                    </div>
 		                    <div class="span12 cancelStoreFr">
-		                    	<a href="#">取消</a>&nbsp&nbsp&nbsp<div class="btn btn-small">儲存</div>
+		                    	<a href="#">取消</a>&nbsp&nbsp&nbsp<div class="btn btn-small sent-btn">儲存</div>
 		                	</div>
 		                </div>
 					</div>

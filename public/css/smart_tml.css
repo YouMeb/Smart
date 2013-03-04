@@ -1041,28 +1041,28 @@ margin-top: 20px;
 	font-size: 18px;
 }
 .itemNAV >span{
-	padding-left: 20px;
+	padding-left: 5px;
 }
 .itemNAV >div{
-	padding-left: 20px;
+	padding-left: 5px;
 }
 .title_usct >span{
-	padding-left: 20px;
+	padding-left: 5px;
 }
 .sr_bonus_fr > span{
-	padding-left: 20px;
+	padding-left: 5px;
 }
 .list_rd_fr >span{
-	padding-left: 20px;
+	padding-left: 5px;
 }
 .discus_ti_fr >span{
-	padding-left: 20px;
+	padding-left: 5px;
 }
 .usct_cartprice{
-	margin-top: 20px;
+	margin-top: 5px;
 }
 .ticket_list>span{
-	padding-left: 20px;
+	padding-left: 5px;
 }
 .usse-nav >ul{
 	margin-right:60px; 
@@ -1153,6 +1153,24 @@ margin-top: 20px;
 	text-align: left;
 	width: 120px;
 }
+.con_user_fr dt{
+text-align: left;
+	width: 120px;
+}
+.con_user_fr{
+	padding-top: 20px;
+	border-top:1px dotted #e0e0e0;
+	border-bottom: 1px dotted #e0e0e0;
+}
+.con_user_fr >dt ,.con_user_fr >dd{
+	padding: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.con_user_fr2{
+	padding-top: 20px;
+border: 0px;
+}
 .redf1{
 	color: #C0262C;
 }
@@ -1189,80 +1207,83 @@ margin: 0px;
 
 
 
-	.row-fluid .span9 .blockframe:first-child{
-		margin: 0;
-	}
-	
-	.row-fluid .span9 .blockframe{
-		margin-top:10px	;
-	}
-	
-	.row-fluid .span9 .bczone1, .row-fluid .span9 .bczone2, .row-fluid .span9 .bczone3, .row-fluid .span9 .bczone4 {
-		margin: 5px 0px 10px 5px;
-	}
-	
-	.row-fluid [class*="hotACT"] {
-		margin-left:0;
-	}
-	
-	.row-fluid [class*="blockframe"]:first-child {
-		margin: 0 0 10px 0;
-	}
-	
-	.row-fluid [class*="tabbable"] {
-		margin: 0;
-	}
-	
-	.row-fluid [class*="span"] {
-		
-	}
+.row-fluid .span9 .blockframe:first-child{
+	margin: 0;
+}
 
-	.row-fluid [class*="span"]:first-child .mainleft {
-		margin: 10px 0px 10px 0;
-	}
-	
-	.row-fluid [class*="span"]:first-child{
-		margin: 0;
-	}
-		.row-fluid [class*="phone-login-logo"]:first-child {
-		
+.row-fluid .span9 .blockframe{
+	margin-top:10px	;
+}
 
-	}
-	.row-fluid [class*="login_line"] {
-		margin-left: 3%;
-	}
-	
-	.row-fluid [class*="havebonus"]:first-child{
-		margin-top: 0px
-	}
-	.row-fluid [class*="new_bn_t1"]:first-child{
-		margin-top: 0px
-	}
-	
-	.row-fluid [class*="span"]:first-child  .zonetitem1, .row-fluid [class*="span"]:first-child  .zonetitem2, .row-fluid [class*="span"]:first-child  .zonetitem3{
-		margin: 5px 0px 10px 5px;
-	}
-	
-	.row-fluid [class*="span"]:first-child  .bczonetitem1, .row-fluid [class*="span"]:first-child  .bczonetitem2, .row-fluid [class*="span"]:first-child  .bczonetitem3, .row-fluid [class*="span"]:first-child  .bczonetitem4{
-		margin: 0px 0px 5px 0px;
-	}
-	.row-fluid [class*="f_lg_tltle"]:first-child{
-		margin-top: 20px;
-	}
-	.user_center_frame [class*="span12"]{
-		margin: 0;
+.row-fluid .span9 .bczone1, .row-fluid .span9 .bczone2, .row-fluid .span9 .bczone3, .row-fluid .span9 .bczone4 {
+	margin: 5px 0px 10px 5px;
+}
 
-	}
-	.st6_1 [class*="span"]:first-child{
-		
-	}
-	.st6_2 [class*="span"]:first-child{
-	
-	}
-	.st6_3 [class*="span"]:first-child{
-		
-	}
+.row-fluid [class*="hotACT"] {
+	margin-left:0;
+}
 
+.row-fluid [class*="blockframe"]:first-child {
+	margin: 0 0 10px 0;
+}
+
+.row-fluid [class*="tabbable"] {
+	margin: 0;
+}
+
+.row-fluid [class*="span"] {
+	
+}
+
+.row-fluid [class*="span"]:first-child .mainleft {
+	margin: 10px 0px 10px 0;
+}
+
+
+.row-fluid [class*="phone-login-logo"]:first-child {
+
+
+}
+.row-fluid [class*="login_line"] {
+	margin-left: 3%;
+}
+
+.row-fluid [class*="havebonus"]:first-child{
+	
+}
+.row-fluid [class*="new_bn_t1"]:first-child{
+	margin-top: 0px
+}
+
+.row-fluid [class*="span"]:first-child  .zonetitem1, .row-fluid [class*="span"]:first-child  .zonetitem2, .row-fluid [class*="span"]:first-child  .zonetitem3{
+	margin: 5px 0px 10px 5px;
+}
+
+.row-fluid [class*="span"]:first-child  .bczonetitem1, .row-fluid [class*="span"]:first-child  .bczonetitem2, .row-fluid [class*="span"]:first-child  .bczonetitem3, .row-fluid [class*="span"]:first-child  .bczonetitem4{
+	margin: 0px 0px 5px 0px;
+}
+.row-fluid [class*="f_lg_tltle"]:first-child{
+	margin-top: 20px;
+}
+.user_center_frame [class*="span12"]{
+	margin: 0;
+
+}
+
+.row-fluid [class*="megamenu"]:first-child   ul {
+	padding-left: 15px;
+}
+.user_title_fr{
+	background: url(/images/sector_header.jpg) left no-repeat #f2f2f2;
+font-size: 18px;
+padding-left: 20px;
+line-height: 1.7;
+height: 30px;
+margin-bottom: 20px;
+}
+.user_title_fr{
+	cursor: pointer;
+}
 
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
