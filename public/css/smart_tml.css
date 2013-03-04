@@ -1031,6 +1031,9 @@ margin-top: 20px;
 .title_usct >span{
 	padding-left: 20px;
 }
+.sr_bonus_fr > span{
+	padding-left: 20px;
+}
 .usct_cartprice{
 	margin-top: 20px;
 }
@@ -1175,7 +1178,7 @@ margin-top: 20px;
 	}
 	
 	.row-fluid [class*="havebonus"]:first-child{
-		margin-top: 30px
+		margin-top: 0px
 	}
 	.row-fluid [class*="new_bn_t1"]:first-child{
 		margin-top: 0px
