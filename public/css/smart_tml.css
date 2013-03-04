@@ -1221,11 +1221,9 @@ margin: 0px;
 		margin: 10px 0px 10px 0;
 	}
 	
-	.row-fluid [class*="span"]:first-child{
-		margin: 0;
-	}
-		.row-fluid [class*="phone-login-logo"]:first-child {
-		
+
+	.row-fluid [class*="phone-login-logo"]:first-child {
+	
 
 	}
 	.row-fluid [class*="login_line"] {
