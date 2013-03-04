@@ -1006,7 +1006,25 @@ margin-left: 1%;
 .recodeSelect{
 	padding-bottom: 10px;
 }
-
+.user_center_frame_resault >ul{
+padding: 30px;
+/*border: 1px solid #aaa;*/
+background: #f7f7f7;
+border-radius: 15px;
+margin-top: 20px;
+}
+.new_bn_t1{
+	padding-bottom: 15px;
+}
+.rs_t1{
+	font-size: 18px;
+}
+.itemNAV >span{
+	padding-left: 20px;
+}
+.title_usct >span{
+	padding-left: 20px;
+}
 @media (min-width: 1200px){
 
 	.row-fluid .span9 .blockframe:first-child{
@@ -1054,6 +1072,9 @@ margin-left: 1%;
 	
 	.row-fluid [class*="havebonus"]:first-child{
 		margin-top: 30px
+	}
+	.row-fluid [class*="new_bn_t1"]:first-child{
+		margin-top: 0px
 	}
 	
 	.row-fluid [class*="span"]:first-child  .zonetitem1, .row-fluid [class*="span"]:first-child  .zonetitem2, .row-fluid [class*="span"]:first-child  .zonetitem3{
