@@ -993,9 +993,12 @@ margin-left: 1%;
 }
 .double-item{
 	background: #f0f0f0;
+
 }
 .itemNAV:hover{
+	border-top:1px solid #aaa;
 	background: #ccc;
+	border-bottom:1px solid #aaa;
 }
 .itemNAV p {
 	text-align: center;
@@ -1024,6 +1027,9 @@ margin-top: 20px;
 }
 .title_usct >span{
 	padding-left: 20px;
+}
+.usct_cartprice{
+	margin-top: 20px;
 }
 @media (min-width: 1200px){
 
