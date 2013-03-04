@@ -1034,6 +1034,9 @@ margin-top: 20px;
 .sr_bonus_fr > span{
 	padding-left: 20px;
 }
+.list_rd_fr >span{
+	padding-left: 20px;
+}
 .usct_cartprice{
 	margin-top: 20px;
 }
@@ -1131,6 +1134,10 @@ margin-top: 20px;
 }
 .redf1{
 	color: #C0262C;
+}
+.user_alert_fr{
+	padding-bottom: 15px;
+	padding-top: 15px;
 }
 @media (min-width: 1200px){
 
