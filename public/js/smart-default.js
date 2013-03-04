@@ -32,7 +32,7 @@ $(function() {
 				$('.megamenu_' + section).show().addClass('fadeIn');
 				if($('#drop1').hasClass('checktime')) {
 					console.log('go!!');
-					//location.href = '/test/tpl/dd2.php'; //請輸入課程Url
+					location.href = '/test/tpl/dd2.php'; //請輸入課程Url
 				}
 				break;
 			case 'aa':
