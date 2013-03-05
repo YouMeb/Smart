@@ -167,6 +167,12 @@ app.get('/tpl9', function(req, res) {
 app.get('/tpl10', function(req, res) {
   res.render('tpl10');
 });
+app.get('/tpl11', function(req, res) {
+  res.render('tpl11');
+});
+app.get('/tpl12', function(req, res) {
+  res.render('tpl12');
+});
 app.get('/1_0temp', function(req, res) {
   res.render('1_0temp');
 });
