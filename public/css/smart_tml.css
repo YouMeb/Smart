@@ -1283,6 +1283,9 @@ margin: 0px;
 .row-fluid [class*="megamenu"]:first-child .marg-ul {
 	padding-left: 15px;
 }
+.row-fluid [class*="megamenu"] .marg-ul {
+	padding-left: 15px;
+}
 .user_title_fr{
 	background: url(/images/sector_header.jpg) left no-repeat #f2f2f2;
 font-size: 18px;
@@ -1359,6 +1362,7 @@ margin-bottom: 20px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
+
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
 		width: 100%;
@@ -1382,6 +1386,13 @@ margin-bottom: 20px;
 	.rm_me{
 	margin-left: 0px;
 	}
+	.row-fluid [class*="open_fr_hl"] {
+	width: 47%;
+	}
+	.row-fluid [class*="open_fe"] {
+		width: 98%;
+	}
+	
 }
 
 @media (max-width: 767px) {
