@@ -629,7 +629,6 @@
 	float: right;
 	padding-left: 20px;
 }
-/*555555555555555555555555555555555555555555555555555555555555*/
 .buyMegtitle422 h4,.buyMeg4_2_2 li{
 	padding-left: 15px;
 	margin-bottom: 10px;
@@ -647,28 +646,19 @@
 .buyMegtitle422 .span4{
 	margin-left: 0px;
 }
-.cost4_2_2 span{
-	color: #FF0000;
-	margin: 0 10px;
-	font-size: 20px;
-}
-.cost4_2_2 li{
-	float:left;
-	margin-bottom: 10px;
-}
 .originalPrice{
 	text-decoration: line-through;
 	padding-left: 14px;
 }
+.buyMegtitle422 .nor .title{
+	padding-right: 14px;
+}
+.buyMegtitle422 .nor .cost{
+	text-decoration:line-through;
+}
+/*555555555555555555555555555555555555555555555555555555555555*/
 .BOOKS5_0top h3{
 	text-decoration: underline;
-}
-.buyBOOKS .span6 span{
-	margin-left: 0px;
-}
-.buyBOOKS .span6 .span6{
-	color: #FF0000;
-	font-size: 20px;
 }
 .BOOKS5_0middle .inline .span6{
 	margin-left: 0px;
