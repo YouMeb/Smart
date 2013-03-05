@@ -14,9 +14,9 @@ git push
 
 
 一開始打開git
-cd \d 
-cd git_project\smart
-cd d:\git_project\smart
+cd /d 
+cd git_project
+cd smart
 
 git 平常使用  每做一小段就做這步
 -------git
