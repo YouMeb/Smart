@@ -2,5 +2,16 @@
 --------------------------
 1_0temp.ejs                       tpl2
 1_1temp.ejs                       tpl1
-
+2_0temp.ejs  			  tpl2
+2_1temp.ejs  			  tpl1
+3_0temp.ejs  			  tpl1
+3_1temp.ejs  			  tpl1
+4_0temp.ejs  			  tpl1
+4_1_1temp.ejs  			  tpl1
+4_1_2temp.ejs  			  tpl1
+4_2temp.ejs  			  tpl1
+4_2_1temp.ejs  			  tpl1
+4_2_2temp.ejs  			  tpl1
+5_0temp.ejs  			  tpl1
+5_1temp.ejs  			  tpl1
 10_2.ejs   			  tpl2
