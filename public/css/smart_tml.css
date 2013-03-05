@@ -358,9 +358,17 @@ margin-left: 0px;
 }
 .footertopnav_title{
 	width: 13.27%;
-	
+	margin-left: 1%;
 	float: left
 }
+
+.top4nav_title{
+	width: 23.27%;
+	margin-left: 1%;
+	float: left
+}
+
+.top4nav_title p,
 .footertopnav_title p{
 	border-bottom: 5px solid #e7e7e7;
 }
@@ -1272,7 +1280,7 @@ margin: 0px;
 
 }
 
-.row-fluid [class*="megamenu"]:first-child   ul {
+.row-fluid [class*="megamenu"]:first-child .marg-ul {
 	padding-left: 15px;
 }
 .user_title_fr{
@@ -1346,6 +1354,10 @@ margin-bottom: 20px;
 }
 .srrt_title{
 	margin-left: 15px;
+}
+.ct1class_title{
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
