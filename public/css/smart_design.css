@@ -551,22 +551,26 @@
 }
 .media-body .issue{
 	margin-bottom: 5px;
+
+}
+.littleSubject{
+	color:#FF6600;
+}
+.subjectName h3{
+	margin:0;
+	color: #CC0000;
+}
+.share_btn .inline{
+	margin: 0px;
 }
 .stitle4_1_2{
 	margin-bottom: 15px;
 }
-.order{
+.order ,.order a{
 	color: #FF0000;
 	font-size: 13px;
-	margin-top: 5px;
-	padding-right: 20px;
+}
 
-}
-.order a{
-	color: #FF0000;
-	font-size: 13px;
-	margin: 0 10px;
-}
 .readArticle4_1_2 p{
 	padding: 15px 0;
 }
@@ -711,4 +715,8 @@
 }
 .BOOKS5_1 .aboutbook{
 	padding-left: 20px;
+}
+/*回覆*/
+.res_div .fontsfr500 ,.res_div .btn{
+	margin-left: 70px;
 }
