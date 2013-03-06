@@ -829,7 +829,10 @@ font-weight: normal;
 }
 .login_normal_frame{
 	padding: 10px;
-	
+	padding-left: 0px;
+}
+.row-fluid [class*="login_normal_frame"]{
+	margin-left: 1%;
 }
 .btn_fb{
 	margin-top: 60px;
@@ -1362,6 +1365,9 @@ margin-bottom: 20px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 }
+.row-fluid [class*="click_btn_fr"]{
+	padding-top: 30px;
+}
 
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
@@ -1583,6 +1589,10 @@ margin-bottom: 20px;
 	.login_normal_frame{
 		padding: 10px;
 		padding-left: 0%;
+	}
+	.row-fluid [class*="click_btn_fr"]{
+		padding-top: 0px;
+		right: 0;
 	}
 	
 }
