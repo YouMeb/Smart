@@ -305,6 +305,31 @@
 	font-size: 12px;
 	color: #C0262C;
 }
+/*三角按鈕*/
+.tribtn.span2 {
+	margin-top: -2px;
+}
+
+
+.cartcontentnav a {
+	text-decoration: none;
+}
+
+.cartcontentnav li{
+	text-align: center;
+	text-decoration: none;
+	height: 49px;
+	color: #FF8B00;
+}
+.cartcontentnav li:hover,.cartcontentnav .active{
+	text-align: center;
+	text-decoration: none;
+	margin: 0px;
+	height: 49px;
+	background-image: url(../images/today_store_ative_tab.jpg);
+	background-position: center -1px;
+	color: #FFF;
+}
 /*11111111111111111111111111111111111111111111111*/
 .category{
 	margin-bottom: 10px;
@@ -314,6 +339,14 @@
 .category a{
 	color: #BBB;
 }
+.pagetitle1_0{
+	background: url(../images/section_bg.jpg) no-repeat left;
+	color: white;
+	line-height: 1.5;
+	padding-left: 10px;
+	font-size: 18px;
+	
+}
 .topTitle{
 	padding-top: 0px; 
 }
@@ -322,6 +355,11 @@
 }
 .fb-like-right{
 	float:right;
+	background-image:url(../images/fb_like.jpg);
+	height: 24px;
+	width: 46px;
+	display: block;
+	
 }
 .media-buy .specialPrice1_1{
 	font-size: 21px;
