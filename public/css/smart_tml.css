@@ -1383,6 +1383,7 @@ margin-bottom: 20px;
 .err_login{
 	margin-left: 0px;
 	margin-bottom: 10px;
+	margin-top: 10px;
 }
 span > a.frgt-btn {
 	cursor: pointer;
@@ -1623,6 +1624,7 @@ input[type="text"]{
 		margin-bottom: 10px;
 		
 	}
+
 	
 }
 
