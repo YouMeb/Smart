@@ -1377,7 +1377,7 @@ margin-bottom: 20px;
 	padding-right: 20px;
 	background-color: #f2dede;
 	color: #666;
-
+	margin-bottom: 10px;
 	text-shadow:none;
 }
 .err_login{
@@ -1387,6 +1387,9 @@ margin-bottom: 20px;
 span > a.frgt-btn {
 	cursor: pointer;
 	color: red;
+}
+input[type="text"]{
+	margin-bottom: 0px;
 }
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
@@ -1612,6 +1615,13 @@ span > a.frgt-btn {
 	.row-fluid [class*="click_btn_fr"]{
 		padding-top: 0px;
 		right: 0;
+	}
+	.err_fr{
+		margin-left: 0px;
+		margin-top: 10px;
+		
+		margin-bottom: 10px;
+		
 	}
 	
 }
