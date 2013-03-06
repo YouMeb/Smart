@@ -1392,6 +1392,9 @@ span > a.frgt-btn {
 input[type="text"]{
 	margin-bottom: 0px;
 }
+.readuser_fr li{
+	margin-bottom: 10px;
+}
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
 		width: 100%;
