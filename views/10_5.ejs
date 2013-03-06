@@ -52,7 +52,12 @@
 						  		<div class="span12 collapse" id="user_title_fr1" >
 			                        <dl class="form_1 dl-horizontal buyer con_user_fr">
 			                        	<dt><span class="red_title5">*</span> Email 帳號</dt>
-			                        	<dd><span>123@aaa.com</span></dd>
+			                        	<dd>
+			                        		<span>123@aaa.com</span>
+			                        		<span class="label label-important err_fr">
+												E-mail 為登入帳號，無法更改
+											</span>
+			                        	</dd>
 										<dt><span class="red_title5">*</span> 姓名</dt>
 										<dd>
 											<input type="text">
@@ -95,10 +100,17 @@
 										<dt><span class="red_title5">*</span> 手機號碼</dt>
 										<dd>
 											<input type="text">
+											<span class="label label-important err_fr">
+												輸入範例：0912345678
+											</span>
 										</dd>
 										<dt>室內電話</dt>
 										<dd>
 											<input type="text">
+											<img src="/images/exclamationmark.png" />
+											<span class="label label-important err_fr">
+												您輸入的格式錯誤，請重新檢查。
+											</span>
 										</dd>
 										<dt>連絡地址 :	
 										</dt>
@@ -121,6 +133,9 @@
 											</select>
 											<input type="text" class="sel-w0" placeholder="郵遞區號">
 											<input type="text" placeholder="地址">
+											<span class="label label-important err_fr">
+												請正確填寫，以利購物時的聯絡與獲獎通知喔！
+											</span>
 										</dd>
 									</dl>
 			                    </div>
@@ -141,7 +156,13 @@
 											<div class="span9">
 												<dl class="form_1 dl-horizontal">
 													<dt>暱稱</dt>
-													<dd><input type="text"></dd>
+													<dd>
+														<input type="text">
+														<span class="label label-important err_fr">
+															此暱稱將來會用在討論區。
+														</span>
+													</dd>
+
 													<dt>上傳大頭貼</dt> 
 													<dd>
 														<div class="input-append update-img">

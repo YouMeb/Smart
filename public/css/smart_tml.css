@@ -1369,6 +1369,25 @@ margin-bottom: 20px;
 	padding-top: 30px;
 }
 
+.err_fr{
+	margin-left: 15px;
+	margin-top: 0px;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color: #f2dede;
+	color: #666;
+
+	text-shadow:none;
+}
+.err_login{
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+span > a.frgt-btn {
+	cursor: pointer;
+	color: red;
+}
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
 		width: 100%;
