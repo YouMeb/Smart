@@ -305,16 +305,13 @@
 	font-size: 12px;
 	color: #C0262C;
 }
-/*三角按鈕*/
+/*購物車區三角按鈕*/
 .tribtn.span2 {
 	margin-top: -2px;
 }
-
-
 .cartcontentnav a {
 	text-decoration: none;
 }
-
 .cartcontentnav li{
 	text-align: center;
 	text-decoration: none;
@@ -367,8 +364,16 @@
 	padding: 0 20px;
 	font-weight: bold;
 }
-.topcontent1_0 .media-object,.topcontent1_1 .media-object{
+.topcontent1_0 .media-object,
+.topcontent1_1 .media-object{
 	margin: 0 10px 10px 0;
+}
+.topcontent1_1 h3{
+	color:#f89406;
+}
+.buybtn{
+	color: #FF4E03;
+	border: solid 1px #FF4E03;
 }
 .btnDF{
 	text-shadow:none;
@@ -387,30 +392,33 @@
 .topcontent1_0 .media .dl-horizontal dt{
 	text-align: left;
 	width: 100px;
-	
+}
+
+.topcontent1_0 ul li{
+	margin: 0 20px 10px 20px;
+}
+.middle1_0{
+	padding-top: 10px;
 }
 .media .dl-horizontal dd{
 	text-align: left;
 	margin-left: 0;
-	
 }
-.pagination ul{
-	margin: 30px 0 100px 0;
+
+.middle1_1{
+	margin-bottom: 45px;
 }
-.pagination .prev,.pagination .next{
-	background-color: #FF8C00;
-	color:#fff;
-}
-.pagination .prev:hover,.pagination .next:hover{
-	color:#666;
-}
-.speaker1_1,.speech1_1,.youtube1_1,.speechPlace1_1{
-	margin-bottom: 35px;
-}
-.speaker1_1 h4,.speech1_1 h4,.youtube1_1 h4,.speechPlace1_1 h4,.suggestion1_1 h4{
-	text-decoration: underline;
+.span12 .subject1_1{
+	background-image: url(../images/block_header_bg_long.jpg);
 	font-size: 16px;
-}
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-left: 25px;
+	background-position-y: bottom;
+	height: 32px;
+	margin-bottom: 30px;
+	margin: 10px 20px 0 20px;
+} 
 .speaker1_1 .media,.speech1_1 li{
 	padding-left: 20px;
 }
@@ -433,10 +441,6 @@
 }
 .fb-like-bottom{
 	padding-bottom:80px;
-}
-
-.topcontent1_0 ul li{
-	margin-left:20px;
 }
 
 /*222222222222222222222222222222222222222222222222222222222222222222222222*/
@@ -716,7 +720,18 @@
 .BOOKS5_1 .aboutbook{
 	padding-left: 20px;
 }
-/*回覆*/
+/*回覆文章*/
 .res_div .fontsfr500 ,.res_div .btn{
 	margin-left: 70px;
+}
+/*pagitnation按鈕*/
+.pagination ul{
+	margin: 30px 0 100px 0;
+}
+.pagination .prev,.pagination .next{
+	background-color: #FF8C00;
+	color:#fff;
+}
+.pagination .prev:hover,.pagination .next:hover{
+	color:#666;
 }
