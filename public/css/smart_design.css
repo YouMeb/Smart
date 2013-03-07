@@ -305,6 +305,28 @@
 	font-size: 12px;
 	color: #C0262C;
 }
+/*購物車區三角按鈕*/
+.tribtn.span2 {
+	margin-top: -2px;
+}
+.cartcontentnav a {
+	text-decoration: none;
+}
+.cartcontentnav li{
+	text-align: center;
+	text-decoration: none;
+	height: 49px;
+	color: #FF8B00;
+}
+.cartcontentnav li:hover,.cartcontentnav .active{
+	text-align: center;
+	text-decoration: none;
+	margin: 0px;
+	height: 49px;
+	background-image: url(../images/today_store_ative_tab.jpg);
+	background-position: center -1px;
+	color: #FFF;
+}
 /*11111111111111111111111111111111111111111111111*/
 .category{
 	margin-bottom: 10px;
@@ -314,6 +336,14 @@
 .category a{
 	color: #BBB;
 }
+.pagetitle1_0{
+	background: url(../images/section_bg.jpg) no-repeat left;
+	color: white;
+	line-height: 1.5;
+	padding-left: 10px;
+	font-size: 18px;
+	
+}
 .topTitle{
 	padding-top: 0px; 
 }
@@ -322,6 +352,11 @@
 }
 .fb-like-right{
 	float:right;
+	background-image:url(../images/fb_like.jpg);
+	height: 24px;
+	width: 46px;
+	display: block;
+	
 }
 .media-buy .specialPrice1_1{
 	font-size: 21px;
@@ -329,14 +364,22 @@
 	padding: 0 20px;
 	font-weight: bold;
 }
-.topcontent1_0 .media-object,.topcontent1_1 .media-object{
+.topcontent1_0 .media-object,
+.topcontent1_1 .media-object{
 	margin: 0 10px 10px 0;
+}
+.topcontent1_1 h3{
+	color:#f89406;
+}
+.buybtn{
+	color: #FF4E03;
+	border: solid 1px #FF4E03;
 }
 .btnDF{
 	text-shadow:none;
 	margin: 0 0 8px 0;
 }
-.btnDF.right{
+.right{
 	float: right;
 	margin-right: 30px;
 }
@@ -349,38 +392,41 @@
 .topcontent1_0 .media .dl-horizontal dt{
 	text-align: left;
 	width: 100px;
-	
+}
+
+.topcontent1_0 ul li{
+	margin: 0 20px 10px 20px;
+}
+.middle1_0{
+	padding-top: 10px;
 }
 .media .dl-horizontal dd{
 	text-align: left;
 	margin-left: 0;
-	
 }
-.pagination ul{
-	margin: 30px 0 100px 0;
+.middle1_1{
+	margin-bottom: 45px;
 }
-.pagination .prev,.pagination .next{
-	background-color: #FF8C00;
-	color:#fff;
-}
-.pagination .prev:hover,.pagination .next:hover{
-	color:#666;
-}
-.speaker1_1,.speech1_1,.youtube1_1,.speechPlace1_1{
-	margin-bottom: 35px;
-}
-.speaker1_1 h4,.speech1_1 h4,.youtube1_1 h4,.speechPlace1_1 h4,.suggestion1_1 h4{
-	text-decoration: underline;
+.span12 .subject1_1{
+	background-image: url(../images/block_header_bg_long.jpg);
 	font-size: 16px;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-left: 25px;
+	background-position-y: bottom;
+	height: 32px;
+	margin-bottom: 30px;
+	margin: 10px 20px 20px 20px;
 }
-.speaker1_1 .media,.speech1_1 li{
-	padding-left: 20px;
-}
-.speaker1_1 .media h5{
+.speaker1_1 .media .speakerName{
 	margin-top: 0px;
-}
-.speaker1_1 .media,.speechPlace1_1 .span6,.suggestionList .span6{
-	margin:0 0 20px 0;
+} 
+.speechPlace1_1 ul .span6,
+.suggestionList .span6{
+	margin-left: 0;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 0px;
 }
 .speechPlace1_1 .media .dl-horizontal dt{
 	text-align: left;
@@ -388,17 +434,22 @@
 }
 .productdesc .ref_hint_tilte{
 	text-decoration: underline;
-	padding-left: 5px;
+	padding-left: 20px;
 }
 .productdesc .ref_hint_content{
+	padding: 0 20px;
+}
+.suggestTitle1_1 h4{
+	background-color:#f2f2f2;
+	height: 30px;
+	margin-bottom: 30px;
+	margin:20px;
+	line-height: 30px;
 	padding-left: 20px;
+	border-left: 13px solid #ff4d03;
 }
 .fb-like-bottom{
 	padding-bottom:80px;
-}
-
-.topcontent1_0 ul li{
-	margin-left:20px;
 }
 
 /*222222222222222222222222222222222222222222222222222222222222222222222222*/
@@ -513,22 +564,26 @@
 }
 .media-body .issue{
 	margin-bottom: 5px;
+
+}
+.littleSubject{
+	color:#FF6600;
+}
+.subjectName h3{
+	margin:0;
+	color: #CC0000;
+}
+.share_btn .inline{
+	margin: 0px;
 }
 .stitle4_1_2{
 	margin-bottom: 15px;
 }
-.order{
+.order ,.order a{
 	color: #FF0000;
 	font-size: 13px;
-	margin-top: 5px;
-	padding-right: 20px;
+}
 
-}
-.order a{
-	color: #FF0000;
-	font-size: 13px;
-	margin: 0 10px;
-}
 .readArticle4_1_2 p{
 	padding: 15px 0;
 }
@@ -673,4 +728,19 @@
 }
 .BOOKS5_1 .aboutbook{
 	padding-left: 20px;
+}
+/*回覆文章*/
+.res_div .fontsfr500 ,.res_div .btn{
+	margin-left: 70px;
+}
+/*pagitnation按鈕*/
+.pagination ul{
+	margin: 30px 0 100px 0;
+}
+.pagination .prev,.pagination .next{
+	background-color: #FF8C00;
+	color:#fff;
+}
+.pagination .prev:hover,.pagination .next:hover{
+	color:#666;
 }
