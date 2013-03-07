@@ -379,7 +379,7 @@
 	text-shadow:none;
 	margin: 0 0 8px 0;
 }
-.btnDF.right{
+.right{
 	float: right;
 	margin-right: 30px;
 }
@@ -440,7 +440,6 @@
 	padding: 0 20px;
 }
 .suggestTitle1_1 h4{
-	
 	background-color:#f2f2f2;
 	height: 30px;
 	margin-bottom: 30px;
