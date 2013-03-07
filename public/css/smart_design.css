@@ -440,16 +440,16 @@
 	text-decoration: underline;
 	padding-left: 20px;
 }
-.row-fluid .productdesc ul .ref_hint_content{
-	padding: 0 20px;
+.productdesc ul .ref_hint_content{
 	list-style: disc;
-	
+	margin-left: 40px;
+	padding-right: 20px;
 }
 .suggestTitle1_1 h4{
 	background-color:#f2f2f2;
 	height: 30px;
 	margin-bottom: 30px;
-	margin:20px;
+	margin: 20px 5px;
 	line-height: 30px;
 	padding-left: 20px;
 	border-left: 13px solid #ff4d03;
