@@ -440,8 +440,8 @@
 	text-decoration: underline;
 	padding-left: 20px;
 }
-.productdesc ul .ref_hint_content{
-	
+.row-fluid .productdesc ul .ref_hint_content{
+	padding: 0 20px;
 	list-style: disc;
 	
 }
