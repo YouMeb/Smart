@@ -421,6 +421,10 @@
 .speaker1_1 .media .speakerName{
 	margin-top: 0px;
 } 
+.speech1_1 .AboutSpeech li{
+	list-style: disc;
+	margin-left: 40px;
+}
 .speechPlace1_1 ul .span6,
 .suggestionList .span6{
 	margin-left: 0;
@@ -436,8 +440,10 @@
 	text-decoration: underline;
 	padding-left: 20px;
 }
-.productdesc .ref_hint_content{
-	padding: 0 20px;
+.productdesc ul .ref_hint_content{
+	
+	list-style: disc;
+	
 }
 .suggestTitle1_1 h4{
 	background-color:#f2f2f2;
@@ -460,8 +466,7 @@
 	margin-left: 0;
 	padding-left: 20px;
 }
-.speechtime2_1 .dl-horizontal dt,
-.speechplace2_1 .dl-horizontal dt{
+.speechtime2_1 .dl-horizontal dt,.speechplace2_1 .dl-horizontal dt{
 	text-align: left;
 	margin-left: 0;
 }
