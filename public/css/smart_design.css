@@ -348,7 +348,11 @@
 	padding-top: 0px; 
 }
 .fb-like{
-	padding-bottom: 5px;
+	margin-bottom: 10px;
+	background-image:url(../images/fb_like.jpg);
+	height: 24px;
+	width: 46px;
+	display: block;
 }
 .fb-like-right{
 	float:right;
@@ -457,7 +461,6 @@
 .fb-like-bottom{
 	padding-bottom:80px;
 }
-
 /*222222222222222222222222222222222222222222222222222222222222222222222222*/
 .TimePlace2_1{
 	margin:0 0 40px 0;
@@ -471,15 +474,20 @@
 	margin-left: 0;
 }
 /*3333333333333333333333333333333333333333333333333333333333333333333333*/
-.DVD3_0 h3{
-	text-decoration: underline;
+.row-fluid .DVD3_0 .blockframe{
+	margin-top:0;
 }
 .DVD3_0 .dvd{
 	margin:0 0 60px 0;
+	padding:0 15px;
 }
 .DVD3_0 .dvd .dvdName{
 	margin-top:0;
 	font-size: 16px;
+}
+.orangelineTop h3{
+	border-bottom: 3px solid #FF8C00;
+	margin: 0px;
 }
 .dvdBuy .span5{
 	padding-top: 8px;
