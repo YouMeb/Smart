@@ -456,15 +456,12 @@
 .TimePlace2_1{
 	margin:0 0 40px 0;
 }
-.TimePlace2_1 h4{
-	text-decoration: underline;
-	font-size: 16px;
-}
 .TimePlace2_1 .span6{
 	margin-left: 0;
 	padding-left: 20px;
 }
-.speechtime2_1 .dl-horizontal dt,.speechplace2_1 .dl-horizontal dt{
+.speechtime2_1 .dl-horizontal dt,
+.speechplace2_1 .dl-horizontal dt{
 	text-align: left;
 	margin-left: 0;
 }
