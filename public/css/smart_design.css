@@ -404,7 +404,6 @@
 	text-align: left;
 	margin-left: 0;
 }
-
 .middle1_1{
 	margin-bottom: 45px;
 }
@@ -417,16 +416,17 @@
 	background-position-y: bottom;
 	height: 32px;
 	margin-bottom: 30px;
-	margin: 10px 20px 0 20px;
-} 
-.speaker1_1 .media,.speech1_1 li{
-	padding-left: 20px;
+	margin: 10px 20px 20px 20px;
 }
-.speaker1_1 .media h5{
+.speaker1_1 .media .speakerName{
 	margin-top: 0px;
-}
-.speaker1_1 .media,.speechPlace1_1 .span6,.suggestionList .span6{
-	margin:0 0 20px 0;
+} 
+.speechPlace1_1 ul .span6,
+.suggestionList .span6{
+	margin-left: 0;
+	margin-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 0px;
 }
 .speechPlace1_1 .media .dl-horizontal dt{
 	text-align: left;
@@ -434,10 +434,20 @@
 }
 .productdesc .ref_hint_tilte{
 	text-decoration: underline;
-	padding-left: 5px;
+	padding-left: 20px;
 }
 .productdesc .ref_hint_content{
+	padding: 0 20px;
+}
+.suggestTitle1_1 h4{
+	
+	background-color:#f2f2f2;
+	height: 30px;
+	margin-bottom: 30px;
+	margin:20px;
+	line-height: 30px;
 	padding-left: 20px;
+	border-left: 13px solid #ff4d03;
 }
 .fb-like-bottom{
 	padding-bottom:80px;
