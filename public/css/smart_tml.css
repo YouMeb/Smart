@@ -116,6 +116,8 @@ ol, ul {
 
 /*span9 Title*/
 .title_1>div>h3{
+	margin-top: 0;
+	margin-bottom: 0;
 	background: url(../images/section_bg.jpg) no-repeat left;
 	color: white;
 	line-height: 1.5;
@@ -129,7 +131,8 @@ ol, ul {
 	padding-left: 20px;
 	line-height: 1.7;
 	height: 30px;
-	margin-bottom: 20px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 .title_3 > h3{
 	background: url(../images/block_header_bg.jpg) left no-repeat #ffffff;
@@ -139,6 +142,7 @@ ol, ul {
 	height: 35px;
 	margin-bottom: 0px;
 	margin-left: 0px;
+	margin-top: 0;
 }
 .title_5 > h3
 {
@@ -463,7 +467,8 @@ margin-left: 0px;
 .scontentad {
 	background-color:#EEE;
 	padding: 0 3px;
-	margin-top: 0px;
+	margin-top: 5px;
+	margin-bottom: 0px;
 }
 
 .rzone2 ol{
@@ -472,16 +477,15 @@ margin-left: 0px;
 }
 
 .scontentlist > li{
-	padding-top: 10px;
+	padding-top: 7px;
 	border-bottom: solid 1px #cccccc;
 	clear: both;
-	padding-bottom: 5px;
+	padding-bottom: 7px;
 }
 .scontentlist > li:first-child{
 	padding-top: 0px;
 	border-bottom: solid 1px #cccccc;
 	clear: both;
-	padding-bottom: 10px;
 }
 
 .scontentad > li{
@@ -1248,7 +1252,7 @@ margin: 0px;
 }
 
 .row-fluid [class*="span"] {
-	
+	margin-top:0;
 }
 
 .row-fluid [class*="span"]:first-child .mainleft {
@@ -1398,6 +1402,11 @@ input[type="text"]{
 .readuser_fr li{
 	margin-bottom: 10px;
 }
+
+.bczone1 ul , .bczone2 ul , .bczone3 ul , .bczone4 ul {
+	margin-top:0;
+}
+
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
 		width: 100%;

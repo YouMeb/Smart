@@ -48,6 +48,7 @@
 	line-height: 33px;
 	text-align: center;
 	border: #808080 solid 1px;
+	margin-right:20px;
 	
 }
 
@@ -383,13 +384,14 @@
 	text-shadow:none;
 	margin: 0 0 8px 0;
 }
-.right{
+.btn-right{
 	float: right;
 	margin-right: 30px;
 }
-.media-heading{
-	margin: 0 0 10px 0;
+.right{
+	float: right;
 }
+
 .media dl{
 	margin: 0 0 5px 0;
 }
