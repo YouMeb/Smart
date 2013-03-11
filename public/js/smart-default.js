@@ -10,13 +10,13 @@ $(function() {
 	$mouseleavemenu.on('mouseleave', function(event) {
 		$mini_top_tab_subs.removeClass('checktime').removeClass('active');
 		$showadframe.removeClass('fadeIn').addClass('fadeOut');
-		setTimeout('document.getElementById("showaddiv1").style.display="none"',1000)
+		setTimeout('document.getElementById("showaddiv1").style.display="none"',500)
 		
 	});
 	$close_btn.on('tap', function(event){
 		$mini_top_tab_subs.removeClass('checktime');
 		$showadframe.removeClass('fadeIn').addClass('fadeOut');
-		setTimeout('document.getElementById("showaddiv1").style.display="none"',1000)
+		setTimeout('document.getElementById("showaddiv1").style.display="none"',500)
 	})
 
 	$mini_top_tab_subs.on('tap', function(event) {
