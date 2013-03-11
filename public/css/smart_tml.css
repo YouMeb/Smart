@@ -111,7 +111,7 @@ ol, ul {
 	margin-top: 20px;
 }
 .cartcontentframe{
-	padding: 20px;
+	padding: 0 20px 0 20px;
 }
 
 /*span9 Title*/
@@ -714,8 +714,7 @@ font-weight: normal;
 	margin-top: 30px
 }
 .cart_block_frame{
-	padding-bottom: 30px;
-	border-bottom: 1px solid #aaa;
+	
 }
 
 .cartcontentnav a {
@@ -772,6 +771,18 @@ font-weight: normal;
 
 .cartsum, .cartshippingsum, .carttotal, .cartbonusr, .cartbonus{
 	text-align:right;
+	margin: 10px 0 0 0;
+	font-weight: bold;
+}
+
+.sumprice{
+	width: 50px;
+	display: inline-block;
+	padding-right: 120px;
+}
+.summoney{
+	width: 50px;
+	display: inline-block;
 }
 
 .row-fluid [class*="span"]:first-child  .cartstepframe{
@@ -1426,6 +1437,59 @@ input[type="text"]{
 .small_tag_div_ti > a:hover {
 	border-bottom: 2px solid #ccc;
 	padding-bottom: 5px;
+}
+
+.cartcontentframe .itemNAV{
+	padding-top:10px;
+	padding-bottom: 0;
+	border-bottom: #f1f1f1 1px dotted;
+	color: #666666;
+	border-top: #f1f1f1 1px dotted;
+}
+
+.cartcontentframe .itemNAV:hover{
+	border-top:#f1f1f1 1px dotted;
+	background: #FFF;
+	border-bottom:#f1f1f1 1px dotted;
+}
+
+.cartBK [class*="span12"] {
+	margin-left:0;
+}
+
+.leftarrowdiv{
+	
+	background: #f1f1f1;
+	padding: 5px;
+	position: relative;
+	word-wrap: break-word;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.leftarrowdiv:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 8px;
+	left: -20px;
+	width: 0;
+	height: 0;
+	border-color: transparent #f1f1f1 transparent transparent;
+	border-style: solid;
+	border-width: 10px;
+}
+
+#inlineCheckbox1{
+	margin-top: 14px;
+}
+
+.coupon_select{
+	width:auto;
+	margin-bottom:0;
 }
 
 @media (max-width: 979px) and (min-width: 768px){
