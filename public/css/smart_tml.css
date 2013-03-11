@@ -514,7 +514,10 @@ margin-left: 0px;
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.6);
 }
 .dropdownmenu .active{
-	background: #000;
+	/*background: #000;*/
+		background-image: url(../images/menuHover.gif);
+	background-position: center bottom;
+	background-repeat: no-repeat;
 	display:block;
 }
 .showadframe{

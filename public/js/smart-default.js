@@ -8,7 +8,7 @@ $(function() {
 		$mouseleavemenu = $('.megamenu');
 
 	$mouseleavemenu.on('mouseleave', function(event) {
-		$mini_top_tab_subs.removeClass('checktime');
+		$mini_top_tab_subs.removeClass('checktime').removeClass('active');
 		$showadframe.removeClass('fadeIn').addClass('fadeOut');
 		setTimeout('document.getElementById("showaddiv1").style.display="none"',1000)
 		
@@ -21,6 +21,9 @@ $(function() {
 
 	$mini_top_tab_subs.on('tap', function(event) {
 		event.preventDefault();
+		$mini_top_tab_subs.removeClass('checktime').removeClass('active');
+		$showadframe.removeClass('fadeIn').addClass('fadeOut');
+		$(this).addClass('active');
 		$mini_top_tab_subs.each(function() {
 			document.getElementById('showaddiv1').style.display = 'none';
 			$('.megamenu').css('display', 'none');
