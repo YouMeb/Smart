@@ -218,7 +218,7 @@ margin-left: 0px;
 	height: 3px;
 }
 .small_line{
-	height: 1px;
+	height: 0px;
 	border-bottom: 1px solid #FF8C00;
 	background: none;
 	
@@ -1124,11 +1124,10 @@ font-weight: normal;
 }
 .buyer dt {
 	width: 110px;
-	margin-right: 15px;
-	margin-bottom: 10px;
+	margin: 0px 15px 0px 0;
 }
 .buyer dd {
-	margin-left: 0px;
+	margin-left: 130px;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 10px;
@@ -1138,6 +1137,7 @@ font-weight: normal;
 }
 .dl-horizontal.buyer dd .place {
 	width: 164px;
+	
 }
 .dl-horizontal.buyer.line {
 	
@@ -1305,7 +1305,8 @@ margin: 0px;
 }
 
 .row-fluid [class*="megamenu"]:first-child .marg-ul {
-	padding-left: 15px;
+	padding: 10px 15px;
+	margin-bottom: 0;
 }
 .row-fluid [class*="megamenu"] .marg-ul {
 	padding-left: 15px;
@@ -1411,7 +1412,8 @@ span > a.frgt-btn {
 	color: red;
 }
 input[type="text"]{
-	margin-bottom: 0px;
+
+	margin-top: 0px;
 }
 .readuser_fr li{
 	margin-bottom: 10px;
@@ -1518,6 +1520,22 @@ input[type="text"]{
 
 .checkcoupon{
 	margin-bottom:5px;
+}
+
+.bonusarea{
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #FF8B00;
+	padding: 10px 0 10px 30px;
+}
+
+.row-fluid [class*="bonusarea"] {
+	margin-left:0;
+}
+
+.row-fluid [class*="cartstep5"] {
+	margin-left:0;
+	padding:10px;
 }
 
 @media (max-width: 979px) and (min-width: 768px){
