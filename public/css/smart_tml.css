@@ -1483,8 +1483,8 @@ input[type="text"]{
 	border-width: 10px;
 }
 
-#inlineCheckbox1{
-	margin-top: 14px;
+.checkcoupon{
+	white-space:nowrap;
 }
 
 .coupon_select{
@@ -1494,6 +1494,26 @@ input[type="text"]{
 
 .s2 .title_2{
 	margin-bottom: 10px;
+}
+
+.checkcoupon  .checkbox input[type="checkbox"]{
+	float: none;
+	margin-top:-3px;
+	
+}
+
+.produc_select{
+	width:auto;
+	min-width: 50px;
+}
+
+.produc_num{
+	width:auto;
+	min-width: 50px;
+}
+
+.cart_block{
+	text-align: center;
 }
 
 @media (max-width: 979px) and (min-width: 768px){

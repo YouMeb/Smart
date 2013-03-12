@@ -203,8 +203,8 @@
 .delete {
 	margin-top: -9px;
 }
-.checkbox.inline.span12.USEcoupon {
-	
+.checkbox.USEcoupon {
+	display: inline;
 	color: #FF8C00;
 	
 }
