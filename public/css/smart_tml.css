@@ -1516,6 +1516,10 @@ input[type="text"]{
 	text-align: center;
 }
 
+.checkcoupon{
+	margin-bottom:5px;
+}
+
 @media (max-width: 979px) and (min-width: 768px){
 	.row-fluid .in-portrait-span12 {
 		width: 100%;
