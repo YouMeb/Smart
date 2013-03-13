@@ -534,7 +534,7 @@
 }
 /*4444444444444444444444444444444444444444444444444444444444444444444444444444444444444444*/
 .title4_0 h4{
-	border-bottom: 1px solid #666;
+	border-bottom: 1px solid #aaa;
 	padding-bottom: 5px;
 	margin-bottom: 20px;
 } 
@@ -542,25 +542,23 @@
 	margin-top: 0px;
 }
 .topcontent4_0{
-	margin-bottom: 30px;
+	
 }
 .mainleft .mg0{
-	margin-left: 0px;
-	margin-bottom: 15px;
-	padding-left: 10px;
+
 }
 .mainleft .mg0 li{
 	padding-left: 0px;
 }
 .span8 .media{
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 }
 .span8 .media .media-body h5{
 	margin-top: 0px;
 }
 .bigtitle4_1_1{
 	font-size:22px;
-	border-bottom:1px #666 solid;
+	border-bottom:1px #aaa solid;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 }
