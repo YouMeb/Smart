@@ -21,7 +21,7 @@ $(function() {
 
 	$mini_top_tab_subs.on('tap', function(event) {
 		event.preventDefault();
-		$mini_top_tab_subs.removeClass('checktime').removeClass('active');
+		$mini_top_tab_subs.removeClass('active');
 		$showadframe.removeClass('fadeIn').addClass('fadeOut');
 		$(this).addClass('active');
 		$mini_top_tab_subs.each(function() {
@@ -37,24 +37,30 @@ $(function() {
 				if($('#drop1').hasClass('checktime')) {
 					console.log('yoyo');
 					location.href = '/test/tpl/dd1.php'; // 請輸入同學會Url
+					$mini_top_tab_subs.removeClass('checktime').removeClass('active');
 				}
 				break;
 			case 'class':
 				if($('#drop2').hasClass('checktime')) {
 					location.href = '/test/tpl/dd2.php'; //請輸入課程Url
+					$mini_top_tab_subs.removeClass('checktime').removeClass('active');
 				}
 				break;
 			case 'DVD':
 				if($('#drop3').hasClass('checktime')) {
 					location.href = '/test/tpl/dd3.php'; //請輸入DVD Url
+					$mini_top_tab_subs.removeClass('checktime').removeClass('active');
 				}
 				break;
 			case 'magazine':
 				if($('#drop4').hasClass('checktime')) {
 					location.href = '/test/tpl/dd4.php'; //請輸入雜誌Url
+					$mini_top_tab_subs.removeClass('checktime').removeClass('active');
 				}
 				break;
 			}
+		}else{
+			$('.dropdownmenu').find('a').removeClass('checktime');
 		}
 		document.getElementById('showaddiv1').style.display = 'block';
 		$showadframe.removeClass('fadeOut').addClass('animated').addClass('fadeIn');
